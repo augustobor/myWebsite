@@ -1,0 +1,13 @@
+{
+	"@context": "https://schema.org/",
+	"@type": "Person",
+	"name": "Augusto",
+	"url": "",
+	"image": "",
+	"sameAs": [
+	  "https://twitter.com/Augus_Dev",
+	  "https://www.linkedin.com/in/augusto-borromeo-b75255218/",
+	  "https://github.com/augustobor"
+	],
+	"jobTitle": "Frontend | Data Scientist"  
+}
