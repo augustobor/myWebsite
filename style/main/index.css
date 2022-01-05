@@ -1,0 +1,80 @@
+
+:root {
+	--stronger-blue: #0019EF;
+    --cool-cyan: #019EFF;
+	--dark-red: #9E1616;
+    --saturate-pink: #FF00FC;
+    --nice-lavanda: #B549FF;
+	--black: #1C1C1C;
+    --soft-black: #413F3F;
+	--off-white:#FAFAFA;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Arvo', serif;
+	scroll-behavior: smooth;
+}
+
+
+/*
+font-family: 'Inconsolata', monospace; LETRA SUAVE Y LINDA
+font-family: 'Nunito', sans-serif; Letra ELEGANTE
+*/
+
+header {
+	background-color: var(--black);
+}
+
+header video {
+    zoom: 0.2;
+}
+
+/*profile*/
+
+.website-profile {
+	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--soft-black) 100%);
+	padding: 3%;
+	text-align: center;
+}
+
+.website-profile .website-profile--article {
+	height: auto;
+	background-color: var(--black);
+	border-radius: 10px;
+	opacity: 90%;
+	margin: 5rem 3rem;
+	padding: 3% 2%;
+}
+
+.website-profile .website-profile--article p {
+	color: var(--off-white);
+	font-family: 'Nunito', sans-serif;
+	font-size: medium;
+	opacity: 100%;
+	margin: 2rem 3rem;
+}
+
+
+/*portfolio*/
+
+.website-portfolio {
+	background: linear-gradient(0deg, var(--cool-cyan) 16.69%, var(--dark-red) 100%);
+	padding: 3%;
+	text-align: center;
+}
+
+.website-portfolio .website-portfolio--description1, .website-portfolio .website-portfolio--description2{
+	color: var(--off-white);
+	text-align: left;
+	font-size: 1.2rem;
+	max-width: 20rem;
+	margin: 3rem 2rem;
+	font-family: 'Nunito', sans-serif;
+}
