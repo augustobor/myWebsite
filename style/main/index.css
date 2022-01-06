@@ -18,7 +18,7 @@
 
 html {
 	font-size: 62.5%;
-	font-family: 'Arvo', serif;
+	font-family: 'Nunito', sans-serif; 
 	scroll-behavior: smooth;
 }
 
@@ -55,7 +55,6 @@ header video {
 
 .website-profile .website-profile--article p {
 	color: var(--off-white);
-	font-family: 'Nunito', sans-serif;
 	font-size: medium;
 	opacity: 100%;
 	margin: 2rem 3rem;
@@ -76,7 +75,6 @@ header video {
 	padding-left: 2%;
 	text-align: center;
 	padding-right: 2%;
-	font-family: 'Nunito', sans-serif;
 }
 
 .website-portfolio--description1 {
@@ -95,11 +93,12 @@ header video {
 }
 
 .website-portfolio article hr {
-	border-color: var(--black);
+	border-color: var(--dark-red);
 	margin: 1rem 0rem;
+	border-style: solid;
 	border-radius: 10px;
-	border-width: 0.3rem;
-	opacity: 60%;
+	border-width: 0.1rem;
+	opacity: 80%;
 }
 
 
@@ -114,7 +113,7 @@ header video {
 	height: auto;
 	background-color: var(--black);
 	border-radius: 10px;
-	opacity: 90%;
+	opacity: 80%;
 	margin: 1rem 1rem;
 	padding: 3% 2%;
 }
@@ -141,9 +140,12 @@ header video {
 	height: auto;
 	color: var(--off-white);
 	font-size: large;
-	padding: 3%;
+	padding: 1% 13% 1% 13%;
+	border-radius: 4px;
+	opacity: 95%;
+	border-style: solid;
 	border-color: var(--saturate-pink);
-	border-width: 4rem;
+	border-width: 0.2rem;
 }
 
 
@@ -156,10 +158,103 @@ header video {
 }
 
 
+.website-posts--description {
+	color: var(--off-white);
+	font-size: 1.2rem;
+	padding: 30% 15% 3% 15%;
+	text-align: center;
+}
+
+.website-posts--description p {
+	padding-bottom: 2%;
+}
+
+.website-posts--description hr {
+	border-style: solid;
+	border-color: var(--stronger-blue);
+	border-width: 0.2rem;
+	border-radius: 5px;
+	margin-bottom: 3rem;
+	opacity: 60%;
+}
+
+.website-posts--posts {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.website-posts--posts article {
+	height: auto;
+	background-color: var(--stronger-blue);
+	border-radius: 10px;
+	opacity: 60%;
+	margin: 1.6rem 5rem;
+	padding: 3% 2%;
+}
+
 /*Contact*/
 
 
 .website-contact {
 	height: auto;
 	background: linear-gradient(0deg, var(--black) 16.69%, var(--nice-lavanda) 100%);
+	text-align: center;
+}
+
+.website-contact > p {
+	color: var(--off-white);
+	font-size: 2.5rem;
+	padding: 30% 0 10% 0%;
+	margin-bottom: 3rem;
+}
+
+.website-contact--button {
+	text-decoration: none;
+	color: var(--off-white);
+	font-size: large;
+	border-style: solid;
+	border-color: var(--stronger-blue);
+	border-width: 0.2rem;
+	border-radius: 4px;
+	padding: 3%;
+	opacity: 80%;
+}
+
+
+.website-contact--logos {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.website-contact--logos article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0rem 1.4rem;
+}
+
+.twitter-image, .linkedin-image {
+	width: 70%;
+	height: 70%;
+}
+
+.website-contact--logos article a {
+	text-decoration: none;
+}
+
+.website-contact--logos article .github-button {
+	color: var(--off-white);
+}
+
+.website-contact--logos article .twitter-button {
+	color: var(--cool-cyan);
+}
+
+.website-contact--logos article .linkedin-button {
+	color: #0274B3;
+	font-size: smaller;
 }
