@@ -70,11 +70,96 @@ header video {
 	text-align: center;
 }
 
-.website-portfolio .website-portfolio--description1, .website-portfolio .website-portfolio--description2{
+.website-portfolio p {
 	color: var(--off-white);
-	text-align: left;
 	font-size: 1.2rem;
-	max-width: 20rem;
-	margin: 3rem 2rem;
+	padding-left: 2%;
+	text-align: center;
+	padding-right: 2%;
 	font-family: 'Nunito', sans-serif;
+}
+
+.website-portfolio--description1 {
+	text-align: left;
+	margin: 20% 30% 30% 8%;
+}
+
+.website-portfolio--description2 {
+	text-align: right;
+	margin: 20% 8% 30% 30%;
+}
+
+.website-portfolio--description3{
+	text-align: center;
+	margin: 5rem 5rem;
+}
+
+.website-portfolio article hr {
+	border-color: var(--black);
+	margin: 1rem 0rem;
+	border-radius: 10px;
+	border-width: 0.3rem;
+	opacity: 60%;
+}
+
+
+.website-portfolio--portfolio{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 8rem 0rem;
+}
+
+.website-portfolio--high {
+	height: auto;
+	background-color: var(--black);
+	border-radius: 10px;
+	opacity: 90%;
+	margin: 1rem 1rem;
+	padding: 3% 2%;
+}
+
+.website-portfolio--high--button {
+	text-decoration: none;
+	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--black) 100%);
+	border-radius: 3px;
+	font-family: 'Inconsolata', monospace;
+	color: var(--off-white);
+	font-size: medium;
+	padding: 4%;
+}
+
+
+.website-portfolio > p {
+	font-size: medium;
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+}
+
+.website-portfolio--button {
+	text-decoration: none;
+	height: auto;
+	color: var(--off-white);
+	font-size: large;
+	padding: 3%;
+	border-color: var(--saturate-pink);
+	border-width: 4rem;
+}
+
+
+
+/*Posts*/
+
+.website-posts {
+	height: auto;
+	background: linear-gradient(0deg, var(--nice-lavanda) 16.69%, var(--cool-cyan) 100%);
+}
+
+
+/*Contact*/
+
+
+.website-contact {
+	height: auto;
+	background: linear-gradient(0deg, var(--black) 16.69%, var(--nice-lavanda) 100%);
 }
