@@ -1,0 +1,39 @@
+/*Profile*/
+
+.website-profile--article , .website-portfolio p {
+    font-size: 1.6rem;
+}
+
+
+/*Portfolio*/
+
+.website-portfolio--high p {
+    font-size: xx-large;
+}
+
+.website-portfolio > p {
+    font-size: large;
+    margin-bottom: 4rem;
+}
+
+
+.website-portfolio--button {
+    font-size: xx-large;
+}
+
+.website-posts--description p {
+    font-size: medium;
+}
+
+
+/*Contact*/
+
+.github-image {
+    width: 150%;
+    height: 110%;
+}
+
+.twitter-image, .linkedin-image {
+	width: 90%;
+	height: 90%;
+}

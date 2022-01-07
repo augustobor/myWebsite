@@ -33,7 +33,8 @@ header {
 }
 
 header video {
-    zoom: 0.2;
+    zoom: 0.1;
+	width: 100%;
 }
 
 /*profile*/
@@ -49,7 +50,7 @@ header video {
 	background-color: var(--black);
 	border-radius: 10px;
 	opacity: 90%;
-	margin: 5rem 3rem;
+	margin: 5rem 15%;
 	padding: 3% 2%;
 }
 
@@ -87,19 +88,27 @@ header video {
 	margin: 20% 8% 30% 30%;
 }
 
-.website-portfolio--description3{
+.website-portfolio--description3 {
 	text-align: center;
 	margin: 5rem 5rem;
 }
 
-.website-portfolio article hr {
-	border-color: var(--dark-red);
+.website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr {
 	margin: 1rem 0rem;
 	border-style: solid;
 	border-radius: 10px;
-	border-width: 0.1rem;
+	border-width: 0.2rem;
 	opacity: 80%;
 }
+
+.website-portfolio--description1 hr, .website-portfolio--description2 hr {
+	border-color: var(--black);
+}
+
+.website-portfolio--description3 hr {
+	border-color: var(--nice-lavanda);
+}
+
 
 
 .website-portfolio--portfolio{
@@ -110,15 +119,33 @@ header video {
 }
 
 .website-portfolio--high {
-	height: auto;
+	height: 60%;
+	max-width: 350px;
+	display: inline-block;
+	position: relative;
 	background-color: var(--black);
 	border-radius: 10px;
-	opacity: 80%;
-	margin: 1rem 1rem;
-	padding: 3% 2%;
+	opacity: 95%;
+	margin: 1rem 10%;
+	padding: 1% 2% 10% 1%;
+}
+
+.website-portfolio--high p {
+	font-size: 3rem;
+	margin-top: 1rem;
+}
+
+.website-portfolio--high img {
+	width: 90%;
+	height: 90%;
+	border-style: solid;
+	border-color: var(--soft-black);
+	border-radius: 10px;
+	margin: 5%;
 }
 
 .website-portfolio--high--button {
+	position: relative;
 	text-decoration: none;
 	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--black) 100%);
 	border-radius: 3px;
@@ -137,7 +164,8 @@ header video {
 
 .website-portfolio--button {
 	text-decoration: none;
-	height: auto;
+	height: 80%;
+	width: 80%;
 	color: var(--off-white);
 	font-size: large;
 	padding: 1% 13% 1% 13%;
@@ -161,7 +189,7 @@ header video {
 .website-posts--description {
 	color: var(--off-white);
 	font-size: 1.2rem;
-	padding: 30% 15% 3% 15%;
+	padding: 20% 15% 3% 15%;
 	text-align: center;
 }
 
@@ -190,7 +218,7 @@ header video {
 	background-color: var(--stronger-blue);
 	border-radius: 10px;
 	opacity: 60%;
-	margin: 1.6rem 5rem;
+	margin: 1.6rem 20%;
 	padding: 3% 2%;
 }
 
@@ -206,7 +234,7 @@ header video {
 .website-contact > p {
 	color: var(--off-white);
 	font-size: 2.5rem;
-	padding: 30% 0 10% 0%;
+	padding: 10% 0 10% 0%;
 	margin-bottom: 3rem;
 }
 
@@ -219,12 +247,12 @@ header video {
 	border-width: 0.2rem;
 	border-radius: 4px;
 	padding: 3%;
-	opacity: 80%;
+	opacity: 95%;
 }
 
 
 .website-contact--logos {
-	margin-top: 5rem;
+	margin-top: 7rem;
 	display: flex;
 	justify-content: center;
 }
