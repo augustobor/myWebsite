@@ -37,6 +37,13 @@ header video {
 	width: 100%;
 }
 
+
+/*Menu*/
+
+menu {
+	display: none;
+}
+
 /*profile*/
 
 .website-profile {
@@ -122,8 +129,8 @@ header video {
 }
 
 .website-portfolio--high {
-	height: 60%;
-	max-width: 400px;
+	height: 40%;
+	max-width: 550px;
 	display: inline-block;
 	background-color: var(--black);
 	border-radius: 10px;

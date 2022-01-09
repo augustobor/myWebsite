@@ -1,0 +1,92 @@
+
+/*Menu*/
+
+
+menu ul {
+	font-size: 6rem;
+}
+
+
+/*Profile*/
+
+
+
+.website-profile .website-profile--article p {
+    font-size: xx-large;
+}
+
+.website-profile--article , .website-portfolio p {
+    font-size: 4rem;
+}
+
+.website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr
+, .website-posts--description hr {
+    border-width: 0.9rem;
+    opacity: 100%;
+}
+
+.website-portfolio--description1, .website-portfolio--description2 {
+    margin: 25rem 30rem;
+}
+
+
+/*Portfolio*/
+
+
+.website-portfolio--high {
+    margin: 1rem 3%;
+}
+
+
+.website-portfolio--high p {
+    font-size: xx-large;
+}
+
+.website-portfolio > p {
+    font-size: 6rem;
+    margin-bottom: 20rem;
+}
+
+
+.website-portfolio--button, .website-contact--button {
+    font-size: 8rem;
+    border-width: 0.5rem;
+}
+
+.website-posts--description p {
+    font-size: xx-large;
+}
+
+.website-portfolio--description3 {
+    margin: 15rem 20rem;
+}
+
+/*Contact*/
+
+
+.website-contact > p {
+    font-size: 6rem;
+}
+
+
+.website-contact--logos {
+    margin-top: 20rem;
+}
+
+.twitter-image, .linkedin-image {
+    width: 20%;
+    height: 60%;
+    margin: 0rem 50rem;
+    margin-bottom: 4rem;
+}
+
+.github-image {
+    width: 150%;
+    height: 90%;
+    margin: 0rem 5rem;
+}
+
+
+.website-contact--logos article {
+	font-size: 6rem;
+}

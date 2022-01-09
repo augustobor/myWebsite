@@ -1,3 +1,35 @@
+/*Menu*/
+
+menu {
+    display: block;
+    background-color: var(--soft-black);
+}
+
+menu ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 2.1rem;
+	list-style: none;
+}
+
+
+menu li {
+	padding: 3%;
+}
+
+menu li:hover {
+	background: var(--black);
+}
+
+menu li a {
+	text-decoration: none;
+	color: var(--off-white)
+}
+
+
+
+
 /*Profile*/
 
 .website-profile--article , .website-portfolio p {
@@ -6,6 +38,10 @@
 
 
 /*Portfolio*/
+
+.website-portfolio--high {
+    flex-direction: row;
+}
 
 .website-portfolio--high p {
     font-size: xx-large;
@@ -18,6 +54,10 @@
 
 
 .website-portfolio--high--button {
+    font-size: x-large;
+}
+
+.website-portfolio--button, .website-contact--button {
     font-size: x-large;
 }
 
