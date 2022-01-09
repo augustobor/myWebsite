@@ -1,11 +1,15 @@
 /*Menu*/
 
-menu {
+.menu-mobile {
+    display: none;
+}
+
+.menu-desktop {
     display: block;
     background-color: var(--soft-black);
 }
 
-menu ul {
+.menu-desktop ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -14,15 +18,15 @@ menu ul {
 }
 
 
-menu li {
+.menu-desktop li {
 	padding: 3%;
 }
 
-menu li:hover {
+.menu-desktop li:hover {
 	background: var(--black);
 }
 
-menu li a {
+.menu-desktop li a {
 	text-decoration: none;
 	color: var(--off-white)
 }
