@@ -7,6 +7,7 @@
     <meta name="description" content="Author, Illustrator: Augusto.B. My website">
     <link rel="stylesheet" type="text/css" href="../style/main/index.css">
     <link rel="stylesheet" type="text/css" href="../style/main/tablet.css" media="screen and (min-width: 425px)">
+    <link rel="stylesheet" type="text/css" href="../style/main/desktop.css" media="screen and (min-width: 900px)">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,31 +20,34 @@
 <body>
 
     <header>
-        <video src="../imgs/main/desktop/Video.mp4"></video>
+        <video id="website-profile--video" src="../imgs/main/desktop/Video.mp4"></video>
     </header>
 
     <section class="website-profile">
 
-        <img src="../imgs/main/mobile/profile.png"/>
+        <img class="website-profile--mobile" src="../imgs/main/mobile/profile.png"/>
+        <img class="website-profile--desktop" src="../imgs/main/desktop/profile.png" />
 
-        <article class="website-profile--article">
-            <p>
-                Soy Augusto, Full-Stack Dev y 
-                trabajo en proyectos frontend.
-            </p>
-        </article>
-
-        <article class="website-profile--article">
-            <p>
-                Busco crecer como profesional dentro de
-                la industria del desarrollo del software.
-            </p>
-
-            <p>             
-                A partir de eso, me he especializado en 
-                desarrollo de páginas web. 
-            </p>
-        </article>
+        <div>
+            <article class="website-profile--article">
+                <p>
+                    Soy Augusto, Full-Stack Dev y 
+                    trabajo en proyectos frontend.
+                </p>
+            </article>
+    
+            <article class="website-profile--article">
+                <p>
+                    Busco crecer como profesional dentro de
+                    la industria del desarrollo del software.
+                </p>
+    
+                <p>             
+                    A partir de eso, me he especializado en 
+                    desarrollo de páginas web. 
+                </p>
+            </article>
+        </div>
 
     </section>
 
@@ -125,19 +129,19 @@
         <div class="website-contact--logos">
 
             <article>
-                <img class="github-image" src="../imgs/main/mobile/GitHub.png"/>
-                <a target="_blank" id="logos--github-button" class="github-button" href="https://github.com/augustobor">
-                    augustobor
-                </a>
-            </article>
-            <article>
-                <img class="twitter-image" src="../imgs/main/mobile/twitter.png"/>
+                <img class="twitter-image" src="../imgs/main/twitter.png"/>
                 <a target="_blank" id="logos--twitter-button" class="twitter-button" href="https://twitter.com/Augus_Dev">
                     @Augus_Dev
                 </a>
             </article>
             <article>
-                <img class="linkedin-image" src="../imgs/main/mobile/linkedin.png"/>
+                <img class="github-image" src="../imgs/main/GitHub.png"/>
+                <a target="_blank" id="logos--github-button" class="github-button" href="https://github.com/augustobor">
+                    augustobor
+                </a>
+            </article>
+            <article>
+                <img class="linkedin-image" src="../imgs/main/linkedin.png"/>
                 <a target="_blank" id="logos--linkedin-button" class="linkedin-button" href="https://www.linkedin.com/in/augusto-borromeo-b75255218/">
                     Augusto Borromeo
                 </a>

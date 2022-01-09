@@ -1,0 +1,82 @@
+
+/*Profile*/
+
+.website-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-profile--mobile {
+    display: none;
+}
+
+.website-profile--desktop {
+    display: block;
+    height: 50%;
+    width: 50%;
+}
+
+
+.website-profile .website-profile--article p {
+    font-size: x-large;
+}
+
+.website-profile--article , .website-portfolio p {
+    font-size: 2.6rem;
+}
+
+.website-portfolio--description1, .website-portfolio--description2 {
+    margin: 15rem 20rem;
+}
+
+
+/*Portfolio*/
+
+
+.website-portfolio--high {
+    margin: 1rem 3%;
+}
+
+.website-portfolio--high p {
+    font-size: xx-large;
+}
+
+.website-portfolio > p {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+
+.website-portfolio--button {
+    font-size: xx-large;
+}
+
+.website-posts--description p {
+    font-size: x-large;
+}
+
+.website-portfolio--description3 {
+    margin: 15rem 20rem;
+}
+
+/*Contact*/
+
+
+.website-contact > p {
+    font-size: 4.6rem;
+}
+
+.website-contact--button {
+    font-size: xx-large;
+}
+
+.github-image, .twitter-image, .linkedin-image {
+    margin: 0rem 4rem;
+    margin-bottom: 1.4rem;
+}
+
+
+.website-contact--logos article {
+	font-size: x-large;
+}

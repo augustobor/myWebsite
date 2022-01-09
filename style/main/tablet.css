@@ -17,8 +17,8 @@
 }
 
 
-.website-portfolio--button {
-    font-size: xx-large;
+.website-portfolio--high--button {
+    font-size: x-large;
 }
 
 .website-posts--description p {
@@ -29,11 +29,15 @@
 /*Contact*/
 
 .github-image {
-    width: 150%;
-    height: 110%;
+    width: 80%;
+    height: 80%;
 }
 
-.twitter-image, .linkedin-image {
-	width: 90%;
-	height: 90%;
+
+.website-contact--logos {
+    margin-top: 15rem;
+}
+
+.website-contact--logos article {
+	font-size: small;
 }

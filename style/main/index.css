@@ -45,6 +45,10 @@ header video {
 	text-align: center;
 }
 
+.website-profile--desktop {
+	display: none;
+}
+
 .website-profile .website-profile--article {
 	height: auto;
 	background-color: var(--black);
@@ -57,7 +61,6 @@ header video {
 .website-profile .website-profile--article p {
 	color: var(--off-white);
 	font-size: medium;
-	opacity: 100%;
 	margin: 2rem 3rem;
 }
 
@@ -80,17 +83,17 @@ header video {
 
 .website-portfolio--description1 {
 	text-align: left;
-	margin: 20% 30% 30% 8%;
+	margin: 20% 30% 30% 10%;
 }
 
 .website-portfolio--description2 {
 	text-align: right;
-	margin: 20% 8% 30% 30%;
+	margin: 20% 10% 30% 30%;
 }
 
 .website-portfolio--description3 {
 	text-align: center;
-	margin: 5rem 5rem;
+	margin: 5rem;
 }
 
 .website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr {
@@ -120,9 +123,8 @@ header video {
 
 .website-portfolio--high {
 	height: 60%;
-	max-width: 350px;
+	max-width: 400px;
 	display: inline-block;
-	position: relative;
 	background-color: var(--black);
 	border-radius: 10px;
 	opacity: 95%;
@@ -280,9 +282,15 @@ header video {
 
 .website-contact--logos article .twitter-button {
 	color: var(--cool-cyan);
+
 }
 
 .website-contact--logos article .linkedin-button {
 	color: #0274B3;
 	font-size: smaller;
+}
+
+.github-image {
+    width: 90%;
+    height: 90%;
 }
