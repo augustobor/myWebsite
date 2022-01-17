@@ -148,3 +148,40 @@ body {
     text-align: center;
     margin: 30% 10%;
 }
+
+
+/*Second section*/
+
+
+.second-section div > article {
+	height: auto;
+	background-color: var(--black);
+	border-radius: 20px;
+	opacity: 90%;
+	margin: 5rem 10%;
+	padding: 3% 5%;
+	color: var(--off-white);
+}
+
+.second-section div > article div {
+	display: flex;
+	justify-content: left;
+	font-size: xx-large;
+	align-items: center;
+	padding: 5%;
+}
+
+.second-section div > article div p {
+	margin: 0.6rem;
+}
+
+.second-section div article h3 {
+	font-size: x-large;
+	margin: 3%;
+}
+
+.second-section div article article p {
+	margin: 5%;
+	font-size: small;
+	text-align: left;
+}
