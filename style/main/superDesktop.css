@@ -12,11 +12,11 @@
 
 
 .website-profile .website-profile--article p {
-    font-size: xx-large;
+    font-size: 5rem;
 }
 
 .website-profile--article , .website-portfolio p {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr
@@ -35,10 +35,16 @@
 
 .website-portfolio--high {
     margin: 1rem 3%;
+    padding: 1% 2% 3% 1%;
 }
 
 
+
 .website-portfolio--high p {
+    font-size: 7rem;
+}
+
+.website-portfolio--high--button {
     font-size: xx-large;
 }
 
@@ -74,19 +80,22 @@
 }
 
 .twitter-image, .linkedin-image {
-    width: 20%;
-    height: 60%;
-    margin: 0rem 50rem;
-    margin-bottom: 4rem;
+    width: 30%;
+    height: 90%;
+    margin: 0rem 30rem;
+    margin-bottom: 2rem;
 }
 
 .github-image {
-    width: 150%;
-    height: 90%;
-    margin: 0rem 5rem;
+    width: 120%;
+    height: 120%;
 }
 
 
 .website-contact--logos article {
 	font-size: 6rem;
+}
+
+.website-contact--logos article .linkedin-button {
+	font-size: 2.5rem;
 }

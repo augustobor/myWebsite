@@ -5,8 +5,9 @@
 }
 
 .menu-desktop {
+    padding-top: 10rem;
     display: block;
-    background-color: var(--soft-black);
+    background-color: var(--black);
 }
 
 .menu-desktop ul {
@@ -37,13 +38,7 @@
 
 .first-section > p {
     font-size: 6rem;
-}
-
-.first-section div img {
-    height: 30%;
-	width: 30%;
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-bottom: 10rem;
 }
 
 
@@ -60,9 +55,59 @@
 /*Second section*/
 
 
-.second-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.second-section div > article {
+	padding: 6%;    
+    max-width: 260px;
 }
 
+
+/*Third section*/
+
+.third-section article {
+	font-size: 4rem;
+    margin-top: 10rem;
+}
+
+.third-section article hr {
+    margin: 1rem 21%;
+	border-width: 0.4rem;
+    margin-bottom: 10rem;
+}
+
+
+.third-section .third-section--other-skills div {
+	height: auto;
+    margin: 2rem 3%;
+	padding: 4%;
+    transform: scale(1.1);
+}
+
+.third-section .third-section--other-skills div img {
+    transform: scale(1.1);
+}
+
+
+/*Fourth section*/
+
+
+.fourth-section--description {
+	margin: 25% 20%;
+}
+
+.fourth-section--description p {
+	font-size: 2rem;
+}
+
+
+.fourth-section--description hr {
+    border-width: 0.4rem;
+}
+
+
+.fourth-section > p {
+	font-size: xx-large;
+}
+
+.fourth-section > .final {
+	margin-bottom: 5rem;
+}

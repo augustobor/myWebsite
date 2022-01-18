@@ -73,8 +73,9 @@
 /*Contact*/
 
 .github-image {
-    width: 80%;
-    height: 80%;
+    transform: scale(1.2);
+    width: 90%;
+    margin-bottom: 0.6rem;
 }
 
 
@@ -82,6 +83,10 @@
     margin-top: 15rem;
 }
 
-.website-contact--logos article {
-	font-size: small;
+.website-contact--logos article a{
+	font-size: x-large;
+}
+
+.website-contact--logos article .linkedin-button {
+	font-size: 1.7rem;
 }

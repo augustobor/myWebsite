@@ -316,7 +316,9 @@ header video {
 .website-contact--logos {
 	margin-top: 7rem;
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 .website-contact--logos article {
@@ -324,16 +326,27 @@ header video {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0rem 1.4rem;
+	margin: 0rem 2%;
 }
 
-.twitter-image, .linkedin-image {
+.twitter-image{
 	width: 70%;
 	height: 70%;
 }
 
+.linkedin-image {
+	width: 80%;
+	height: 80%;
+}
+
+.github-image {
+   width: 120%;
+   height: 80%;
+}
+
 .website-contact--logos article a {
 	text-decoration: none;
+	font-size: medium;
 }
 
 .website-contact--logos article .github-button {
@@ -347,10 +360,5 @@ header video {
 
 .website-contact--logos article .linkedin-button {
 	color: #0274B3;
-	font-size: smaller;
-}
-
-.github-image {
-    width: 90%;
-    height: 90%;
+	font-size: 1.2rem;
 }

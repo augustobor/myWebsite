@@ -45,6 +45,7 @@
 
 .website-portfolio--high {
     margin: 1rem 3%;
+    padding: 1% 2% 5% 1%;
 }
 
 .website-portfolio--high p {
@@ -81,11 +82,19 @@
 }
 
 .github-image, .twitter-image, .linkedin-image {
-    margin: 0rem 4rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.2rem;
+    transform: scale(0.8);
 }
 
 
-.website-contact--logos article {
-	font-size: x-large;
+.website-contact--logos article a{
+	font-size: xx-large;
+}
+
+.website-contact--logos article .github-button {
+    font-size: 4rem;
+}
+
+.website-contact--logos article .linkedin-button {
+	font-size: 2rem;
 }

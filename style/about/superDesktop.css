@@ -1,0 +1,92 @@
+
+/*Menu*/
+
+
+.menu-desktop ul {
+	font-size: 6rem;
+}
+
+
+/*First section*/
+
+.first-section > p {
+    font-size: 14rem;
+    margin-bottom: 30rem;
+}
+
+.first-section div article, .first-section article  {
+    font-size: 5rem;
+}
+
+.first-section article hr {
+    margin-top: 4rem;
+	border-width: 0.9rem;
+}
+
+.first-section article:nth-child(5), .first-section article:nth-child(4) {
+    text-align: center;
+    margin: 15% 10%;
+}
+
+
+/*Second section*/
+
+.second-section {
+    margin: 0% 20%;
+    padding-bottom: 20rem;
+    transform: scale(1.66);
+}
+
+
+/*Third section*/
+
+
+.third-section article {
+    margin-top: 10rem;
+	font-size: 10rem;
+}
+
+.third-section article hr {
+	border-width: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+}
+
+.third-section .third-section--other-skills div {
+    padding: 2%;
+    margin: 8%;
+    padding-right: 5%;
+    transform: scale(1.5);
+}
+
+.third-section .third-section--other-skills div img {
+    transform: scale(1.9);
+}
+
+.third-section--other-skills div p {
+    font-size: 4rem;
+	margin: 30%;
+}
+
+
+
+/*Fourth section*/
+
+.fourth-section--description {
+	margin: 10% 20%;
+}
+
+.fourth-section--description p {
+	font-size: 4rem;
+}
+
+
+.fourth-section--description hr {
+    border-width: 0.7rem;
+}
+
+
+.fourth-section > p {
+	font-size: 5rem;
+    margin-top: 40rem;
+}
