@@ -95,7 +95,7 @@ body {
 .first-section > p {
     text-align: center;
     color: var(--off-white);
-    margin: 30% 10%;
+    margin: 20% 10%;
     font-size: 4rem;
 }
 
@@ -104,10 +104,12 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 2%;
+	align-items: center;
 }
 
 .first-section div img {
-    height: 40%;
+    height: 30%;
+	width: 30%;
     margin-top: 15%;
     margin-left: 5%;
 }
@@ -152,6 +154,10 @@ body {
 
 /*Second section*/
 
+.second-section {
+	margin: 0% 10%;
+	align-items: center;
+}
 
 .second-section div > article {
 	height: auto;
@@ -184,4 +190,38 @@ body {
 	margin: 5%;
 	font-size: small;
 	text-align: left;
+}
+
+
+/*Thrid section*/
+
+.third-section--description {
+	text-align: center;
+	margin: 25% 10%;
+}
+
+.third-section--description p {
+	color: var(--off-white);
+	margin: 3%;
+	font-size: 1.45rem;
+}
+
+.third-section--description hr {
+	border-color: var(--black);
+	margin: 1rem 0rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.2rem;
+}
+
+
+.third-section > p {
+	color: var(--off-white);
+	text-align: center;
+	font-size: large;
+	margin: 0 6%;
+}
+
+.third-section > .final {
+	margin: 3rem 0;
 }

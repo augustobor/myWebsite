@@ -1,0 +1,68 @@
+/*Menu*/
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-desktop {
+    display: block;
+    background-color: var(--soft-black);
+}
+
+.menu-desktop ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 2.6rem;
+	list-style: none;
+}
+
+
+.menu-desktop li {
+	padding: 3%;
+}
+
+.menu-desktop li:hover {
+	background: var(--black);
+}
+
+.menu-desktop li a {
+	text-decoration: none;
+	color: var(--off-white)
+}
+
+
+/*first section*/
+
+
+.first-section > p {
+    font-size: 6rem;
+}
+
+.first-section div img {
+    height: 30%;
+	width: 30%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+
+.first-section div article, .first-section article  {
+    font-size: 2rem;
+}
+
+.first-section article hr {
+	border-width: 0.3rem;
+}
+
+
+
+/*Second section*/
+
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

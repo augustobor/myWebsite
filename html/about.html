@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Author, Illustrator: Augusto.B. My website">
     <link rel="stylesheet" type="text/css" href="../style/about/index.css">
-    
+    <link rel="stylesheet" type="text/css" href="../style/about/tablet.css" media="screen and (min-width: 500px)">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&
@@ -17,6 +18,29 @@
 </head>
 
 <body>
+
+    <menu class="menu-mobile">
+        <img id="menuIcon" src="../imgs/main/mobile/hamburger-icon.png"/>
+        <ul class="activate" id="menu-content">
+            <p><u>Menú</u></p>
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </menu>
+
+    <menu class="menu-desktop">
+        <ul>
+            <li><a href="./index.html">Main</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </menu>
+
     <section class="first-section">
 
         <p>Mi Historia</p>
@@ -26,7 +50,7 @@
                     desarrollador amante de la tecnologia.</p>
                 <hr/>
             </article>
-            <img src="../imgs/about/mobile/segunda_foto.png"/>
+            <img src="../imgs/about/desktop/segunda_foto.png"/>
         </div>
         <article>
             <p>En 2015 comence a apasionarme 
@@ -135,4 +159,20 @@
         </div>
     </section>
 
+    <section class="third-section">
+        <article class="third-section--description">
+            <p>
+                Cuento con varios proyectos de software desarrollados 
+                y actualmente sigo en desarrollo de otros. 
+            </p>
+            <hr/>
+        </article>
+        <p>
+            Si estás buscando compromiso y dedicación, 
+        </p>
+        <p class="final">
+            ¡cuenta conmigo!
+        </p>
+    </section>
+    <script src="../js/index.js"></script>
 </body>
