@@ -1,0 +1,73 @@
+/*Menu*/
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-desktop {
+    padding-top: 10rem;
+    display: block;
+    background-color: var(--dark-red)
+}
+
+.menu-desktop ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 2.6rem;
+	list-style: none;
+}
+
+
+.menu-desktop li {
+	padding: 3%;
+}
+
+.menu-desktop li:hover {
+	background: var(--black)
+}
+
+.menu-desktop li a {
+	text-decoration: none;
+	color: var(--off-white)
+}
+
+
+body > p {
+    font-size: xx-large;
+    margin: 3%;
+    margin-top: 20rem;
+}
+
+.portfolio-description {
+    margin: 15rem 20%;
+    font-size: large;
+}
+
+
+hr {
+    border-width: 0.3rem;
+}
+
+.portfolio-frontend {
+    margin: 9rem 20%;
+    font-size: 6rem;
+}
+
+/*Portfolio*/
+
+
+div > article {
+	margin: 1rem 3%;
+	padding: 1%;
+}
+
+
+div > article p:nth-child(1) {
+    font-size: 4rem;
+}
+
+div > article a + p {
+    padding: 3%;
+    font-size: medium;
+}

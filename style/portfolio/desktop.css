@@ -1,0 +1,48 @@
+/*Menu*/
+
+.menu-desktop {
+    padding-top: 20rem;
+}
+
+.menu-desktop ul {
+	font-size: 4rem;
+}
+
+
+body > p {
+    font-size: 6rem;
+    margin: 3%;
+    margin-top: 25rem;
+}
+
+.portfolio-description {
+    margin: 20rem 20%;
+    font-size: xx-large;
+}
+
+
+hr {
+    border-width: 0.6rem;
+}
+
+.portfolio-frontend {
+    margin: 9rem 30%;
+    font-size: 7rem;
+}
+
+
+/*Portfolio*/
+
+
+div > article {
+    max-width: 400px;
+}
+
+
+div > article p:nth-child(1) {
+    font-size: 5rem;
+}
+
+div > article a + p {
+    font-size: large;
+}

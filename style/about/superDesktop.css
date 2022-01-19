@@ -10,22 +10,22 @@
 /*First section*/
 
 .first-section > p {
-    font-size: 14rem;
-    margin-bottom: 30rem;
+    font-size: 10rem;
+    margin-bottom: 20rem;
 }
 
 .first-section div article, .first-section article  {
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 
 .first-section article hr {
-    margin-top: 4rem;
-	border-width: 0.9rem;
+    margin-top: 2rem;
+	border-width: 0.6rem;
 }
 
 .first-section article:nth-child(5), .first-section article:nth-child(4) {
     text-align: center;
-    margin: 15% 10%;
+    margin: 10% 20%;
 }
 
 
@@ -33,6 +33,7 @@
 
 .second-section {
     margin: 0% 20%;
+    padding-top: 30rem;
     padding-bottom: 20rem;
     transform: scale(1.66);
 }
@@ -42,14 +43,15 @@
 
 
 .third-section article {
-    margin-top: 10rem;
-	font-size: 10rem;
+    margin-top: 20rem;
+	font-size: 6rem;
 }
 
 .third-section article hr {
-	border-width: 0.9rem;
+	border-width: 0.6rem;
+    margin: 0 25%;
     margin-top: 3rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .third-section .third-section--other-skills div {
@@ -77,16 +79,17 @@
 }
 
 .fourth-section--description p {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 
 .fourth-section--description hr {
-    border-width: 0.7rem;
+    border-width: 0.6rem;
+    margin: 0 5%;
 }
 
 
 .fourth-section > p {
 	font-size: 5rem;
-    margin-top: 40rem;
+    margin-top: 10rem;
 }

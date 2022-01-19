@@ -1,0 +1,183 @@
+
+:root {
+	--stronger-blue: #0019EF;
+    --cool-cyan: #019EFF;
+	--dark-red: #9E1616;
+    --saturate-pink: #FF00FC;
+    --nice-lavanda: #B549FF;
+	--black: #1C1C1C;
+    --soft-black: #413F3F;
+	--off-white:#FAFAFA;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Nunito', sans-serif; 
+	scroll-behavior: smooth;
+}
+
+
+/*
+font-family: 'Inconsolata', monospace; LETRA SUAVE Y LINDA
+font-family: 'Nunito', sans-serif; Letra ELEGANTE
+*/
+
+header {
+	background-color: var(--black);
+}
+
+header video {
+    zoom: 0.1;
+	width: 100%;
+}
+
+
+/*Menu*/
+
+.menu-desktop {
+	display: none;
+}
+
+.menu-mobile {
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	transition: all .5s ease;
+	z-index: 1;
+}
+
+.menu-mobile img {
+	cursor: pointer;
+	vertical-align: top;
+	width: 15%;
+	margin: 2rem 1rem;
+}
+
+.menu-mobile ul {
+	background-color: var(--black);
+	padding: 10% 20% 2% 0%;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .5s ease;
+	z-index: -1;
+}
+
+.menu-mobile li a, .menu-mobile p {
+	text-decoration: none;
+	padding: 6% 20%;
+	margin: 3rem 0;
+	color: var(--off-white);
+	display: block;
+	font-size: xx-large;
+	cursor: pointer;
+}
+
+
+.menu-mobile li a:hover {
+	background-color: var(--off-white);
+	color: var(--off-white);
+} 
+
+.activate {
+	transform: translate(-600px);
+}
+
+.opacity {
+	background-color: var(--black);
+	transition: all .5s ease;
+}
+
+
+
+body {
+	background: linear-gradient(0deg, var(--cool-cyan) 16.69%, var(--dark-red) 100%);
+    color: var(--off-white);
+}
+
+
+body > p {
+    font-size: x-large;
+    text-align: center;
+    margin: 3%;
+    margin-top: 15rem;
+}
+
+.portfolio-description {
+    margin: 9rem 10%;
+    text-align: center;
+    font-size: medium;
+}
+
+hr {
+    border-style: solid;
+    border-width: 0.2rem;
+    opacity: 80%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.portfolio-description hr {
+    border-color: var(--black); 
+}
+
+.portfolio-frontend {
+    margin: 9rem 10%;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.portfolio-frontend hr {
+    border-color: var(--dark-red);
+}
+
+
+/*Portfolio*/
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	padding: 1%;
+}
+
+div > article {
+	height: 40%;
+	max-width: 320px;
+	background: linear-gradient(135deg, var(--black) 16.69%, var(--dark-red) 100%);
+	border-radius: 10px;
+	opacity: 95%;
+	margin: 1rem 10%;
+	padding: 1%;
+}
+
+a > img {
+    width: 90%;
+	height: 90%;
+	border-style: solid;
+	border-color: var(--black);
+	border-radius: 10px;
+	margin: 5%;
+}
+
+
+div > article p:nth-child(1) {
+    text-align: center;
+    font-size: xx-large;
+    padding: 5%;
+}
+
+div > article a + p {
+    text-align: left;
+    padding: 2%;
+    font-size: small;
+}
