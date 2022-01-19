@@ -60,7 +60,7 @@
 }
 
 .website-posts--description p {
-    font-size: xx-large;
+    font-size: 6rem;
 }
 
 .website-portfolio--description3 {
@@ -80,20 +80,20 @@
 }
 
 .twitter-image, .linkedin-image {
-    width: 30%;
-    height: 90%;
-    margin: 0rem 30rem;
+    width: 150%;
+    height: 150%;
     margin-bottom: 2rem;
 }
 
 .github-image {
-    width: 120%;
-    height: 120%;
+    transform: scale(0.6);
+    
 }
 
 
 .website-contact--logos article {
 	font-size: 6rem;
+    margin: 0rem 10%;
 }
 
 .website-contact--logos article .linkedin-button {

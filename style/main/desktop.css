@@ -81,11 +81,14 @@
     font-size: xx-large;
 }
 
-.github-image, .twitter-image, .linkedin-image {
+.twitter-image, .linkedin-image {
     margin-bottom: 0.2rem;
-    transform: scale(0.8);
+    transform: scale(1.2);
 }
 
+.github-image {
+    transform: scale(0.4);
+}
 
 .website-contact--logos article a{
 	font-size: xx-large;
