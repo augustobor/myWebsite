@@ -1,0 +1,90 @@
+/*Menu*/
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-desktop {
+    padding-top: 10rem;
+    display: block;
+    background-color: var(--lavanda);
+}
+
+.menu-desktop ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 3rem;
+	list-style: none;
+}
+
+
+.menu-desktop li {
+	padding: 3%;
+}
+
+.menu-desktop li:hover {
+	background: var(--black);
+}
+
+.menu-desktop li a {
+	text-decoration: none;
+	color: var(--off-white)
+}
+
+
+/*First section*/
+
+.first-section p {
+	margin: 10% 20%;
+	font-size: 2.4rem;
+}
+
+.first-section p:nth-child(1) {
+	padding-top: 5rem;
+}
+
+
+
+/*Form*/
+
+.form p {
+	font-size: 5rem;
+	margin: 15rem 7%;
+	margin-bottom: 8rem;
+}
+
+
+form input {
+	margin: 3% 15%;
+	font-size: 1.8rem;
+}
+
+
+form #contact--message {
+	height: 300px;
+}
+
+form button {
+	margin: 5% 35%;
+	padding: 3%;
+    font-size: 1.6rem;
+	background-color: var(--soft-black);
+	color: var(--off-white);
+	border-style: none;
+}
+
+
+
+/*Footer*/
+
+
+footer {
+	margin-top: 6rem;
+}
+
+
+.github-image{
+	padding: 0 39%;
+}
+
