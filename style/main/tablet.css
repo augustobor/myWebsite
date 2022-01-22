@@ -13,7 +13,7 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	font-size: 2.6rem;
+	font-size: 3rem;
 	list-style: none;
 }
 
@@ -36,37 +36,68 @@
 
 /*Profile*/
 
-.website-profile--article , .website-portfolio p {
-    font-size: 1.8rem;
+
+.website-profile--mobile {
+    transform: scale(1.3);
 }
 
+.website-profile > div .website-profile--article p, .website-portfolio p {
+    font-size: 3rem;
+}
+    
 
 /*Portfolio*/
 
+.website-portfolio > article:nth-child(1), .website-portfolio > article:nth-child(2) {
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+}
+
+.website-portfolio > article:nth-child(1) hr, .website-portfolio > article:nth-child(2) hr {
+    margin-top: 2rem;
+    border-width: 0.4rem;
+}
+
 .website-portfolio--high {
     flex-direction: row;
+    margin: 3rem;
 }
 
 .website-portfolio--high p {
     font-size: xx-large;
 }
 
+.website-portfolio > article:nth-last-child(3) {
+    margin: 2rem 10%;
+}
+
+.website-portfolio > article:nth-last-child(3) p {
+    font-size: 2.5rem;
+}
+
+.website-portfolio > article:nth-last-child(3) hr {
+    margin-top: 1.5rem;
+    border-width: 0.4rem;
+} 
+
 .website-portfolio > p {
-    font-size: large;
-    margin-bottom: 4rem;
+    margin-top: 15rem;
+    font-size: xx-large;
+    margin-bottom: 5rem;
 }
 
 
 .website-portfolio--high--button {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .website-portfolio--button, .website-contact--button {
-    font-size: x-large;
+    font-size: xx-large;
+    border-width: 0.3rem;
 }
 
 .website-posts--description p {
-    font-size: medium;
+    font-size: x-large;
 }
 
 
@@ -78,15 +109,16 @@
     width: 90%;
 }
 
+.website-contact--logos article a .github-image:hover  {
+    transform: scale(0.5);
+}
+
+.website-contact > p {
+    font-size: 5rem;
+    padding-top: 10rem;
+    margin-bottom: 1rem;
+}
 
 .website-contact--logos {
-    margin-top: 15rem;
-}
-
-.website-contact--logos article a{
-	font-size: x-large;
-}
-
-.website-contact--logos article .linkedin-button {
-	font-size: 1.7rem;
+    margin-top: 3rem;
 }

@@ -46,7 +46,7 @@ header video {
 
 .menu-mobile {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	position:fixed;
 	top: 0;
 	left: 0;
@@ -84,8 +84,7 @@ header video {
 
 
 .menu-mobile li a:hover {
-	background-color: var(--off-white);
-	color: var(--off-white);
+	color: var(--saturate-pink);
 } 
 
 .activate {
@@ -94,7 +93,7 @@ header video {
 
 .opacity {
 	background-color: var(--black);
-	transition: all .5s ease;
+	transition: .5s ease;
 }
 
 /*profile*/
@@ -102,6 +101,7 @@ header video {
 .website-profile {
 	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--soft-black) 100%);
 	padding: 3%;
+	padding-top: 4rem;
 	text-align: center;
 }
 
@@ -137,44 +137,43 @@ header video {
 	color: var(--off-white);
 	font-size: 1.2rem;
 	padding-left: 2%;
-	text-align: center;
 	padding-right: 2%;
 }
 
-.website-portfolio--description1 {
+.website-portfolio > article:nth-child(1) {
 	text-align: left;
 	margin: 20% 30% 30% 10%;
 }
 
-.website-portfolio--description2 {
+.website-portfolio > article:nth-child(2) {
 	text-align: right;
 	margin: 20% 10% 30% 30%;
 }
 
-.website-portfolio--description3 {
+.website-portfolio > article:nth-last-child(3) {
 	text-align: center;
 	margin: 5rem;
 }
 
-.website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr {
-	margin: 1rem 0rem;
+.website-portfolio > article:nth-child(1) hr, .website-portfolio > article:nth-child(2) hr, .website-portfolio > article:nth-last-child(3) hr {
+	margin: 0.5rem 0rem;
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 0.2rem;
 	opacity: 80%;
 }
 
-.website-portfolio--description1 hr, .website-portfolio--description2 hr {
+.website-portfolio > article:nth-child(1) hr, .website-portfolio > article:nth-child(2) hr {
 	border-color: var(--black);
 }
 
-.website-portfolio--description3 hr {
+.website-portfolio > article:nth-last-child(3) hr {
 	border-color: var(--nice-lavanda);
 }
 
 
 
-.website-portfolio--portfolio{
+.website-portfolio--portfolio {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -183,7 +182,7 @@ header video {
 
 .website-portfolio--high {
 	height: 40%;
-	max-width: 550px;
+	max-width: 520px;
 	display: inline-block;
 	background-color: var(--black);
 	border-radius: 10px;
@@ -230,7 +229,7 @@ header video {
 	width: 80%;
 	color: var(--off-white);
 	font-size: large;
-	padding: 1% 13% 1% 13%;
+	padding: 2% 13% 2% 13%;
 	border-radius: 4px;
 	opacity: 95%;
 	border-style: solid;
@@ -268,21 +267,7 @@ header video {
 	opacity: 60%;
 }
 
-.website-posts--posts {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
-}
 
-.website-posts--posts article {
-	height: auto;
-	background-color: var(--stronger-blue);
-	border-radius: 10px;
-	opacity: 60%;
-	margin: 1.6rem 20%;
-	padding: 3% 2%;
-}
 
 /*Contact*/
 
@@ -344,16 +329,6 @@ header video {
 	font-size: medium;
 }
 
-.website-contact--logos article .github-button {
-	color: var(--off-white);
-}
-
-.website-contact--logos article .twitter-button {
-	color: var(--cool-cyan);
-
-}
-
-.website-contact--logos article .linkedin-button {
-	color: #0274B3;
-	font-size: 1.4rem;
+.website-contact--logos article a img:hover {
+	transform: scale(1.2);
 }

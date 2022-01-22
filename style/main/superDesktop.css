@@ -19,7 +19,7 @@
     font-size: 6rem;
 }
 
-.website-portfolio--description1 hr, .website-portfolio--description2 hr, .website-portfolio--description3 hr
+.website-portfolio article:nth-child(1) hr, .website-portfolio article:nth-child(2) hr, .website-portfolio article:nth-last-child(3) hr
 , .website-posts--description hr {
     border-width: 0.9rem;
     opacity: 100%;
