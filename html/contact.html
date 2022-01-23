@@ -60,13 +60,14 @@
         </section>
         <section class="form">
             <p>¿Te gustaria hablar?</p>
-            <form>
-                <input id="contact--name" type="text" placeholder="Name" required/>
-                <input id="contact--email" type="text" placeholder="Email" required/>
-                <input id="contact--thread" type="text" placeholder="Matter" required/>
-                <input id="contact--message" type="text" placeholder="Message" required/>
-                <button>Enviar mensaje</button>
+            <form action="" id="form">
+                <input name="name" id="contact--name" type="text" placeholder="Name" required/>
+                <input name="email" id="contact--email" type="text" placeholder="Email" required/>
+                <input name="matter" id="contact--thread" type="text" placeholder="Matter" required/>
+                <textarea name="message" id="contact--message" rows=10 cols="30" placeholder="Message" required></textarea>
+                <button id="submit-button" type="submit">Enviar mensaje</button>
             </form>
+            <a id="mail-button" href="mailto:augus_borromeo@hotmail.com"></a>
         </section>
     </div>
     <footer>
@@ -88,4 +89,5 @@
     </footer>
 
     <script src="../js/menu.js"></script>
+    <script src="../js/contact.js"></script>
 </body>

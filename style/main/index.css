@@ -58,7 +58,7 @@ header video {
 	cursor: pointer;
 	vertical-align: top;
 	width: 15%;
-	margin: 2rem 1rem;
+	margin: 1rem;
 }
 
 .menu-mobile ul {
@@ -124,6 +124,10 @@ header video {
 	margin: 2rem 3rem;
 }
 
+
+.website-profile > div,.website-profile--mobile, .website-profile--desktop {
+	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
 
 /*portfolio*/
 
@@ -216,6 +220,11 @@ header video {
 	padding: 4%;
 }
 
+.website-portfolio--high--button:hover {
+	transform: scale(1.2);
+	transition: 200ms linear 100ms;
+}
+
 
 .website-portfolio > p {
 	font-size: medium;
@@ -235,6 +244,12 @@ header video {
 	border-style: solid;
 	border-color: var(--saturate-pink);
 	border-width: 0.2rem;
+	transition: all 200ms linear;
+}
+
+.website-portfolio--button:hover {
+	background-color: var(--saturate-pink);
+	transition: all 200ms linear;
 }
 
 
@@ -295,6 +310,12 @@ header video {
 	border-radius: 4px;
 	padding: 3%;
 	opacity: 95%;
+	transition: all 200ms linear;
+}
+
+.website-contact--button:hover {
+	background-color: var(--stronger-blue);
+	transition: all 200ms linear;
 }
 
 
@@ -331,4 +352,21 @@ header video {
 
 .website-contact--logos article a img:hover {
 	transform: scale(1.2);
+}
+
+
+/*Animations*/
+
+
+@keyframes loadProfile {
+	
+	0% {
+		margin-top: 6rem;
+		opacity: 0;
+	}
+
+	100% {
+		margin-top: 0rem;
+		opacity: 100%;
+	}
 }

@@ -7,14 +7,14 @@
 .menu-desktop {
     padding-top: 10rem;
     display: block;
-    background-color: var(--dark-red)
+    background-color: #833043;
 }
 
 .menu-desktop ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	font-size: 2.6rem;
+	font-size: 3rem;
 	list-style: none;
 }
 
@@ -23,8 +23,8 @@
 	padding: 3%;
 }
 
-.menu-desktop li:hover {
-	background: var(--black)
+.menu-desktop li a:hover {
+	color: var(--saturate-pink);
 }
 
 .menu-desktop li a {
@@ -34,14 +34,14 @@
 
 
 body > p {
-    font-size: xx-large;
+    font-size: 5rem;
     margin: 3%;
     margin-top: 20rem;
 }
 
 .portfolio-description {
     margin: 15rem 20%;
-    font-size: large;
+    font-size: x-large;
 }
 
 

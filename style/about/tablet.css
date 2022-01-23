@@ -23,8 +23,8 @@
 	padding: 3%;
 }
 
-.menu-desktop li:hover {
-	background: var(--black);
+.menu-desktop li a:hover {
+	color: var(--saturate-pink);
 }
 
 .menu-desktop li a {

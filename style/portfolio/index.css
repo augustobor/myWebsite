@@ -58,7 +58,7 @@ header video {
 	cursor: pointer;
 	vertical-align: top;
 	width: 15%;
-	margin: 2rem 1rem;
+	margin: 1rem;
 }
 
 .menu-mobile ul {
@@ -84,8 +84,7 @@ header video {
 
 
 .menu-mobile li a:hover {
-	background-color: var(--off-white);
-	color: var(--off-white);
+	color: var(--saturate-pink);
 } 
 
 .activate {
@@ -158,6 +157,12 @@ div > article {
 	opacity: 95%;
 	margin: 1rem 10%;
 	padding: 1%;
+}
+
+a > img:hover {
+	transform: scale(1.05);
+	opacity: 0.9;
+	transition: all 200ms linear;
 }
 
 a > img {

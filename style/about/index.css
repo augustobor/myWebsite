@@ -44,7 +44,7 @@ html {
 	cursor: pointer;
 	vertical-align: top;
 	width: 15%;
-	margin: 2rem 1rem;
+	margin: 1rem;
 }
 
 .menu-mobile ul {
@@ -70,8 +70,7 @@ html {
 
 
 .menu-mobile li a:hover {
-	background-color: var(--off-white);
-	color: var(--off-white);
+	color: var(--saturate-pink);
 } 
 
 .activate {
@@ -147,6 +146,10 @@ body {
     margin: 20% 10%;
 }
 
+
+.first-section div, .first-section article {
+	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
 
 /*Second section*/
 
@@ -278,4 +281,22 @@ body {
 
 .fourth-section > .final {
 	margin: 3rem 0;
+}
+
+
+
+/*Animations*/
+
+
+@keyframes loadProfile {
+	
+	0% {
+		opacity: 0;	
+		transform: translateY(30px);
+	}
+
+	100% {
+		opacity: 100%;
+		transform: translateY(-1px);
+	}
 }
