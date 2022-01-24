@@ -58,6 +58,7 @@ header video {
 	cursor: pointer;
 	vertical-align: top;
 	width: 15%;
+	height: auto;
 	margin: 1rem;
 }
 

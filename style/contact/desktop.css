@@ -67,7 +67,7 @@ form button {
 
 footer {
 	margin-top: 6rem;
-	padding: 2% 15%;
+	padding: 2% 5%;
 }
 
 footer article {
@@ -75,16 +75,20 @@ footer article {
 }
 
 
-.github-image{
-	padding: 0 40%;
+.twitter-image, .linkedin-image {
+    margin-bottom: 0.2rem;
+    transform: scale(1.2);
 }
 
-.twitter-image, .linkedin-image{
-	width: 120%;
-	height: 120%;
+.github-image {
+	width: 100%;
+	height: 100%;
 }
 
+.github-image {
+    transform: scale(1.2);
+}
 
 footer article a img:hover {
-	transform: scale(1.1);
+    transform: scale(1.3);
 }
