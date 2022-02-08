@@ -16,17 +16,13 @@ body > p {
 }
 
 .portfolio-description {
-    margin: 20rem 20%;
+    margin: 20rem 30%;
     font-size: xx-large;
 }
 
 
-hr {
-    border-width: 0.6rem;
-}
-
 .portfolio-frontend {
-    margin: 9rem 30%;
+    margin: 9rem 36%;
     font-size: 7rem;
 }
 

@@ -168,6 +168,9 @@ a > img {
 	border-color: var(--black);
 	border-radius: 10px;
 	margin: 5%;
+	transform: scale(1);
+	opacity: 0.9;
+	transition: all 200ms linear;
 }
 
 

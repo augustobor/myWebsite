@@ -22,8 +22,7 @@
 
 .website-profile--desktop {
     display: block;
-    height: 50%;
-    width: 50%;
+    transform: scale(1);
 }
 
 
@@ -49,16 +48,18 @@
     font-size: xx-large;
 }
 
+
+
 .website-portfolio article:nth-last-child(3) {
-    margin: 15rem 20rem;
+    margin: 15rem 30%;
 }
 
 .website-portfolio article:nth-last-child(3) p {
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 .website-portfolio > p {
-    font-size: 6rem;
+    font-size: 3rem;
     margin-bottom: 10rem;
 }
 
@@ -75,9 +76,6 @@
     margin: 0 5%;
 }
 
-.website-posts--description p {
-    font-size: 3.5rem;
-}
 
 .website-posts--description hr {
     border-width: 0.4rem;
@@ -88,7 +86,7 @@
 
 
 .website-contact > p {
-    font-size: 8rem;
+    font-size: 4rem;
 }
 
 .website-contact--button {

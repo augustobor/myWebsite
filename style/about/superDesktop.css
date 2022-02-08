@@ -3,7 +3,7 @@
 
 
 .menu-desktop ul {
-	font-size: 6rem;
+	font-size: 4rem;
 }
 
 
@@ -11,21 +11,25 @@
 
 .first-section > p {
     font-size: 10rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .first-section div article, .first-section article  {
-    font-size: 4rem;
+    font-size: 3rem;
+}
+
+.first-section article {
+    margin: 0 20%;
 }
 
 .first-section article hr {
     margin-top: 2rem;
-	border-width: 0.6rem;
+	border-width: 0.2rem;
 }
 
 .first-section article:nth-child(5), .first-section article:nth-child(4) {
     text-align: center;
-    margin: 10% 20%;
+    margin: 15% 30%;
 }
 
 
@@ -42,7 +46,9 @@
 /*Third section*/
 
 
+
 .third-section article {
+    margin: 0 20%;
     margin-top: 20rem;
 	font-size: 6rem;
 }
@@ -79,17 +85,17 @@
 }
 
 .fourth-section--description p {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 
 .fourth-section--description hr {
-    border-width: 0.6rem;
-    margin: 0 5%;
+    border-width: 0.2rem;
+    margin: 0 10%;
 }
 
 
 .fourth-section > p {
-	font-size: 5rem;
+	font-size: 4rem;
     margin-top: 10rem;
 }

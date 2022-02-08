@@ -206,6 +206,7 @@ header video {
 	margin: 5%;
 }
 
+
 .website-portfolio--high--button {
 	position: relative;
 	text-decoration: none;
@@ -215,11 +216,15 @@ header video {
 	color: var(--off-white);
 	font-size: medium;
 	padding: 4%;
+	transform: scale(1);
+	opacity: 0.9;
+	transition: all 200ms linear;
 }
 
 .website-portfolio--high--button:hover {
 	transform: scale(1.2);
-	transition: 200ms linear 100ms;
+	opacity: 0.9;
+	transition: all 200ms linear;
 }
 
 
@@ -349,6 +354,7 @@ header video {
 
 .website-contact--logos article a img:hover {
 	transform: scale(1.2);
+	transition: transform 200ms linear;
 }
 
 

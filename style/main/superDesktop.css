@@ -3,7 +3,7 @@
 
 
 .menu-desktop ul {
-	font-size: 6rem;
+	font-size: 4rem;
 }
 
 
@@ -12,16 +12,17 @@
 
 
 .website-profile .website-profile--article p {
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .website-profile--article , .website-portfolio p {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 .website-portfolio article:nth-child(1) hr, .website-portfolio article:nth-child(2) hr, .website-portfolio article:nth-last-child(3) hr
 , .website-posts--description hr {
-    border-width: 0.9rem;
+    border-width: 0.3rem;
+    margin-bottom: 20rem;
     opacity: 100%;
 }
 
@@ -41,7 +42,7 @@
 
 
 .website-portfolio--high p {
-    font-size: 7rem;
+    font-size: 3rem;
 }
 
 .website-portfolio--high--button {
@@ -49,18 +50,21 @@
 }
 
 .website-portfolio > p {
-    font-size: 6rem;
     margin-bottom: 20rem;
 }
 
 
 .website-portfolio--button, .website-contact--button {
-    font-size: 8rem;
+    font-size: 3rem;
     border-width: 0.5rem;
 }
 
+.website-posts--description {
+    margin: 0 10%;
+}
+
 .website-posts--description p {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 .website-portfolio--description3 {
@@ -69,10 +73,6 @@
 
 /*Contact*/
 
-
-.website-contact > p {
-    font-size: 6rem;
-}
 
 
 .website-contact--logos {

@@ -197,6 +197,12 @@ footer article {
 	margin: 1% 2%;
 }
 
+footer article:hover {
+	transform: scale(1.05);
+	opacity: 0.9;
+	transition: all 200ms linear;
+}
+
 .twitter-image, .linkedin-image{
 	width: 100%;
 	height: 100%;
