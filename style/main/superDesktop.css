@@ -34,11 +34,24 @@
 /*Portfolio*/
 
 
+.website-portfolio > article:nth-child(1) {
+    margin-left: 5rem;
+    margin-right: 60rem;
+    padding-right: 40rem;
+    margin-bottom: 20rem;
+}
+
+.website-portfolio > article:nth-child(2) {
+    margin-right: 5rem;
+    margin-left: 40rem;
+    padding-left: 40rem;
+    margin-bottom: 20rem;
+}
+
 .website-portfolio--high {
     margin: 1rem 3%;
     padding: 1% 2% 3% 1%;
 }
-
 
 
 .website-portfolio--high p {
@@ -60,6 +73,7 @@
 }
 
 .website-posts--description {
+    padding: 10% 10% 3% 15%;
     margin: 0 10%;
 }
 

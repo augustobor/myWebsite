@@ -11,7 +11,8 @@
 
 .first-section > p {
     font-size: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .first-section div article, .first-section article  {
@@ -27,9 +28,19 @@
 	border-width: 0.2rem;
 }
 
+.first-section article:nth-child(1) {
+	margin-right: 40rem;
+}
+
+ .first-section article:nth-child(3) {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+	margin-left: 80rem;
+}
+
+
 .first-section article:nth-child(5), .first-section article:nth-child(4) {
-    text-align: center;
-    margin: 15% 30%;
+    margin: 10% 30%;
 }
 
 
