@@ -94,7 +94,7 @@ body {
 .first-section > p {
     text-align: center;
     color: var(--off-white);
-    margin: 20% 10%;
+    margin: 20% 20%;
     font-size: 4rem;
 }
 
@@ -133,7 +133,7 @@ body {
 
 .first-section article:nth-child(1) {
     text-align: left;
-	margin: 10% 10% 10% 10%;
+	margin: 10%;
 }
 
  .first-section article:nth-child(3) {
