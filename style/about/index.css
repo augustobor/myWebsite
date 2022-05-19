@@ -1,27 +1,5 @@
 
-:root {
-	--stronger-blue: #0019EF;
-    --cool-cyan: #019EFF;
-	--dark-red: #9E1616;
-    --saturate-pink: #FF00FC;
-    --nice-lavanda: #B549FF;
-	--black: #1C1C1C;
-    --soft-black: #413F3F;
-	--off-white:#FAFAFA;
-}
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0; 
-}
-
-html {
-	font-size: 62.5%;
-	font-family: 'Nunito', sans-serif; 
-	scroll-behavior: smooth;
-}
-
+@import url('../config/config.css');
 
 
 /*Menu*/
@@ -70,7 +48,7 @@ html {
 
 
 .menu-mobile li a:hover {
-	color: var(--saturate-pink);
+	color: var(--cake-red);
 } 
 
 .activate {
@@ -87,7 +65,7 @@ html {
 
 
 body {
-    background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--black) 100%);
+    background: linear-gradient(0deg, var(--deep-blue) 16.69%, var(--black) 100%);
     height: auto;
 }
 
@@ -126,8 +104,8 @@ body {
     margin: 1rem 0rem;
 	border-style: solid;
 	border-radius: 10px;
-	border-width: 0.2rem;
-    border-color: var(--black);
+	border-width: 0.1rem;
+    border-color: var(--cake-red);
 	opacity: 80%;
 }
 
@@ -164,7 +142,7 @@ body {
 
 .second-section div > article {
 	height: auto;
-	background-color: var(--black);
+	background: var(--club-penguin-blue);
 	border-radius: 20px;
 	opacity: 90%;
 	margin: 2rem;
@@ -213,7 +191,7 @@ body {
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 0.2rem;
-    border-color: var(--black);
+    border-color: var(--ice-blue);
 	opacity: 80%;
 }
 
@@ -227,7 +205,7 @@ body {
 .third-section .third-section--other-skills div {
 	height: auto;
 	max-width: 250px;
-	background-color: var(--black);
+	background: var(--club-penguin-blue);
 	border-radius: 20px;
 	opacity: 90%;
 	margin: 2rem 10%;
@@ -263,11 +241,11 @@ body {
 }
 
 .fourth-section--description hr {
-	border-color: var(--black);
+	border-color: var(--ice-blue);
 	margin: 1rem 0rem;
     border-style: solid;
     border-radius: 10px;
-    border-width: 0.2rem;
+    border-width: 0.1rem;
 	opacity: 80%;
 }
 

@@ -1,0 +1,25 @@
+:root {
+	--saturate-pink: #FF00FC;
+	--off-white: #FAFAFA;
+	--black: #1C1C1C;
+	--deep-blue: #2B3595;
+	--sweet-purple: #7045AF;
+	--cake-red: #E94560;
+	--low-red: #7B113A;
+	--club-penguin-blue: #16213E; 
+	--polar-blue: #0F3460;
+	--cold-water: #8FD6E1;
+	--ice-blue: #1597BB;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Nunito', sans-serif; 
+	scroll-behavior: smooth;
+}
