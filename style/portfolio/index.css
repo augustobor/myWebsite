@@ -1,13 +1,16 @@
 
 :root {
-	--stronger-blue: #0019EF;
-    --cool-cyan: #019EFF;
-	--dark-red: #9E1616;
-    --saturate-pink: #FF00FC;
-    --nice-lavanda: #B549FF;
+	--saturate-pink: #FF00FC;
+	--off-white: #FAFAFA;
 	--black: #1C1C1C;
-    --soft-black: #413F3F;
-	--off-white:#FAFAFA;
+	--deep-blue: #2B3595;
+	--sweet-purple: #7045AF;
+	--cake-red: #E94560;
+	--low-red: #7B113A;
+	--club-penguin-blue: #16213E; 
+	--polar-blue: #0F3460;
+	--cold-water: #8FD6E1;
+	--ice-blue: #1597BB;
 }
 
 * {
@@ -80,7 +83,7 @@ header video {
 
 
 .menu-mobile li a:hover {
-	color: var(--saturate-pink);
+	color: var(--cake-red);
 } 
 
 .activate {
@@ -95,7 +98,7 @@ header video {
 
 
 body {
-	background: linear-gradient(0deg, var(--cool-cyan) 16.69%, var(--dark-red) 100%);
+	background: linear-gradient(0deg, var(--low-red) 16.69%, var(--deep-blue) 100%);
     color: var(--off-white);
 }
 
@@ -122,7 +125,8 @@ hr {
 }
 
 .portfolio-description hr {
-    border-color: var(--black); 
+	border-width: 0.2rem;
+    border-color: var(--ice-blue); 
 }
 
 .portfolio-frontend {
@@ -132,7 +136,9 @@ hr {
 }
 
 .portfolio-frontend hr {
-    border-color: var(--dark-red);
+	border-width: 0.2rem;
+    border-color: var(--cold-water);
+	margin: 0 10%;
 }
 
 
@@ -148,7 +154,7 @@ div {
 div > article {
 	height: 40%;
 	max-width: 320px;
-	background: linear-gradient(135deg, var(--black) 16.69%, var(--dark-red) 100%);
+	background: linear-gradient(135deg, var(--low-red) 16.69%, var(--cake-red) 100%);
 	border-radius: 10px;
 	opacity: 95%;
 	margin: 1rem 10%;
@@ -164,8 +170,6 @@ a > img:hover {
 a > img {
     width: 90%;
 	height: 90%;
-	border-style: solid;
-	border-color: var(--black);
 	border-radius: 10px;
 	margin: 5%;
 	transform: scale(1);

@@ -11,8 +11,8 @@ menuIcon.addEventListener('click', (e) => {
     const route = e.target.getAttribute('src');
 
     if(route == "../imgs/main/mobile/hamburger-icon.png") {
-        e.target.setAttribute('src', "../imgs/main/mobile/hamburger-icon-2.png")
+        e.target.setAttribute('src', "../imgs/main/mobile/hamburger-icon-2.webp")
     } else {
-        e.target.setAttribute('src', "../imgs/main/mobile/hamburger-icon.png")
+        e.target.setAttribute('src', "../imgs/main/mobile/hamburger-icon.webp")
     }
 })

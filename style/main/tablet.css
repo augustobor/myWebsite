@@ -6,7 +6,7 @@
 
 .menu-desktop {
     display: block;
-    background-color: var(--soft-black);
+    background-color: var(--black);
 }
 
 .menu-desktop ul {
@@ -23,8 +23,8 @@
 }
 
 .menu-desktop li a:hover {
-	color: var(--saturate-pink);
-}
+	color: var(--cake-red);
+} 
 
 .menu-desktop li a {
 	text-decoration: none;

@@ -1,13 +1,16 @@
 
 :root {
-	--stronger-blue: #0019EF;
-    --cool-cyan: #019EFF;
-	--dark-red: #9E1616;
-    --saturate-pink: #FF00FC;
-    --nice-lavanda: #B549FF;
+	--saturate-pink: #FF00FC;
+	--off-white: #FAFAFA;
 	--black: #1C1C1C;
-    --soft-black: #413F3F;
-	--off-white:#FAFAFA;
+	--deep-blue: #2B3595;
+	--sweet-purple: #7045AF;
+	--cake-red: #E94560;
+	--low-red: #7B113A;
+	--club-penguin-blue: #16213E; 
+	--polar-blue: #0F3460;
+	--cold-water: #8FD6E1;
+	--ice-blue: #1597BB;
 }
 
 * {
@@ -29,7 +32,6 @@ header {
 }
 
 header img {
-	/* transform: scale(1.1); */
 	width: 100%;
 }
 
@@ -81,7 +83,7 @@ header img {
 
 
 .menu-mobile li a:hover {
-	color: var(--saturate-pink);
+	color: var(--cake-red);
 } 
 
 .activate {
@@ -96,7 +98,7 @@ header img {
 /*profile*/
 
 .website-profile {
-	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--soft-black) 100%);
+	background: linear-gradient(0deg, var(--deep-blue) 16.69%, var(--black) 100%);
 	padding: 3%;
 	padding-top: 4rem;
 	text-align: center;
@@ -109,8 +111,8 @@ header img {
 .website-profile .website-profile--article {
 	height: auto;
 	background-color: var(--black);
-	border-radius: 10px;
-	opacity: 90%;
+	border-radius: 20px;
+	opacity: 70%;
 	margin: 5rem 15%;
 	padding: 3% 2%;
 }
@@ -129,7 +131,7 @@ header img {
 /*portfolio*/
 
 .website-portfolio {
-	background: linear-gradient(0deg, var(--cool-cyan) 16.69%, var(--dark-red) 100%);
+	background: linear-gradient(0deg, var(--low-red) 16.69%, var(--deep-blue) 100%);
 	padding: 3%;
 	text-align: center;
 }
@@ -164,14 +166,9 @@ header img {
 	opacity: 80%;
 }
 
-.website-portfolio > article:nth-child(1) hr, .website-portfolio > article:nth-child(2) hr {
-	border-color: var(--black);
+.website-portfolio hr {
+	border-color: var(--cake-red);
 }
-
-.website-portfolio > article:nth-last-child(3) hr {
-	border-color: var(--nice-lavanda);
-}
-
 
 
 .website-portfolio--portfolio {
@@ -185,7 +182,7 @@ header img {
 	height: 40%;
 	max-width: 520px;
 	display: inline-block;
-	background-color: var(--black);
+	background: transparent;
 	border-radius: 10px;
 	opacity: 95%;
 	margin: 1rem 10%;
@@ -201,7 +198,7 @@ header img {
 	width: 90%;
 	height: 90%;
 	border-style: solid;
-	border-color: var(--soft-black);
+	border-width: 0.2rem;
 	border-radius: 10px;
 	margin: 5%;
 }
@@ -210,7 +207,7 @@ header img {
 .website-portfolio--high--button {
 	position: relative;
 	text-decoration: none;
-	background: linear-gradient(0deg, var(--dark-red) 16.69%, var(--black) 100%);
+	background: linear-gradient(0deg, var(--low-red) 16.69%, var(--cake-red) 100%);
 	border-radius: 3px;
 	font-family: 'Inconsolata', monospace;
 	color: var(--off-white);
@@ -225,6 +222,10 @@ header img {
 	transform: scale(1.2);
 	opacity: 0.9;
 	transition: all 200ms linear;
+}
+
+.website-portfolio--high--button:active  {
+	background-color: var(--low-red);
 }
 
 
@@ -260,7 +261,7 @@ header img {
 
 .website-posts {
 	height: auto;
-	background: linear-gradient(0deg, var(--nice-lavanda) 16.69%, var(--cool-cyan) 100%);
+	background: linear-gradient(0deg, var(--club-penguin-blue) 16.69%, var(--low-red) 100%);
 }
 
 
@@ -277,7 +278,7 @@ header img {
 
 .website-posts--description hr {
 	border-style: solid;
-	border-color: var(--stronger-blue);
+	border-color: var(--deep-blue);
 	border-width: 0.2rem;
 	border-radius: 5px;
 	margin-bottom: 3rem;
@@ -291,7 +292,7 @@ header img {
 
 .website-contact {
 	height: auto;
-	background: linear-gradient(0deg, var(--black) 16.69%, var(--nice-lavanda) 100%);
+	background: linear-gradient(0deg, var(--black) 16.69%, var(--club-penguin-blue) 100%);
 	text-align: center;
 }
 
@@ -307,8 +308,8 @@ header img {
 	color: var(--off-white);
 	font-size: large;
 	border-style: solid;
-	border-color: var(--stronger-blue);
-	border-width: 0.2rem;
+	border-color: var(--polar-blue);
+	border-width: 0.3rem;
 	border-radius: 4px;
 	padding: 3%;
 	opacity: 95%;
@@ -316,7 +317,7 @@ header img {
 }
 
 .website-contact--button:hover {
-	background-color: var(--stronger-blue);
+	background-color: var(--polar-blue);
 	transition: all 200ms linear;
 }
 
