@@ -1,34 +1,9 @@
 /*Menu*/
+@import url('../config/menu-desktop.css');
+
 
 .menu-mobile {
     display: none;
-}
-
-.menu-desktop {
-    padding-top: 10rem;
-    display: block;
-}
-
-.menu-desktop ul {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	font-size: 2.6rem;
-	list-style: none;
-}
-
-
-.menu-desktop li {
-	padding: 3%;
-}
-
-.menu-desktop li a:hover {
-	color: var(--cake-red);
-} 
-
-.menu-desktop li a {
-	text-decoration: none;
-	color: var(--off-white)
 }
 
 

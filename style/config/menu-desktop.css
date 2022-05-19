@@ -1,0 +1,27 @@
+
+.menu-desktop {
+    display: block;
+    background-color: transparent;
+}
+
+.menu-desktop ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 3rem;
+	list-style: none;
+}
+
+
+.menu-desktop li {
+	padding: 3%;
+}
+
+.menu-desktop li a:hover {
+	color: var(--cake-red);
+} 
+
+.menu-desktop li a {
+	text-decoration: none;
+	color: var(--off-white)
+}
