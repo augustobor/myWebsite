@@ -10,7 +10,18 @@
 	--polar-blue: #0F3460;
 	--cold-water: #8FD6E1;
 	--ice-blue: #1597BB;
-}
+
+	--dark-blue: #1B262C;
+	--blue-sky: #3282B8;
+	--purple-rain: #45056E;
+	--cherry-red: #951556;
+	--blue-sea: #0F4C75;
+	--extra-light-blue: #BBE1FA;
+	--just-black: #1C1C1C;
+	--soft-black: #272A2E;
+	--neo-green: #03DAC6;
+	--saturate-pink: #F605FC;
+}	
 
 * {
 	box-sizing: border-box;
