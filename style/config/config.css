@@ -1,6 +1,5 @@
 :root {
 	--saturate-pink: #FF00FC;
-	--off-white: #FAFAFA;
 	--black: #1C1C1C;
 	--deep-blue: #2B3595;
 	--sweet-purple: #7045AF;
@@ -21,6 +20,7 @@
 	--soft-black: #272A2E;
 	--neo-green: #03DAC6;
 	--saturate-pink: #F605FC;
+	--off-white: #FAFAFA;
 }	
 
 * {

@@ -94,15 +94,6 @@
     border-width: 0.5rem;
 }
 
-.twitter-image, .linkedin-image {
-    margin-bottom: 0.2rem;
-    transform: scale(1.2);
-}
-
-.github-image {
-    transform: scale(0.4);
-}
-
 .website-contact--logos article a img:hover {
     transform: scale(1.5);
 }

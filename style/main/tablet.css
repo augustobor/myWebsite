@@ -7,7 +7,7 @@
 
 .menu-desktop {
     display: block;
-    background-color: var(--black);
+    background-color: var(--soft-black);
 }
 
 
@@ -19,20 +19,14 @@
 }
 
 .website-profile > div .website-profile--article p, .website-portfolio p {
-    font-size: 3rem;
+    font-size: 2rem;
 }
     
 
 /*Portfolio*/
 
-.website-portfolio > article:nth-child(1), .website-portfolio > article:nth-child(2) {
-    margin-top: 1rem;
-    margin-bottom: 15rem;
-}
-
-.website-portfolio > article:nth-child(1) hr, .website-portfolio > article:nth-child(2) hr {
-    margin-top: 2rem;
-    border-width: 0.4rem;
+.website-portfolio > article {
+    margin-top: 10rem;
 }
 
 .website-portfolio--high {
@@ -40,36 +34,36 @@
     margin: 3rem;
 }
 
-.website-portfolio--high p {
-    font-size: xx-large;
-}
-
-.website-portfolio > article:nth-last-child(3) {
-    margin: 2rem 10%;
-}
-
-.website-portfolio > article:nth-last-child(3) p {
-    font-size: 2.5rem;
-}
-
-.website-portfolio > article:nth-last-child(3) hr {
-    margin-top: 1.5rem;
-    border-width: 0.4rem;
-} 
-
-.website-portfolio > p {
-    margin-top: 10rem;
-    font-size: xx-large;
-    margin-bottom: 5rem;
+.website-portfolio p {
+	font-size: 2rem;
 }
 
 
-.website-portfolio--high--button {
-    font-size: xx-large;
+.website-portfolio--high h2 {
+	font-size: x-large;
+	font-weight: bold;
+    margin-left: 1.1rem;
+}
+
+.website-portfolio--high h3 {
+	font-size: large;
+    margin-left: 1.1rem;
+}
+
+.website-portfolio--high div {
+	margin-bottom: 2rem;
+}
+
+div > img {
+	transform: scale(1.8);
+}
+
+.website-portfolio--high a {
+    font-size: x-large;
 }
 
 .website-portfolio--button, .website-contact--button {
-    font-size: xx-large;
+    font-size: x-large;
     border-width: 0.3rem;
 }
 
@@ -80,22 +74,16 @@
 
 /*Contact*/
 
-
-.github-image {
-    transform: scale(0.4);
-    width: 90%;
-}
-
-.website-contact--logos article a .github-image:hover  {
-    transform: scale(0.5);
-}
-
 .website-contact > p {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-top: 10rem;
     margin-bottom: 1rem;
 }
 
 .website-contact--logos {
-    margin-top: 3rem;
+    margin-top: 10rem;
+}
+
+.website-contact--logos article a {
+	transform: scale(3.2);
 }

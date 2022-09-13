@@ -93,18 +93,6 @@
     margin-top: 20rem;
 }
 
-.twitter-image, .linkedin-image {
-    width: 150%;
-    height: 150%;
-    margin-bottom: 2rem;
-}
-
-.github-image {
-    transform: scale(0.6);
-    
-}
-
-
 .website-contact--logos article {
 	font-size: 6rem;
     margin: 0rem 10%;
