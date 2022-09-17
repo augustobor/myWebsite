@@ -11,51 +11,34 @@
 
 
 
-.website-profile .website-profile--article p {
+.website-profile--article p {
     font-size: 2rem;
 }
 
-.website-profile--article , .website-portfolio p {
+.website-portfolio p {
     font-size: 3rem;
-}
-
-.website-portfolio article:nth-child(1) hr, .website-portfolio article:nth-child(2) hr, .website-portfolio article:nth-last-child(3) hr
-, .website-posts--description hr {
-    border-width: 0.3rem;
-    margin-bottom: 20rem;
-    opacity: 100%;
-}
-
-.website-portfolio--description1, .website-portfolio--description2 {
-    margin: 25rem 30rem;
 }
 
 
 /*Portfolio*/
 
-
-.website-portfolio > article:nth-child(1) {
-    margin-left: 5rem;
-    margin-right: 60rem;
-    padding-right: 40rem;
-    margin-bottom: 20rem;
+.website-portfolio--portfolio article {
+    flex-direction: row;
 }
 
-.website-portfolio > article:nth-child(2) {
-    margin-right: 5rem;
-    margin-left: 40rem;
-    padding-left: 40rem;
-    margin-bottom: 20rem;
+article > img {
+	width: 20vw;
+	height: 20vw;
 }
 
-.website-portfolio--high {
-    margin: 1rem 3%;
-    padding: 1% 2% 3% 1%;
+.website-portfolio > article {
+    margin: 15rem 35rem
 }
 
 
-.website-portfolio--high p {
-    font-size: 3rem;
+
+.website-portfolio--high h2, .website-portfolio--high h3 {
+    font-size: 4rem;
 }
 
 .website-portfolio--high--button {
@@ -94,10 +77,9 @@
 }
 
 .website-contact--logos article {
-	font-size: 6rem;
     margin: 0rem 10%;
 }
 
-.website-contact--logos article .linkedin-button {
-	font-size: 2.5rem;
+.website-contact--logos article a {
+	transform: scale(5);
 }
