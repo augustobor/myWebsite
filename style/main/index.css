@@ -38,8 +38,13 @@ body {
 }
 
 
-.website-profile > div, .website-profile--mobile, .website-profile--desktop {
+.website-profile > div, .website-profile-image, .website-profile {
 	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+.website-profile-image {
+	width: 50vw;
+	height: 50vw;
 }
 
 /*portfolio*/

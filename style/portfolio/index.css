@@ -7,11 +7,6 @@ header {
 	background-color: var(--black);
 }
 
-header video {
-    zoom: 0.1;
-	width: 100%;
-}
-
 
 /*Menu*/
 
@@ -20,7 +15,7 @@ header video {
 }
 
 body {
-	background: linear-gradient(0deg, var(--low-red) 16.69%, var(--deep-blue) 100%);
+	background: linear-gradient(0deg, var(--blue-sea) 16.69%, var(--just-black) 100%);
     color: var(--off-white);
 }
 
@@ -29,11 +24,11 @@ body > p {
     font-size: x-large;
     text-align: center;
     margin: 3%;
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 
 .portfolio-description {
-    margin: 9rem 10%;
+    margin: 9rem 6%;
     text-align: center;
     font-size: medium;
 }
@@ -41,15 +36,10 @@ body > p {
 hr {
     border-style: solid;
     border-width: 0.2rem;
-    opacity: 80%;
     margin-top: 1rem;
-    border-radius: 10px;
+    border-color: var(--neo-green); 
 }
 
-.portfolio-description hr {
-	border-width: 0.2rem;
-    border-color: var(--ice-blue); 
-}
 
 .portfolio-frontend {
     margin: 9rem 10%;
@@ -66,48 +56,62 @@ hr {
 
 /*Portfolio*/
 
-div {
+section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 	padding: 1%;
 }
 
-div > article {
-	height: 40%;
+section > article {
+    position: relative;
+	height: auto;
 	max-width: 320px;
-	background: linear-gradient(135deg, var(--low-red) 16.69%, var(--cake-red) 100%);
-	border-radius: 10px;
-	opacity: 95%;
+	background-color: transparent;
 	margin: 1rem 10%;
-	padding: 1%;
+	padding: 3%;
+    margin-bottom: 2rem;
 }
+
+article > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4%;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--just-black);
+    transition: all 100ms linear;
+    opacity: 0;
+}
+
+article > div:hover {
+    opacity: 0.8;
+    transition: all 100ms linear;
+    transform:scale(1.05);
+}
+
+div > h3 {
+    font-size: large;
+    color: var(--neo-green);
+    margin-bottom: 2rem;
+}
+
+div > p {
+    font-size: small;
+    color: var(--neo-green);
+}
+
 
 a > img:hover {
 	transform: scale(1.05);
-	opacity: 0.9;
+	opacity: 0.5;
 	transition: all 200ms linear;
 }
 
 a > img {
-    width: 90%;
-	height: 90%;
-	border-radius: 10px;
-	margin: 5%;
-	transform: scale(1);
-	opacity: 0.9;
+    width: 100%;
+    border-radius: 4px;
 	transition: all 200ms linear;
-}
-
-
-div > article p:nth-child(1) {
-    text-align: center;
-    font-size: xx-large;
-    padding: 5%;
-}
-
-div > article a + p {
-    text-align: left;
-    padding: 2%;
-    font-size: small;
 }

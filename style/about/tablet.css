@@ -10,36 +10,36 @@
 /*first section*/
 
 
-.first-section > p {
-    font-size: 6rem;
-    margin-bottom: 10rem;
+.first-section article p {
+    font-size: medium;
 }
 
-
-.first-section div article, .first-section article  {
-    font-size: 2rem;
+.first-section article {
+    height: 300px;
 }
-
-.first-section article hr {
-	border-width: 0.3rem;
-}
-
-
 
 /*Second section*/
 
-
-.second-section div > article {
-	padding: 6%;    
-    max-width: 260px;
+.second-section ul {
+    width: 90%;
+    margin: 5%;
+    grid-template-columns: 30vw 30vw;
 }
 
+
+.second-section li {
+	font-size: large;
+}
+
+.second-section img {
+	transform: scale(2.5);
+    margin-right: 30px;
+}
 
 /*Third section*/
 
 .third-section article {
 	font-size: 4rem;
-    margin-top: 10rem;
 }
 
 .third-section article hr {
@@ -49,17 +49,18 @@
 }
 
 
-.third-section .third-section--other-skills div {
-	height: auto;
-    margin: 2rem 3%;
-	padding: 4%;
-    transform: scale(1.1);
+.third-section .third-section--other-skills {
+	justify-content: center;
+	grid-template-columns: 30vw 30vw;
 }
 
-.third-section .third-section--other-skills div img {
-    transform: scale(1.1);
+.third-section--other-skills div img {
+	transform: scale(2.5);
 }
 
+.third-section--other-skills div p {
+	font-size: x-large;
+}
 
 /*Fourth section*/
 
