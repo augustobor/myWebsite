@@ -1,7 +1,7 @@
 /*Menu*/
 
 .menu-desktop {
-    padding-top: 20rem;
+    padding-top: 2rem;
 }
 
 .menu-desktop ul {
@@ -10,28 +10,26 @@
 
 /*First section*/
 
-.first-section > p {
-    font-size: 8rem;
+.first-section > img {
+	width: 20vw;
+	height: 20vw;
 }
 
-.first-section div article, .first-section article  {
-    font-size: 3rem;
+.first-section article p {
+    font-size: large;
 }
-
-.first-section article hr {
-	border-width: 0.5rem;
-}
-
 
 /*Second section*/
 
-
-.second-section {
-    margin: 0% 20%;
-    padding-top: 15rem;
-    padding-bottom: 20rem;
-    transform: scale(1.5);
+.second-section ul {
+    grid-template-columns: 25vw 25vw;
 }
+
+.second-section li {
+	font-size: x-large;
+    justify-content: left;
+}
+
 
 /*Third section*/
 
@@ -41,16 +39,16 @@
 }
 
 .third-section article hr {
-	border-width: 0.1rem;
+	border-width: 1rem;
 }
 
-.third-section .third-section--other-skills div {
+.third-section .third-section--other-skills {
     padding: 3%;
 }
 
 .third-section .third-section--other-skills div img {
-    transform: scale(1.1);
-}
+    transform: scale(3);
+}   
 
 /*Fourth section*/
 

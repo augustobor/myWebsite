@@ -33,6 +33,14 @@
 
 /*Portfolio*/
 
+.website-portfolio--portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 3rem;
+    padding: 1rem;
+}
+
 
 .website-portfolio--high h2,.website-portfolio--high h3 {
     font-size: xx-large;
@@ -47,6 +55,11 @@
 .website-portfolio--button {
     border-width: 0.6rem;
     font-size: 4rem;
+}
+
+article > img {
+	width: 30vw;
+	height: 30vw;
 }
 
 div > img {

@@ -25,6 +25,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3rem;
+	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
 }
 
 
@@ -60,32 +61,36 @@ body {
 /*Second section*/
 
 .second-section {
-	margin: 0% 10%;
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	width: auto;
 }
 
 .second-section ul {
 	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	display: grid;
+	height: 30vh;
+	grid-template-columns: 50vw 50vw;
+	grid-template-rows: auto;
+	justify-content: center;
 	overflow: hidden;
+	scroll-behavior: auto;
+	margin-top: 5rem;
+	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
 }
 
 .second-section li {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: last baseline;
 	color: var(--off-white);
 	font-size: medium;
 	font-weight: bold;
+	margin: 0 1rem;
 }
 
 .second-section img {
-	transform: scale(0.5);
+	transform: scale(2);
+	margin: 0 1rem;
 }
 
 /*Third section*/
@@ -96,7 +101,7 @@ body {
 	font-size: 2.8rem;
 	padding-left: 2%;
 	text-align: center;
-	padding-top: 10rem;
+	padding-top: 5rem;
 	padding-right: 2%;
 }
 
@@ -110,18 +115,18 @@ body {
 }
 
 .third-section .third-section--other-skills {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: grid;
+	height: auto;
+	justify-content: space-between;
+	grid-template-columns: 50vw 50vw;
+	grid-template-rows: auto;
 }
 
 
 .third-section .third-section--other-skills div {
 	height: auto;
-	max-width: 250px;
 	background: transparent;
-	opacity: 90%;
-	margin: 2rem 10%;
+	margin: 2%;
 	padding: 6%;
 	color: var(--off-white);
 	display: flex;
@@ -129,12 +134,13 @@ body {
 }
 
 .third-section--other-skills div img {
-	width: 40%;
+	transform: scale(2);
+	margin: 0 0.8rem;
 }
 
 .third-section--other-skills div p {
 	color: var(--off-white);
-	font-size: 2.5rem;
+	font-size: 2rem;
 	margin: 5%;
 	text-align: center;
 }

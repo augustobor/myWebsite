@@ -1,7 +1,7 @@
 /*Menu*/
 
 .menu-desktop {
-    padding-top: 20rem;
+    padding-top: 2rem;
 }
 
 .menu-desktop ul {
@@ -12,11 +12,10 @@
 body > p {
     font-size: 6rem;
     margin: 3%;
-    margin-top: 25rem;
 }
 
 .portfolio-description {
-    margin: 20rem 30%;
+    margin: 8rem 30%;
     font-size: xx-large;
 }
 
@@ -26,19 +25,18 @@ body > p {
     font-size: 7rem;
 }
 
-
 /*Portfolio*/
 
-
-div > article {
-    max-width: 400px;
+section {
+    margin: 0 15%;
 }
 
-
-div > article p:nth-child(1) {
-    font-size: 5rem;
+section > article {
+    width: 90%;
+    height: 90%;
 }
 
-div > article a + p {
-    font-size: large;
+div > h3 {
+    font-size: x-large;
+    margin-bottom: 2rem;
 }
