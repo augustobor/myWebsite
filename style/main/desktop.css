@@ -31,6 +31,12 @@
     font-size: x-large;
 }
 
+.cv-button {
+    width: 30%;
+	margin: 0 35%;
+    margin-bottom: 30rem;
+	font-size: 5rem;
+}
 
 /*Portfolio*/
 

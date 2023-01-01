@@ -47,6 +47,31 @@ body {
 	height: 50vw;
 }
 
+
+.cv-button {
+	display: block;
+	width: 50%;
+	margin: 0 25%;
+	padding: 4%;
+    background-color: var(--purple-rain);
+	color: var(--off-white);
+	border-radius: 12px;
+	font-size: large;
+    text-decoration: none;
+	transition: all 100ms ease-in;
+}
+
+.cv-button:hover {
+	background-color: var(--saturate-pink);
+	transition: all 100ms ease-in;
+}
+
+.cv-button:active {
+	background-color: var(--off-white);
+	color: var(--just-black);
+}
+
+
 /*portfolio*/
 
 .website-portfolio {
