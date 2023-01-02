@@ -1,2 +1,1 @@
-# myWebsite
-My professional website
+# Welcome to my website repo! 😉
