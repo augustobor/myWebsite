@@ -13,7 +13,7 @@
 
 
 body {
-    background: linear-gradient(0deg, var(--cherry-red) 16.69%, var(--soft-black) 100%);
+    background-color: var(--soft-black);
     height: auto;
 }
 
@@ -32,7 +32,7 @@ body {
 .first-section div {
     display: flex;
     justify-content: space-between;
-    margin: 0 2%;
+    margin: 5% 2%;
 	align-items: center;
 }
 
@@ -42,7 +42,7 @@ body {
 	padding: 2%;
 	border-radius: 4px;
 	width: 45vw;
-	height: auto
+	height: 300px
 }
 
 .first-section article p {
@@ -66,6 +66,7 @@ body {
 
 .second-section ul {
 	list-style: none;
+	margin-left: 4rem;
 	display: grid;
 	height: 30vh;
 	grid-template-columns: 50vw 50vw;

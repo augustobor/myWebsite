@@ -10,7 +10,7 @@
 }
 
 body {
-	background: linear-gradient(0deg, var(--purple-rain) 16.69%, var(--black) 100%);
+	background-color: var(--soft-black);
     height: auto;
 }
 
@@ -54,7 +54,7 @@ form input {
 	margin: 3% 10%;
 	padding: 2%;
 	border-style: solid;
-	border-color: var(--saturate-pink);
+	border-color: var(--off-white);
 	opacity: 0.8;
 	border-width: 0.2rem;
 	background-color: transparent;
@@ -80,7 +80,7 @@ form #contact--message {
 	margin: 3% 10%;
 	padding: 2%;
 	border-style: solid;
-	border-color: var(--saturate-pink);
+	border-color: var(--off-white);
 	opacity: 0.8;
 	border-width: 0.2rem;
 	background-color: transparent;
@@ -93,8 +93,9 @@ form #contact--message {
 form button {
 	margin: 5% 30%;
 	padding: 4%;
-	background-color: var(--saturate-pink);
-	color: var(--off-white);
+	background-color: var(--off-white);
+	color: var(--just-black);
+	font-weight: bold;
 	border-style: none;
 }
 

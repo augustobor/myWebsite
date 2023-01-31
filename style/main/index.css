@@ -22,7 +22,7 @@ body {
 	display: none;
 }
 
-.website-profile .website-profile--article {
+.website-profile--article {
 	height: auto;
 	border-radius: 20px;
 	box-shadow: 4px 4px 2px var(--just-black);
@@ -30,7 +30,7 @@ body {
 	padding: 2%;
 }
 
-.website-profile .website-profile--article p {
+.website-profile--article p {
 	color: var(--off-white);
 	font-weight: bold;
 	font-size: medium;
@@ -53,16 +53,32 @@ body {
 	width: 50%;
 	margin: 0 25%;
 	padding: 4%;
-    background-color: var(--purple-rain);
+	border-style: solid;
+	border-width: 0.3rem;
+    border-color: var(--purple-rain);
 	color: var(--off-white);
-	border-radius: 12px;
+	border-radius: 6px;
 	font-size: large;
     text-decoration: none;
 	transition: all 100ms ease-in;
 }
 
+.cv-button::after {
+	content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: var(--purple-rain);
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+}
+
 .cv-button:hover {
-	background-color: var(--saturate-pink);
+	background-color: var(--purple-rain);
 	transition: all 100ms ease-in;
 }
 
@@ -85,13 +101,8 @@ body {
 	font-weight: bolder;
 }
 
-.website-portfolio > article {
-	margin: 0% 15%;
-	margin-bottom: 5rem;
-}
-
 .website-portfolio article hr {
-	border-color: var(--cherry-red);
+	border-color: var(--purple-rain);
 	margin: 1rem 0rem;
 	border-style: solid;
 	border-radius: 4px;
@@ -135,6 +146,9 @@ article > img {
 	width: 35vw;
 	height: 35vw;
 	border-radius: 50%;
+	border-style: solid;
+	border-width: 0.3rem;
+	border-color: var(--just-black);
 }
 
 .website-portfolio--high h3 {
