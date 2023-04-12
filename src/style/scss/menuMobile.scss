@@ -1,0 +1,56 @@
+
+@import 'style.config';
+
+.menuMobile {
+	width: 100%;
+	height: auto;
+	position:fixed;
+	top: 0;
+	left: 0;
+	transition: all .5s ease;
+	z-index: 1;
+}
+
+.menuMobile img {
+	cursor: pointer;
+	vertical-align: top;
+	width: 15%;
+	transform: scale(1.5);
+	height: auto;
+	margin: 1.2rem;
+}
+
+.menuMobile ul {
+	background-color: $just-black;
+	padding: 10% 20% 2% 0%;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .5s ease;
+	z-index: -1;
+}
+
+.menuMobile li, .menuMobile p {
+	text-decoration: none;
+	padding: 6% 20%;
+	margin: 3rem 0;
+	color: $off-white;
+	display: block;
+	font-size: xx-large;
+	cursor: pointer;
+}
+
+
+.menuMobile li:hover {
+	color: $cherry-red;
+} 
+
+.activate {
+	transform: translate(-600px);
+}
+
+.opacity {
+	background-color: $soft-black;
+	transition: .5s ease;
+}
