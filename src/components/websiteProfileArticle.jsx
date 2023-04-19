@@ -1,16 +1,17 @@
 import React from 'react'
 
-import style from '../style/css/websiteProfileArticle'
+import style from '@styles/css/websiteProfileArticle.css'
 
-const WebsiteProfileArticle = () => {
+const websiteProfileArticle = ({ text }) => {
 
     return (
         
         <article className={style.website_profile__articile}>
             <p>
-                    I'm Augusto, Full-Stack Dev. 
-                    I work in frontend projects
+                {text}
             </p>
         </article>
     )
 }
+
+export default websiteProfileArticle

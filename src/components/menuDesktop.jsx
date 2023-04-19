@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '../style/css/menuDesktop'
+import style from '@styles/css/menuDesktop.css'
 
 const MenuDesktop = () => {
 

@@ -5,7 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinizerPlugin = require('css-minimizer-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const  { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -15,12 +16,14 @@ module.exports = {
         assetModuleFilename: 'assets/[hash][ext][query]',
         publicPath: "/"
     },
-    mode: 'development',
+    mode: 'production',
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
+            '@pages': path.resolve(__dirname, 'src/pages'),
             '@components': path.resolve(__dirname, 'src/components'),
-            '@styles': path.resolve(__dirname, 'src/style')
+            '@styles': path.resolve(__dirname, 'src/style'),
+            '@assets': path.resolve(__dirname, 'src/assets'),
         },
     },
     module: {
@@ -46,7 +49,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.svg/,
+                test: /\.(svg|webp|pdf)/,
                 type: 'asset/resource'
             },
             {
@@ -68,14 +71,7 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
 
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from: path.resolve(__dirname,'src','assets'),
-                    to: "assets"
-                }
-            ]
-        }),
+        new ImageminWebpWebpackPlugin()
     ],
     optimization: {
         minimize: true,
@@ -83,5 +79,17 @@ module.exports = {
             new CssMinizerPlugin(),
             new TerserPlugin()
         ]
+    },
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
+    devServer: {
+        static: path.join(__dirname, 'dist'),
+        historyApiFallback: true,
+        compress: true,
+        open: true,
+        port: 3006
     }
 }

@@ -2,8 +2,8 @@ const path = require('path')
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
 
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -18,7 +18,8 @@ module.exports = {
         alias: {
             '@pages': path.resolve(__dirname, 'src/pages'),
             '@components': path.resolve(__dirname, 'src/components'),
-            '@styles': path.resolve(__dirname, 'src/style')
+            '@styles': path.resolve(__dirname, 'src/style'),
+            '@assets': path.resolve(__dirname, 'src/assets'),
         },
     },
     module: {
@@ -37,14 +38,15 @@ module.exports = {
                 ]
             },
             {
-                test: /\.css|.s[ac]ss$/,
+                test: /\.(css|s[ac]ss)/,
                 use: [
-                  'css-loader',
-                  'sass-loader',
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader',
                 ]
             },
             {
-                test: /\.svg/,
+                test: /\.(svg|webp|pdf)/,
                 type: 'asset/resource'
             },
             {
@@ -64,15 +66,13 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].css'
         }),
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from: path.resolve(__dirname,'src','assets'),
-                    to: "assets"
-                }
-            ]
-        }),
+        new ImageminWebpWebpackPlugin()
     ],
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     devServer: {
         static: path.join(__dirname, 'dist'),
         historyApiFallback: true,

@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import style from '../style/css/menuMobile'
+import hamburguerMenu from '@assets/bx-menu.svg'
+
+import style from '@styles/css/menuMobile.css'
 
 const MenuPhone = () => {
     
@@ -9,7 +11,7 @@ const MenuPhone = () => {
 
     return (
         <menu className={style.menuMobile}>
-        <img id="menuIcon" src="/assets/bx-menu.svg" onClick={() => {setMenu(!menu)}} alt="hamburger-icon" />
+        <img id="menuIcon" src={hamburguerMenu} onClick={() => {setMenu(!menu)}} alt="hamburger-icon" />
         <ul className={menu ? style.activate : style.opacity} id="menu-content">
             <p><u>Menú</u></p>
             <li>
