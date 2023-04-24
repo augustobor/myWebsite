@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@style/css/contactFirstSection'
+import style from '@styles/css/contactFirstSection.css'
 
 const contactFirstSection = () => {
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 import ProfileAbout from '@assets/profile-about.webp'
 
-import style from '@style/css/aboutFirstSection'
+import style from '@styles/css/aboutFirstSection.css'
 
 const aboutFirstSection = () => {
     
@@ -18,7 +18,7 @@ const aboutFirstSection = () => {
         </article>
     ))
 
-    render (
+    return (
         <section className={style.firstSection}>
             <img src={ProfileAbout} alt="second-profile-photo"/>
             <div>

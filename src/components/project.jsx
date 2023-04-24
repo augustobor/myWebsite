@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import style from '@style/css/project';
+import style from '@styles/css/project.css';
  
 const project = ({ link, image, alt, name, description }) => {
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 import OtherSkills from '@components/otherSkills'
 
-import style from '@style/css/aboutThirdSection'
+import style from '@styles/css/aboutThirdSection.css'
 
 const aboutThirdSection = () => {
 

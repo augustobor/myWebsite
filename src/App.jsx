@@ -4,24 +4,21 @@ import Main from '@pages/main'
 import About from '@pages/about'
 import Portfolio from '@pages/portfolio'
 import Contact from '@pages/contact'
-import Layout from './containers/layout.jsx'
-import Menu from './containers/menu.jsx'
-import Footer from './components/footer.jsx'
+import Menu from '@containers/menu.jsx'
+import Footer from '@components/footer.jsx'
 
 const App = () => {
     return (
-        <>
+        <BrowserRouter>
             <Menu />
-            <BrowserRouter>
-                    <Routes>
-                        <Route exact path='/' element={<Main />}/>
-                        <Route exact path='/about' element={<About />}/>
-                        <Route exact path='/portfolio' element={<Portfolio />}/>
-                        <Route exact path='/contact' element={<Contact />}/>
-                    </Routes>
-            </BrowserRouter>
+            <Routes>
+                <Route exact path='/' element={<Main />}/>
+                <Route exact path='/about' element={<About />}/>
+                <Route exact path='/portfolio' element={<Portfolio />}/>
+                <Route exact path='/contact' element={<Contact />}/>
+            </Routes>
             <Footer />
-        </>
+        </BrowserRouter>
     )
 }
 

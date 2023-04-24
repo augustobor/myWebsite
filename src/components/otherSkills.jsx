@@ -1,27 +1,32 @@
 import React from 'react'
 
-import style from '@style/css/otherSkills'
+import sql from '@assets/bxs-data.svg'
+import figma from '@assets/bxl-figma.svg'
+import typescript from '@assets/bxl-typescript.svg'
+import nodejs from '@assets/bxl-nodejs.svg'
+
+import style from '@styles/css/otherSkills.css'
 
 const otherSkills = () => {
 
     const skillsInfo = [
         {
-            image: "/assets/bxs-data.svg",
+            image: sql,
             alt: "DataBase-Logo",
             name: "SQL"
         },
         {
-            image: "/assets/bxl-figma.svg",
+            image: figma,
             alt: "Figma-Logo",
             name: "Figma"
         },
         {
-            image: "/assets/bxs-data.svg",
+            image: typescript,
             alt: "Ts-Logo",
             name: "Typescript"
         },
         {
-            image: "/assets/bxl-nodejs.svg",
+            image: nodejs,
             alt: "Node-Logo",
             name: "Node.js"
         }

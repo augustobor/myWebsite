@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@style/css/portfolio'
+import style from '@styles/css/portfolio.css'
 
 import PortfolioProjects from '@containers/portfolioProjects'
 
@@ -9,7 +9,7 @@ const Portfolio = () => {
         <>
             <p>¡Welcome to my portfolio! </p>
 
-            <article class={style.portfolioDescription}>
+            <article className={style.portfolioDescription}>
                 <p>
                     These are some web projects which I developed 
                 </p>

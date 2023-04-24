@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@style/css/form'
+import style from '@styles/css/form.css'
 
 const form = () => {
 
