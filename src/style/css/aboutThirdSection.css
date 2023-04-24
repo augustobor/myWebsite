@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.thirdSection article {
+  color: #FAFAFA;
+  font-size: 2.8rem;
+  padding-left: 2%;
+  text-align: center;
+  padding-top: 5rem;
+  padding-right: 2%;
+}
+
+.thirdSection article hr {
+  margin: 0.5rem 17%;
+  margin-bottom: 3rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: #121010;
+  opacity: 70%;
+}
+
+.thirdSection .thirdSectionOtherSkills {
+  display: grid;
+  height: auto;
+  justify-content: space-between;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto;
+}
+
+.thirdSection .thirdSectionOtherSkills div {
+  height: auto;
+  background: transparent;
+  margin: 2%;
+  padding: 6%;
+  color: #FAFAFA;
+  display: flex;
+  align-items: center;
+}
+
+.thirdSectionOtherSkills div img {
+  transform: scale(2);
+  margin: 0 0.8rem;
+}
+
+.thirdSectionOtherSkills div p {
+  color: #FAFAFA;
+  font-size: 2rem;
+  margin: 5%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=aboutThirdSection.css.map */

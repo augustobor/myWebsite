@@ -1,0 +1,33 @@
+@import 'style.config';
+
+
+.fourth-section--description {
+	text-align: center;
+	margin: 25% 10%;
+}
+
+.fourth-section--description p {
+	color: $off-white;
+	margin: 3%;
+	font-size: 1.45rem;
+}
+
+.fourth-section--description hr {
+	border-color: $just-black;
+	margin: 1rem 0rem;
+    border-style: solid;
+    border-width: 0.3rem;
+	opacity: 50%;
+}
+
+
+.fourth-section > p {
+	color: $off-white;
+	text-align: center;
+	font-size: x-large;
+	margin: 0 6%;
+}
+
+.fourth-section > .final {
+	margin: 3rem 0;
+}
