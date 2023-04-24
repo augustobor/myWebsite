@@ -1,5 +1,7 @@
 import React from 'react'
 
+import style from '@style/css/about'
+
 import AboutFristSection from '@containers/aboutFirstSection'
 import AboutSecondSection from '@containers/aboutSecondSection'
 import AboutThirdSection from '@containers/aboutThridSection'
