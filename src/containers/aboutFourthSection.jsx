@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@styles/css/aboutFourthSection.css'
+import style from '@styles/css/aboutFourthSection.module.css'
 
 const aboutFourthSection = () => {
 

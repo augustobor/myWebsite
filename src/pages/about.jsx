@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@styles/css/about.css'
+import style from '@styles/css/about.module.css'
 
 import AboutFristSection from '@containers/aboutFirstSection'
 import AboutSecondSection from '@containers/aboutSecondSection'

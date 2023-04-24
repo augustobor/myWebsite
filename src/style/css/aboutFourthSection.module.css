@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.fourth-section--description {
+  text-align: center;
+  margin: 25% 10%;
+}
+
+.fourth-section--description p {
+  color: #FAFAFA;
+  margin: 3%;
+  font-size: 1.45rem;
+}
+
+.fourth-section--description hr {
+  border-color: #121010;
+  margin: 1rem 0rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  opacity: 50%;
+}
+
+.fourth-section > p {
+  color: #FAFAFA;
+  text-align: center;
+  font-size: x-large;
+  margin: 0 6%;
+}
+
+.fourth-section > .final {
+  margin: 3rem 0;
+}
+
+/*# sourceMappingURL=aboutFourthSection.module.css.map */

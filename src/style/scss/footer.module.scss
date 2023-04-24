@@ -1,0 +1,63 @@
+
+@import 'style.config.module';
+/*Contact*/
+
+
+.websiteContact {
+	height: auto;
+	text-align: center;
+}
+
+.websiteContact > p {
+	color: $off-white;
+	font-size: 2.5rem;
+	padding: 10% 0 10% 0%;
+	margin-bottom: 3rem;
+}
+
+.websiteContactButton {
+	text-decoration: none;
+	color: $off-white;
+	font-size: large;
+	border-style: solid;
+	border-color: $neo-green;
+	border-width: 0.3rem;
+	border-radius: 4px;
+	padding: 3%;
+	opacity: 95%;
+	transition: all 200ms linear;
+}
+
+.websiteContactButton:hover {
+	background-color: $neo-green;
+	color: $soft-black;
+	transition: all 200ms linear;
+}
+
+
+.websiteContactLogos {
+	margin-top: 7rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.websiteContactLogos article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0rem 2%;
+}
+
+.websiteContactLogos article a {
+	transform: scale(2.5);
+	text-decoration: none;
+	font-size: medium;
+}
+
+.websiteContactLogos article a img:hover {
+	transform: scale(1.2);
+	transition: transform 200ms linear;
+}

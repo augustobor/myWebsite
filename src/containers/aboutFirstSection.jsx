@@ -2,7 +2,7 @@ import React from 'react'
 
 import ProfileAbout from '@assets/profile-about.webp'
 
-import style from '@styles/css/aboutFirstSection.css'
+import style from '@styles/css/aboutFirstSection.module.css'
 
 const aboutFirstSection = () => {
     

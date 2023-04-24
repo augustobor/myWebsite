@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@styles/css/websitePost.css'
+import style from '@styles/css/websitePost.module.css'
 
 const websitePosts = () => {
 

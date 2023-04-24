@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@styles/css/websiteProfileArticle.css'
+import style from '@styles/css/websiteProfileArticle.module.css'
 
 const websiteProfileArticle = ({ text }) => {
 

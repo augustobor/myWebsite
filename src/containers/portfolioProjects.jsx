@@ -9,7 +9,7 @@ import HomeBanking from '@assets/home-banking.webp';
 import MentesLibres from '@assets/mentes-libres.webp';
 import TODO from '@assets/todo.webp';
 
-import '@styles/css/portfolioProjects.css'
+import '@styles/css/portfolioProjects.module.css'
 
 const portfolioProjects = () => {
 

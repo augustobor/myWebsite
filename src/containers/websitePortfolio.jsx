@@ -2,7 +2,7 @@ import React from 'react'
 
 import WebsitePortfolioPortfolio from '../components/websitePortfolioPortfolio'
 
-import style from '@styles/css/websitePortfolio.css'
+import style from '@styles/css/websitePortfolio.module.css'
 import { useNavigate } from 'react-router-dom'
 
 

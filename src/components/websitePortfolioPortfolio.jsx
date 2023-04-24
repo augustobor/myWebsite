@@ -14,7 +14,7 @@ import php from '@assets/bxl-php.svg'
 import pgsql from '@assets/bxl-postgresql.svg'
 import react from '@assets/bxl-react.svg'
 
-import styles from '@styles/css/websitePortfolioPortfolio.css'
+import styles from '@styles/css/websitePortfolioPortfolio.module.css'
 
 const websitePortfolioPortfolio = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import style from '@styles/css/portfolio.css'
+import style from '@styles/css/portfolio.module.css'
 
 import PortfolioProjects from '@containers/portfolioProjects'
 

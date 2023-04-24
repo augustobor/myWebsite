@@ -1,0 +1,55 @@
+@import 'style.config.module';
+
+.form p {
+	font-size: 3rem;
+	text-align: center;
+	color: $off-white;
+	margin: 6rem 7%;
+	margin-bottom: 3rem;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+form input {
+	margin: 3% 10%;
+	padding: 2%;
+	border-style: solid;
+	border-color: $off-white;
+	opacity: 0.8;
+	border-width: 0.2rem;
+	background-color: transparent;
+	font-size: 1.5rem;
+	color: $off-white;
+}
+
+form input::placeholder, form textarea::placeholder {
+	position: absolute;
+	color: #dbdbdb;
+}
+
+form input p {
+	position: absolute;
+	text-align: left;
+}
+
+
+
+form textarea {
+	height: 200px;
+	margin-bottom: 8rem;
+	margin: 3% 10%;
+	padding: 2%;
+	border-style: solid;
+	border-color: $off-white;
+	opacity: 0.8;
+	border-width: 0.2rem;
+	background-color: transparent;
+	font-size: 1.5rem;
+	font-family: 'Nunito', sans-serif;
+	color: $off-white;
+}

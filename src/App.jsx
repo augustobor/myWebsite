@@ -7,6 +7,8 @@ import Contact from '@pages/contact'
 import Menu from '@containers/menu.jsx'
 import Footer from '@components/footer.jsx'
 
+import '@styles/css/style.config.module.css'
+
 const App = () => {
     return (
         <BrowserRouter>

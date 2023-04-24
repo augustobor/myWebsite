@@ -5,7 +5,7 @@ import figma from '@assets/bxl-figma.svg'
 import typescript from '@assets/bxl-typescript.svg'
 import nodejs from '@assets/bxl-nodejs.svg'
 
-import style from '@styles/css/otherSkills.css'
+import style from '@styles/css/otherSkills.module.css'
 
 const otherSkills = () => {
 
@@ -35,7 +35,7 @@ const otherSkills = () => {
     const skills = skillsInfo.map((info) => (
         <div>
             <img src={info.image} alt={info.alt} />
-            <p>info.name</p>
+            <p>{info.name}</p>
         </div>
     ))
 

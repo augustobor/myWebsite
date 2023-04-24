@@ -1,0 +1,12 @@
+@keyframes loadProfile {
+  0% {
+    transform: translateY(0.6rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-0.5rem);
+    opacity: 100%;
+  }
+}
+
+/*# sourceMappingURL=contact.module.css.map */

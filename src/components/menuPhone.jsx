@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import hamburguerMenu from '@assets/bx-menu.svg'
 
-import style from '@styles/css/menuMobile.css'
+import style from '@styles/css/menuMobile.module.css'
 
 const MenuPhone = () => {
     

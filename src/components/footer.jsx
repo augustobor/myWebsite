@@ -6,7 +6,7 @@ import twitter from '@assets/bxl-twitter.svg'
 import github from '@assets/bxl-github.svg'
 import linkedin from '@assets/bxl-linkedin-square.svg'
 
-import style from '@styles/css/footer.css'
+import style from '@styles/css/footer.module.css'
 
 const Footer = () => {
     return (

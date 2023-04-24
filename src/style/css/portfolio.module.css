@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #1C1C1C;
+}
+
+body {
+  background-color: #1C1C1C;
+  color: #FAFAFA;
+}
+
+body > p {
+  font-size: x-large;
+  text-align: center;
+  margin: 3%;
+  margin-top: 5rem;
+}
+
+.portfolioDescription {
+  margin: 9rem 6%;
+  text-align: center;
+  font-size: medium;
+}
+
+hr {
+  border-style: solid;
+  border-width: 0.2rem;
+  margin-top: 1rem;
+  border-color: #FAFAFA;
+}
+
+/*# sourceMappingURL=portfolio.module.css.map */

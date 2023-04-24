@@ -3,7 +3,7 @@ import WebsiteProfileArticle from '../components/websiteProfileArticle'
 
 import profile from '@assets/profile.webp'
 
-import styles from '@styles/css/websiteProfile.css'
+import styles from '@styles/css/websiteProfile.module.css'
 
 const websiteProfile = () => {
     const profileText = [

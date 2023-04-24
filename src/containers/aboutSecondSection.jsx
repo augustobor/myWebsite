@@ -9,7 +9,7 @@ import JS from '@assets/bxl-javascript.svg'
 import ReactImage from '@assets/bxl-react.svg'
 import Vue from '@assets/bxl-vuejs.svg'
 
-import style from '@styles/css/aboutSecondSection.css'
+import style from '@styles/css/aboutSecondSection.module.css'
 
 const aboutSecondSection = () => {
 
