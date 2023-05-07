@@ -9,7 +9,7 @@ const aboutThirdSection = () => {
         return (
             <section className={style.thridSection}>
                 <article>
-                    <p>Other skills</p>
+                    <p className={style.title}>Other skills</p>
                     <hr/>
                 </article>
                 <OtherSkills />

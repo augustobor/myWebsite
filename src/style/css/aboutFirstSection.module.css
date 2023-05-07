@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 .firstSection > img {
   width: 40vw;
   height: 40vw;
@@ -31,7 +35,10 @@ html {
 .firstSection article {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 2%;
+  margin: 0 2%;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
   width: 45vw;
   height: 300px;
 }
@@ -46,6 +53,24 @@ html {
 
 .firstSection div, .firstSection article {
   -webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+@media only screen and (min-width: 740px) {
+  .firstSection article p {
+    font-size: medium;
+  }
+  .firstSection article {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .firstSection > img {
+    width: 20vw;
+    height: 20vw;
+  }
+  .firstSection article p {
+    font-size: large;
+  }
 }
 
 /*# sourceMappingURL=aboutFirstSection.module.css.map */

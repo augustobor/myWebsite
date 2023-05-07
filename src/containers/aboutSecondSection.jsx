@@ -58,7 +58,7 @@ const aboutSecondSection = () => {
         </li>
     ))
     return (
-        <section className={style.secondSection} class="second-section">
+        <section className={style.secondSection}>
             <ul>
                 {skills}
             </ul>

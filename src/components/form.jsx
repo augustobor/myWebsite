@@ -19,7 +19,7 @@ const form = () => {
                 <input name="email" type="email" placeholder="Email" required/>
                 <input name="matter" type="text" placeholder="Matter" required/>
                 <textarea name="message" rows="10" cols="30" placeholder="Message" required></textarea>
-                <button type="submit" form="form">Send message</button>
+                <button className={style.buttonForm} type="submit" form="form">Send message</button>
             </form>
             <a id="mail-button" onClick={() => {handleSubmit()}}></a>
         </section>

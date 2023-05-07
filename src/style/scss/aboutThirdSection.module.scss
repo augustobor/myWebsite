@@ -9,6 +9,10 @@
 	padding-right: 2%;
 }
 
+.thirdSection .title {
+	font-size: 4rem;
+}
+
 .thirdSection article hr {
     margin: 0.5rem 17%;
 	margin-bottom: 3rem;
@@ -47,4 +51,52 @@
 	font-size: 2rem;
 	margin: 5%;
 	text-align: center;
+}
+
+@media only screen and (min-width: $tablet-size) {
+
+	.thirdSection article {
+		font-size: 4rem;
+	}
+
+	.thirdSection article hr {
+		margin: 1rem 21%;
+		border-width: 0.4rem;
+		margin-bottom: 10rem;
+	}
+
+
+	.thirdSection .thirdSectionOtherSkills {
+		justify-content: center;
+		grid-template-columns: 30vw 30vw;
+	}
+
+	.thirdSectionOtherSkills div img {
+		transform: scale(2.5);
+	}
+
+	.thirdSectionOtherSkills div p {
+		font-size: x-large;
+	}
+
+	
+}
+
+@media only screen and (min-width: $desktop-size) {
+
+	.thirdSection article {
+		font-size: 6rem;
+	}
+	
+	.thirdSection article hr {
+		border-width: 1rem;
+	}
+	
+	.thirdSection .thirdSectionOtherSkills {
+		padding: 3%;
+	}
+	
+	.thirdSection .thirdSectionOtherSkills div img {
+		transform: scale(3);
+	}   
 }

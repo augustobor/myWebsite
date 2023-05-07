@@ -9,7 +9,7 @@ import HomeBanking from '@assets/home-banking.webp';
 import MentesLibres from '@assets/mentes-libres.webp';
 import TODO from '@assets/todo.webp';
 
-import '@styles/css/portfolioProjects.module.css'
+import styles from '@styles/css/portfolioProjects.module.css'
 
 const portfolioProjects = () => {
 
@@ -58,7 +58,7 @@ const portfolioProjects = () => {
         },
     ]
     return (
-        <section>
+        <section className={styles.portfolioProjects}>
             {portfolioInfo.map((project) => 
                 <Project 
                     link={project.portfolioLink}

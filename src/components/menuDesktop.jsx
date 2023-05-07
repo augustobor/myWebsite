@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import style from '@styles/css/menuDesktop.module.css'
 
 const MenuDesktop = () => {
 
     return (
-        <menu className={style.MenuDesktop}>
+        <menu className={style.menuDesktop}>
          <ul id="menu-content">
             <li>
                 <Link to="/">Main</Link>

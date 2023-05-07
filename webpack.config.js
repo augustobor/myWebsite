@@ -37,12 +37,6 @@ module.exports = {
                 }
             },
             {
-                test: /\.html/,
-                use: [
-                    {loader: 'html-loader'}
-                ]
-            },
-            {
                 test: /\.css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
@@ -92,6 +86,6 @@ module.exports = {
         historyApiFallback: true,
         compress: true,
         open: true,
-        port: 3006
+        port: 3006,
     }
 }

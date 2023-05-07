@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 .thirdSection article {
   color: #FAFAFA;
   font-size: 2.8rem;
@@ -17,6 +21,10 @@ html {
   text-align: center;
   padding-top: 5rem;
   padding-right: 2%;
+}
+
+.thirdSection .title {
+  font-size: 4rem;
 }
 
 .thirdSection article hr {
@@ -56,6 +64,41 @@ html {
   font-size: 2rem;
   margin: 5%;
   text-align: center;
+}
+
+@media only screen and (min-width: 740px) {
+  .thirdSection article {
+    font-size: 4rem;
+  }
+  .thirdSection article hr {
+    margin: 1rem 21%;
+    border-width: 0.4rem;
+    margin-bottom: 10rem;
+  }
+  .thirdSection .thirdSectionOtherSkills {
+    justify-content: center;
+    grid-template-columns: 30vw 30vw;
+  }
+  .thirdSectionOtherSkills div img {
+    transform: scale(2.5);
+  }
+  .thirdSectionOtherSkills div p {
+    font-size: x-large;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .thirdSection article {
+    font-size: 6rem;
+  }
+  .thirdSection article hr {
+    border-width: 1rem;
+  }
+  .thirdSection .thirdSectionOtherSkills {
+    padding: 3%;
+  }
+  .thirdSection .thirdSectionOtherSkills div img {
+    transform: scale(3);
+  }
 }
 
 /*# sourceMappingURL=aboutThirdSection.module.css.map */

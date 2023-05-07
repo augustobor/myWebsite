@@ -10,16 +10,20 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 .websiteProfileImage {
   width: 50vw;
   height: 50vw;
 }
 
-.website-profile > div, .website-profile-image, .website-profile {
+.websiteProfile > div, .websiteProfileImage, .websiteProfile {
   -webkit-animation: loadProfile 1.4s ease-in-out alternate;
 }
 
-.website-profile {
+.websiteProfile {
   padding: 3%;
   padding-top: 4rem;
   text-align: center;
@@ -33,6 +37,18 @@ html {
   100% {
     margin-top: 0rem;
     opacity: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .websiteProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .websiteProfileImage {
+    display: block;
+    width: 30vw;
+    height: 30vw;
   }
 }
 

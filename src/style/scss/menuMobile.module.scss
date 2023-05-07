@@ -32,7 +32,6 @@
 
 .menuMobile li, .menuMobile p {
 	text-decoration: none;
-	padding: 6% 20%;
 	margin: 3rem 0;
 	color: $off-white;
 	display: block;
@@ -52,4 +51,26 @@
 .opacity {
 	background-color: $soft-black;
 	transition: .5s ease;
+}
+
+.menuMobile li a, .menuMobile p {
+	text-decoration: none;
+	padding: 6% 10%;
+	margin: 2rem 0;
+	color: $off-white;
+	display: block;
+	font-size: xx-large;
+	cursor: pointer;
+}
+
+
+.menuMobile li a:hover {
+	color: $cherry-red;
+} 
+
+
+@media only screen and (min-width: $tablet-size) {
+	.menuMobile {
+		display: none;
+	}
 }

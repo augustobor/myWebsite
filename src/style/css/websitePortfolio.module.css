@@ -1,17 +1,127 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'style.config.scss.module';
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   src/style/scss/websitePortfolio.module.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'style.config.scss.module';\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/style/scss/websitePortfolio.module.scss 1:9  root stylesheet";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.websitePortfolio {
+  padding: 3%;
+  text-align: center;
+}
+
+.websitePortfolio p {
+  color: #FAFAFA;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.websitePortfolioButton {
+  margin-top: 2rem;
+  text-decoration: none;
+  height: 80%;
+  width: 80%;
+  color: #FAFAFA;
+  font-size: large;
+  padding: 2% 13% 2% 13%;
+  border-radius: 4px;
+  opacity: 95%;
+  border-style: solid;
+  border-color: #67159b;
+  border-width: 0.2rem;
+  transition: all 200ms linear;
+}
+
+.websitePortfolioButton:hover {
+  background-color: #67159b;
+  transition: all 200ms linear;
+}
+
+.websitePortfolio article hr {
+  border-color: #45056E;
+  margin: 1rem 0rem;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 0.2rem;
+}
+
+.cvButton {
+  display: block;
+  width: 50%;
+  margin: 0 25%;
+  padding: 4%;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: #45056E;
+  color: #FAFAFA;
+  border-radius: 6px;
+  font-size: large;
+  text-decoration: none;
+  transition: all 100ms ease-in;
+}
+
+.cvButton::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #45056E;
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+
+.cvButton:hover {
+  background-color: #45056E;
+  transition: all 100ms ease-in;
+}
+
+.cvButton:active {
+  background-color: #FAFAFA;
+  color: #121010;
+}
+
+@media only screen and (min-width: 740px) {
+  .websitePortfolio p {
+    font-size: 2rem;
+  }
+  .cvButton {
+    padding: 2%;
+    width: 40%;
+    margin: 0 30%;
+    font-size: xx-large;
+  }
+  .websitePortfolioButton {
+    font-size: x-large;
+    border-width: 0.3rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .cvButton {
+    width: 30%;
+    margin: 0 35%;
+    margin-bottom: 30rem;
+    font-size: 5rem;
+  }
+  .websitePortfolioButton {
+    border-width: 0.6rem;
+    font-size: 4rem;
+  }
+  .websitePortfolio p {
+    font-size: x-large;
+  }
+}
+
+/*# sourceMappingURL=websitePortfolio.module.css.map */

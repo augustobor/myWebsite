@@ -23,7 +23,10 @@
 .firstSection article {
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 2%;
+	margin: 0 2%;
 	border-radius: 4px;
+	display: flex;
+	align-items: center;
 	width: 45vw;
 	height: 300px
 }
@@ -39,4 +42,28 @@
 
 .firstSection div, .firstSection article {
 	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+@media only screen and (min-width: $tablet-size) {
+
+	.firstSection article p {
+		font-size: medium;
+	}
+
+	.firstSection article {
+		height: 300px;
+	}
+
+}
+
+@media only screen and (min-width: $desktop-size) {
+	
+	.firstSection > img {
+		width: 20vw;
+		height: 20vw;
+	}
+	
+	.firstSection article p {
+		font-size: large;
+	}
 }

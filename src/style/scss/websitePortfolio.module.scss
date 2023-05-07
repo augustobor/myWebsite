@@ -1,4 +1,4 @@
-@import 'style.config.scss.module';
+@import 'style.config.module.scss';
 
 .websitePortfolio {
 	padding: 3%;
@@ -11,6 +11,27 @@
 	font-weight: bolder;
 }
 
+.websitePortfolioButton {
+	margin-top: 2rem;
+	text-decoration: none;
+	height: 80%;
+	width: 80%;
+	color: $off-white;
+	font-size: large;
+	padding: 2% 13% 2% 13%;
+	border-radius: 4px;
+	opacity: 95%;
+	border-style: solid;
+	border-color: #67159b;
+	border-width: 0.2rem;
+	transition: all 200ms linear;
+}
+
+.websitePortfolioButton:hover {
+	background-color: #67159b;
+	transition: all 200ms linear;
+}
+
 .websitePortfolio article hr {
 	border-color: $purple-rain;
 	margin: 1rem 0rem;
@@ -20,7 +41,7 @@
 }
 
 
-.cv-button {
+.cvButton {
 	display: block;
 	width: 50%;
 	margin: 0 25%;
@@ -57,4 +78,40 @@
 .cvButton:active {
 	background-color: $off-white;
 	color: $just-black;
+}
+
+@media only screen and (min-width: $tablet-size) {
+	.websitePortfolio p {
+		font-size: 2rem;
+	}
+
+	.cvButton {
+		padding: 2%;
+		width: 40%;
+		margin: 0 30%;
+		font-size: xx-large;
+	}
+
+	.websitePortfolioButton {
+		font-size: x-large;
+		border-width: 0.3rem;
+	}	
+}
+
+@media only screen and (min-width: $desktop-size) {
+	.cvButton {
+		width: 30%;
+		margin: 0 35%;
+		margin-bottom: 30rem;
+		font-size: 5rem;
+	}
+
+	.websitePortfolioButton {
+		border-width: 0.6rem;
+		font-size: 4rem;
+	}
+
+	.websitePortfolio p {
+		font-size: x-large;
+	}
 }

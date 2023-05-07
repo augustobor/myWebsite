@@ -4,9 +4,8 @@ import MenuDesktop from '@components/menuDesktop'
 
 
 const Menu = () => {
-    const screenWidth = screen.width
     return (
-    (screenWidth > 620)
+    (window.innerWidth < 760)
         ? <MenuPhone />
         : <MenuDesktop />
     )

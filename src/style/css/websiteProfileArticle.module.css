@@ -10,12 +10,31 @@ html {
   scroll-behavior: smooth;
 }
 
-.website_profile__article {
+body {
+  width: 100vw;
+}
+
+.websiteProfileArticle {
   height: auto;
   border-radius: 20px;
-  box-shadow: 4px 4px 2px #FAFAFA;
+  box-shadow: 4px 4px 2px #121010;
   margin: 5rem 10%;
-  padding: 2%;
+  padding: 3%;
+}
+
+.websiteProfileArticle > p {
+  color: #FAFAFA;
+}
+
+@media only screen and (min-width: 740px) {
+  .websiteProfile > div .websiteProfileArticle p, .websitePortfolio p {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .websiteProfileArticle p, .websitePortfolio p {
+    font-size: x-large;
+  }
 }
 
 /*# sourceMappingURL=websiteProfileArticle.module.css.map */

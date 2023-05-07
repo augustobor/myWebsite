@@ -10,13 +10,14 @@ body {
     color: $off-white;
 }
 
-
-body > p {
+.portfolioTitle {
     font-size: x-large;
     text-align: center;
     margin: 3%;
     margin-top: 5rem;
+    color: $neo-green;
 }
+
 
 .portfolioDescription {
     margin: 9rem 6%;
@@ -28,5 +29,11 @@ hr {
     border-style: solid;
     border-width: 0.2rem;
     margin-top: 1rem;
-    border-color: $off-white; 
+    border-color: $neo-green; 
+}
+
+@media only screen and (min-width: $tablet-size) {
+}
+
+@media only screen and (min-width: $desktop-size) {
 }

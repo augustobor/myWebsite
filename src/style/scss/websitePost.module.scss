@@ -27,3 +27,17 @@
 	margin-top: 0.5rem;
 	margin-bottom: 3rem;
 }
+
+
+@media only screen and (min-width: $desktop-size) {
+
+	.websitePostsDescription {
+		margin: 0 5%;
+	}
+	
+	
+	.websitePostsDescription hr {
+		border-width: 0.4rem;
+	}
+	
+}

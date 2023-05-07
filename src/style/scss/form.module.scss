@@ -53,3 +53,76 @@ form textarea {
 	font-family: 'Nunito', sans-serif;
 	color: $off-white;
 }
+
+form > .buttonForm {
+	border-style: none;
+	font-size: 2rem;
+	margin: 5% 20%;
+	padding: 5%;
+}
+
+form > .buttonForm:hover {
+	background-color: $just-black;
+	color: $off-white;
+	transition: all 150ms ease;
+}
+
+@media only screen and (min-width: $tablet-size) {
+
+	.form p {
+		font-size: 5rem;
+		margin: 5rem 7%;
+		margin-bottom: 8rem;
+	}
+	
+	
+	form input, form #contact--message {
+		margin: 3% 15%;
+		font-size: x-large;
+	}
+	
+	
+	form #contact--message {
+		height: 300px;
+		margin: 3% 15%;
+	}
+	
+	form button {
+		margin: 5% 35%;
+		padding: 3%;
+		font-size: 2rem;
+		border-style: none;
+	}
+}
+
+
+@media only screen and (min-width: $desktop-size) {
+
+	.form p {
+		font-size: 3rem;
+		margin: 1rem 7%;
+	}
+	
+	
+	form input, form #contact--message {
+		border-width: 0.15rem;
+		background-color: transparent;
+		font-size: xx-large;
+	}
+	
+	
+	form #contact--message {
+		height: 350px;
+	}
+	
+	
+	footer {
+		margin-top: 6rem;
+		padding: 2% 5%;
+	}
+	
+	footer article {
+		margin: 1% 0%;
+	}
+	
+}

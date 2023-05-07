@@ -1,29 +1,44 @@
 @import 'style.config.module';
 
 
-.menuDesktop {
-    display: block;
-    background-color: transparent;
+@media only screen and (min-width: $tablet-size) {
+
+	.menuDesktop {
+		display: block;
+		background-color: transparent;
+	}
+
+	.menuDesktop ul {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		font-size: 2.2rem;
+		list-style: none;
+	}
+
+
+	.menuDesktop li {
+		padding: 2%;
+		text-decoration: none;
+		color: $extra-light-blue;
+		transition: all 200ms ease-in;
+	}
+
+	.menuDesktop li:hover {
+		color: $neo-green;
+		transition: all 100ms ease-in;
+	}
+
+	.menuDesktop li a:hover {
+		color: $neo-green;
+		transition: all 100ms ease-in;
+	} 
+	
+	.menuDesktop li a {
+		text-decoration: none;
+		color: $extra-light-blue;
+		font-size: x-large;
+		transition: all 200ms ease-in;
+	}
+
 }
-
-.menuDesktop ul {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	font-size: 2.2rem;
-	list-style: none;
-}
-
-
-.menuDesktop li {
-	padding: 2%;
-    text-decoration: none;
-    color: $extra-light-blue;
-    transition: all 200ms ease-in;
-}
-
-.menuDesktop li:hover {
-	color: $neo-green;
-	transition: all 100ms ease-in;
-} 
-

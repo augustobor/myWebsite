@@ -1,9 +1,26 @@
 @import 'style.config.module';
 
-.website_profile__article {
+.websiteProfileArticle {
 	height: auto;
 	border-radius: 20px;
-	box-shadow: 4px 4px 2px $off-white;
+	box-shadow: 4px 4px 2px $just-black;
 	margin: 5rem 10%;
-	padding: 2%;
+	padding: 3%;
+}
+
+.websiteProfileArticle > p {
+	color: $off-white;
+}
+
+
+@media only screen and (min-width: $tablet-size) {
+	.websiteProfile > div .websiteProfileArticle p, .websitePortfolio p {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: $desktop-size) {
+	.websiteProfileArticle p, .websitePortfolio p {
+		font-size: x-large;
+	}
 }

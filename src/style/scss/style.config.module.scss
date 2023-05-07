@@ -19,6 +19,9 @@ $soft-black: #1C1C1C;
 $neo-green: #03DAC6;
 $off-white: #FAFAFA;
 
+$tablet-size: 740px;
+$desktop-size: 1000px;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -29,4 +32,8 @@ html {
 	font-size: 62.5%;
 	font-family: 'Nunito', sans-serif; 
 	scroll-behavior: smooth;
+}
+
+body {
+	width: 100vw;
 }

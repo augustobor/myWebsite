@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 /*Contact*/
 .websiteContact {
   height: auto;
@@ -67,6 +71,35 @@ html {
 .websiteContactLogos article a img:hover {
   transform: scale(1.2);
   transition: transform 200ms linear;
+}
+
+@media only screen and (min-width: 740px) {
+  .websiteContact > p {
+    font-size: 4rem;
+    padding-top: 10rem;
+    margin-bottom: 1rem;
+  }
+  .websiteContactLogos {
+    margin-top: 10rem;
+  }
+  .websiteContactLogos article a {
+    transform: scale(4);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .websiteContact > p {
+    font-size: 4rem;
+  }
+  .websiteContactButton {
+    font-size: 5rem;
+    border-width: 0.5rem;
+  }
+  .websiteContactLogos article a img:hover {
+    transform: scale(1.5);
+  }
+  .websiteContactLogos article a {
+    transform: scale(6);
+  }
 }
 
 /*# sourceMappingURL=footer.module.css.map */

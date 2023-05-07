@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 /*Posts*/
 .websitePosts {
   height: auto;
@@ -34,6 +38,15 @@ html {
   border-radius: 5px;
   margin-top: 0.5rem;
   margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .websitePostsDescription {
+    margin: 0 5%;
+  }
+  .websitePostsDescription hr {
+    border-width: 0.4rem;
+  }
 }
 
 /*# sourceMappingURL=websitePost.module.css.map */

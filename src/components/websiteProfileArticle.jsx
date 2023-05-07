@@ -6,7 +6,7 @@ const websiteProfileArticle = ({ text }) => {
 
     return (
         
-        <article className={style.website_profile__articile}>
+        <article className={style.websiteProfileArticle}>
             <p>
                 {text}
             </p>

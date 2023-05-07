@@ -1,4 +1,4 @@
-@import 'style.config.scss.module';
+@import 'style.config.module.scss';
 /*portfolio*/
 
 .websitePortfolio {
@@ -78,7 +78,7 @@ div > img {
 	text-decoration: none;
 	font-family: 'Inconsolata', monospace;
 	font-size: medium;
-	color: var(--off-white);
+	color: $off-white;
 	border-style: none;
 	border-radius: 4px;
 	border-radius: 3px;
@@ -143,4 +143,82 @@ div > img {
 .websitePortfolioButton:hover {
 	background-color: #67159b;
 	transition: all 200ms linear;
+}
+
+
+@media only screen and (min-width: $tablet-size) {
+	.websitePortfolioHigh {
+		flex-direction: row;
+		margin: 3rem;
+	}
+
+	.websitePortfolioHigh h2 {
+		font-size: x-large;
+		font-weight: bold;
+		margin-left: 1.1rem;
+	}
+	
+	.websitePortfolioHigh h3 {
+		font-size: large;
+		margin-left: 1.1rem;
+	}
+	
+	.websitePortfolioHigh div {
+		margin-bottom: 2rem;
+	}
+
+	.websitePortfolioHigh a {
+		font-size: x-large;
+	}
+
+	div > img {
+		transform: scale(1.8);
+	}
+
+	.websitePortfolioButton {
+		font-size: x-large;
+		border-width: 0.3rem;
+	}
+
+	.websitePortfolio p {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: $desktop-size) {
+
+	.websitePortfolioPortfolio {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: space-between;
+		margin: 0 auto;
+		gap: 10rem;
+		padding: 1rem;
+	}
+	
+	
+	.websitePortfolioHigh h2, .websitePortfolioHigh h3 {
+		font-size: xx-large;
+		margin-left: 3rem;
+	}
+	
+	.websitePortfolio > p {
+		font-size: 3rem;
+		margin-bottom: 10rem;
+	}
+	
+	.websitePortfolioButton {
+		border-width: 0.6rem;
+		font-size: 4rem;
+	}
+	
+	.websitePortfolioPortfolio article > img {
+		width: 30vw;
+		height: 30vw;
+	}
+	
+	div > img {
+		transform: scale(2.5);
+	}
+	
 }

@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 article > div:hover {
   opacity: 0.8;
   transition: all 100ms linear;
@@ -27,7 +31,7 @@ div > p {
   color: #03DAC6;
 }
 
-a > div {
+.project > div {
   position: absolute;
   top: 0;
   left: 0;
@@ -41,19 +45,19 @@ a > div {
   opacity: 0;
 }
 
-a:hover > div {
+.project:hover > div {
   opacity: 0.8;
   transform: scale(1.05);
   transition: all 200ms linear;
 }
 
-a:hover > img {
+.project:hover > img {
   transform: scale(1.05);
   opacity: 0.5;
   transition: all 200ms linear;
 }
 
-a > img {
+.project > img {
   width: 100%;
   height: 100%;
   border-radius: 4px;

@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100vw;
+}
+
 .menuMobile {
   width: 100%;
   height: auto;
@@ -42,7 +46,6 @@ html {
 
 .menuMobile li, .menuMobile p {
   text-decoration: none;
-  padding: 6% 20%;
   margin: 3rem 0;
   color: #FAFAFA;
   display: block;
@@ -61,6 +64,26 @@ html {
 .opacity {
   background-color: #1C1C1C;
   transition: 0.5s ease;
+}
+
+.menuMobile li a, .menuMobile p {
+  text-decoration: none;
+  padding: 6% 10%;
+  margin: 2rem 0;
+  color: #FAFAFA;
+  display: block;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.menuMobile li a:hover {
+  color: #951556;
+}
+
+@media only screen and (min-width: 740px) {
+  .menuMobile {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=menuMobile.module.css.map */

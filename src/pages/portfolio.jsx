@@ -7,7 +7,7 @@ import PortfolioProjects from '@containers/portfolioProjects'
 const Portfolio = () => {
     return (
         <>
-            <p>¡Welcome to my portfolio! </p>
+            <h1 className={style.portfolioTitle}>¡Welcome to my portfolio! </h1>
 
             <article className={style.portfolioDescription}>
                 <p>
