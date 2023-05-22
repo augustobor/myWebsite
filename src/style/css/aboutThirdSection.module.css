@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.thirdSection article {
+  color: #FAFAFA;
+  font-size: 2.8rem;
+  padding-left: 2%;
+  text-align: center;
+  padding-top: 5rem;
+  padding-right: 2%;
+}
+
+.thirdSection .title {
+  font-size: 4rem;
+}
+
+.thirdSection article hr {
+  margin: 0.5rem 17%;
+  margin-bottom: 3rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: #121010;
+  opacity: 70%;
+}
+
+.thirdSection .thirdSectionOtherSkills {
+  display: grid;
+  height: auto;
+  justify-content: space-between;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: auto;
+}
+
+.thirdSection .thirdSectionOtherSkills div {
+  height: auto;
+  background: transparent;
+  margin: 2%;
+  padding: 6%;
+  color: #FAFAFA;
+  display: flex;
+  align-items: center;
+}
+
+.thirdSectionOtherSkills div img {
+  transform: scale(2);
+  margin: 0 0.8rem;
+}
+
+.thirdSectionOtherSkills div p {
+  color: #FAFAFA;
+  font-size: 2rem;
+  margin: 5%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 740px) {
+  .thirdSection article {
+    font-size: 4rem;
+  }
+  .thirdSection article hr {
+    margin: 1rem 21%;
+    border-width: 0.4rem;
+    margin-bottom: 10rem;
+  }
+  .thirdSection .thirdSectionOtherSkills {
+    justify-content: center;
+    grid-template-columns: 30vw 30vw;
+  }
+  .thirdSectionOtherSkills div img {
+    transform: scale(2.5);
+  }
+  .thirdSectionOtherSkills div p {
+    font-size: x-large;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .thirdSection article {
+    font-size: 6rem;
+  }
+  .thirdSection article hr {
+    border-width: 1rem;
+  }
+  .thirdSection .thirdSectionOtherSkills {
+    padding: 3%;
+  }
+  .thirdSection .thirdSectionOtherSkills div img {
+    transform: scale(3);
+  }
+}
+
+/*# sourceMappingURL=aboutThirdSection.module.css.map */

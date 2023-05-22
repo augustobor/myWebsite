@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.firstSection > img {
+  width: 40vw;
+  height: 40vw;
+  display: block;
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  -webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+.firstSection div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 2%;
+  align-items: center;
+}
+
+.firstSection article {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2%;
+  margin: 0 2%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  width: 45vw;
+  height: 300px;
+}
+
+.firstSection article p {
+  color: #FAFAFA;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.firstSection div, .firstSection article {
+  -webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+@media only screen and (min-width: 740px) {
+  .firstSection article p {
+    font-size: medium;
+  }
+  .firstSection article {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .firstSection > img {
+    width: 20vw;
+    height: 20vw;
+  }
+  .firstSection article p {
+    font-size: large;
+  }
+}
+
+/*# sourceMappingURL=aboutFirstSection.module.css.map */

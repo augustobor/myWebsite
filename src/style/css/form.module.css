@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.form p {
+  font-size: 3rem;
+  text-align: center;
+  color: #FAFAFA;
+  margin: 6rem 7%;
+  margin-bottom: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input {
+  margin: 3% 10%;
+  padding: 2%;
+  border-style: solid;
+  border-color: #FAFAFA;
+  opacity: 0.8;
+  border-width: 0.2rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+}
+
+form input::placeholder, form textarea::placeholder {
+  position: absolute;
+  color: #dbdbdb;
+}
+
+form input p {
+  position: absolute;
+  text-align: left;
+}
+
+form textarea {
+  height: 200px;
+  margin-bottom: 8rem;
+  margin: 3% 10%;
+  padding: 2%;
+  border-style: solid;
+  border-color: #FAFAFA;
+  opacity: 0.8;
+  border-width: 0.2rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  color: #FAFAFA;
+}
+
+form > .buttonForm {
+  border-style: none;
+  font-size: 2rem;
+  margin: 5% 20%;
+  padding: 5%;
+}
+
+form > .buttonForm:hover {
+  background-color: #121010;
+  color: #FAFAFA;
+  transition: all 150ms ease;
+}
+
+@media only screen and (min-width: 740px) {
+  .form p {
+    font-size: 5rem;
+    margin: 5rem 7%;
+    margin-bottom: 8rem;
+  }
+  form input, form #contact--message {
+    margin: 3% 15%;
+    font-size: x-large;
+  }
+  form #contact--message {
+    height: 300px;
+    margin: 3% 15%;
+  }
+  form button {
+    margin: 5% 35%;
+    padding: 3%;
+    font-size: 2rem;
+    border-style: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .form p {
+    font-size: 3rem;
+    margin: 1rem 7%;
+  }
+  form input, form #contact--message {
+    border-width: 0.15rem;
+    background-color: transparent;
+    font-size: xx-large;
+  }
+  form #contact--message {
+    height: 350px;
+  }
+  footer {
+    margin-top: 6rem;
+    padding: 2% 5%;
+  }
+  footer article {
+    margin: 1% 0%;
+  }
+}
+
+/*# sourceMappingURL=form.module.css.map */

@@ -1,0 +1,46 @@
+@import 'style.config.module';
+
+.websiteProfileImage {
+    width: 50vw;
+	height: 50vw;
+}
+
+.websiteProfile > div, .websiteProfileImage, .websiteProfile {
+	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+.websiteProfile {
+	padding: 3%;
+	padding-top: 4rem;
+	text-align: center;
+}
+
+@keyframes loadProfile {
+	
+	0% {
+		margin-top: 6rem;
+		opacity: 0;
+	}
+
+	100% {
+		margin-top: 0rem;
+		opacity: 100%;
+	}
+}
+
+
+@media only screen and (min-width: $desktop-size) {
+	
+	.websiteProfile {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.websiteProfileImage {
+		display: block;
+		width: 30vw;
+		height: 30vw;
+	}
+	
+}

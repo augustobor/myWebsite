@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.websiteProfileImage {
+  width: 50vw;
+  height: 50vw;
+}
+
+.websiteProfile > div, .websiteProfileImage, .websiteProfile {
+  -webkit-animation: loadProfile 1.4s ease-in-out alternate;
+}
+
+.websiteProfile {
+  padding: 3%;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+@keyframes loadProfile {
+  0% {
+    margin-top: 6rem;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0rem;
+    opacity: 100%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .websiteProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .websiteProfileImage {
+    display: block;
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+/*# sourceMappingURL=websiteProfile.module.css.map */

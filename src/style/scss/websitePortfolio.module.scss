@@ -1,0 +1,117 @@
+@import 'style.config.module.scss';
+
+.websitePortfolio {
+	padding: 3%;
+	text-align: center;
+}
+
+.websitePortfolio p {
+	color: $off-white;
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.websitePortfolioButton {
+	margin-top: 2rem;
+	text-decoration: none;
+	height: 80%;
+	width: 80%;
+	color: $off-white;
+	font-size: large;
+	padding: 2% 13% 2% 13%;
+	border-radius: 4px;
+	opacity: 95%;
+	border-style: solid;
+	border-color: #67159b;
+	border-width: 0.2rem;
+	transition: all 200ms linear;
+}
+
+.websitePortfolioButton:hover {
+	background-color: #67159b;
+	transition: all 200ms linear;
+}
+
+.websitePortfolio article hr {
+	border-color: $purple-rain;
+	margin: 1rem 0rem;
+	border-style: solid;
+	border-radius: 4px;
+	border-width: 0.2rem;
+}
+
+
+.cvButton {
+	display: block;
+	width: 50%;
+	margin: 0 25%;
+	padding: 4%;
+	border-style: solid;
+	border-width: 0.3rem;
+    border-color: $purple-rain;
+	color: $off-white;
+	border-radius: 6px;
+	font-size: large;
+    text-decoration: none;
+	transition: all 100ms ease-in;
+}
+
+.cvButton::after {
+	content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: $purple-rain;
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+}
+
+.cvButton:hover {
+	background-color: $purple-rain;
+	transition: all 100ms ease-in;
+}
+
+.cvButton:active {
+	background-color: $off-white;
+	color: $just-black;
+}
+
+@media only screen and (min-width: $tablet-size) {
+	.websitePortfolio p {
+		font-size: 2rem;
+	}
+
+	.cvButton {
+		padding: 2%;
+		width: 40%;
+		margin: 0 30%;
+		font-size: xx-large;
+	}
+
+	.websitePortfolioButton {
+		font-size: x-large;
+		border-width: 0.3rem;
+	}	
+}
+
+@media only screen and (min-width: $desktop-size) {
+	.cvButton {
+		width: 30%;
+		margin: 0 35%;
+		margin-bottom: 30rem;
+		font-size: 5rem;
+	}
+
+	.websitePortfolioButton {
+		border-width: 0.6rem;
+		font-size: 4rem;
+	}
+
+	.websitePortfolio p {
+		font-size: x-large;
+	}
+}

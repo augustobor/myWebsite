@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+.menuMobile {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.menuMobile img {
+  cursor: pointer;
+  vertical-align: top;
+  width: 15%;
+  transform: scale(1.5);
+  height: auto;
+  margin: 1.2rem;
+}
+
+.menuMobile ul {
+  background-color: #121010;
+  padding: 10% 20% 2% 0%;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.menuMobile li, .menuMobile p {
+  text-decoration: none;
+  margin: 3rem 0;
+  color: #FAFAFA;
+  display: block;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.menuMobile li:hover {
+  color: #951556;
+}
+
+.activate {
+  transform: translate(-600px);
+}
+
+.opacity {
+  background-color: #1C1C1C;
+  transition: 0.5s ease;
+}
+
+.menuMobile li a, .menuMobile p {
+  text-decoration: none;
+  padding: 6% 10%;
+  margin: 2rem 0;
+  color: #FAFAFA;
+  display: block;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.menuMobile li a:hover {
+  color: #951556;
+}
+
+@media only screen and (min-width: 740px) {
+  .menuMobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=menuMobile.module.css.map */

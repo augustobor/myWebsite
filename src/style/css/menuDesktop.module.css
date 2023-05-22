@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+}
+
+@media only screen and (min-width: 740px) {
+  .menuDesktop {
+    display: block;
+    background-color: transparent;
+  }
+  .menuDesktop ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 2.2rem;
+    list-style: none;
+  }
+  .menuDesktop li {
+    padding: 2%;
+    text-decoration: none;
+    color: #BBE1FA;
+    transition: all 200ms ease-in;
+  }
+  .menuDesktop li:hover {
+    color: #03DAC6;
+    transition: all 100ms ease-in;
+  }
+  .menuDesktop li a:hover {
+    color: #03DAC6;
+    transition: all 100ms ease-in;
+  }
+  .menuDesktop li a {
+    text-decoration: none;
+    color: #BBE1FA;
+    font-size: x-large;
+    transition: all 200ms ease-in;
+  }
+}
+
+/*# sourceMappingURL=menuDesktop.module.css.map */
