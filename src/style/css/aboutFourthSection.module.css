@@ -15,18 +15,18 @@ body {
   overflow-x: hidden;
 }
 
-.fourth-section--description {
+.fourthSectionDescription {
   text-align: center;
   margin: 25% 10%;
 }
 
-.fourth-section--description p {
+.fourthSectionDescription p {
   color: #FAFAFA;
   margin: 3%;
   font-size: 1.45rem;
 }
 
-.fourth-section--description hr {
+.fourthSectionDescription hr {
   border-color: #121010;
   margin: 1rem 0rem;
   border-style: solid;
@@ -34,14 +34,14 @@ body {
   opacity: 50%;
 }
 
-.fourth-section > p {
+.fourthSection > p {
   color: #FAFAFA;
   text-align: center;
   font-size: x-large;
   margin: 0 6%;
 }
 
-.fourth-section > .final {
+.fourthSection > .final {
   margin: 3rem 0;
 }
 

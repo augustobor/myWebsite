@@ -38,14 +38,14 @@ body {
   border-radius: 4px;
   padding: 3%;
   opacity: 95%;
-  transition: all 200ms linear;
+  transition: all 400ms linear;
   text-decoration: none;
 }
 
 .websiteContactButton:hover {
   background-color: #03DAC6;
   color: #1C1C1C;
-  transition: all 200ms linear;
+  transition: all 400ms linear;
 }
 
 .websiteContactLogos {
@@ -78,7 +78,7 @@ body {
 @media only screen and (min-width: 740px) {
   .websiteContact > p {
     font-size: 4rem;
-    padding-top: 10rem;
+    padding-top: 2rem;
     margin-bottom: 1rem;
   }
   .websiteContactLogos {

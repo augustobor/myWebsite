@@ -33,7 +33,7 @@ body {
   width: 80%;
   color: #FAFAFA;
   font-size: large;
-  padding: 2% 13% 2% 13%;
+  padding: 2% 5% 2% 5%;
   border-radius: 4px;
   opacity: 95%;
   border-style: solid;
@@ -126,8 +126,8 @@ body {
   }
   .websitePortfolio p {
     font-size: x-large;
-    margin-top: 12rem;
-    margin-bottom: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
 }
 
