@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /*Posts*/
@@ -40,8 +41,18 @@ body {
   margin-bottom: 3rem;
 }
 
+@media only screen and (min-width: 740px) {
+  .websitePostsDescription {
+    font-size: 2rem;
+    margin: 0 5%;
+  }
+  .websitePostsDescription hr {
+    border-width: 0.4rem;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .websitePostsDescription {
+    font-size: 3rem;
     margin: 0 5%;
   }
   .websitePostsDescription hr {

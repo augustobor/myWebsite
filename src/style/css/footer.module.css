@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /*Contact*/
@@ -38,6 +39,7 @@ body {
   padding: 3%;
   opacity: 95%;
   transition: all 200ms linear;
+  text-decoration: none;
 }
 
 .websiteContactButton:hover {
@@ -80,7 +82,7 @@ body {
     margin-bottom: 1rem;
   }
   .websiteContactLogos {
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
   .websiteContactLogos article a {
     transform: scale(4);
@@ -91,8 +93,8 @@ body {
     font-size: 4rem;
   }
   .websiteContactButton {
-    font-size: 5rem;
-    border-width: 0.5rem;
+    font-size: 3rem;
+    padding: 2%;
   }
   .websiteContactLogos article a img:hover {
     transform: scale(1.5);

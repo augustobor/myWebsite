@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .websitePortfolio {
@@ -23,10 +24,10 @@ body {
   color: #FAFAFA;
   font-size: 1.2rem;
   font-weight: bolder;
+  margin-bottom: 4rem;
 }
 
 .websitePortfolioButton {
-  margin-top: 2rem;
   text-decoration: none;
   height: 80%;
   width: 80%;
@@ -44,6 +45,10 @@ body {
 .websitePortfolioButton:hover {
   background-color: #67159b;
   transition: all 200ms linear;
+}
+
+.websitePortfolio article {
+  margin: 2rem 0;
 }
 
 .websitePortfolio article hr {
@@ -121,6 +126,8 @@ body {
   }
   .websitePortfolio p {
     font-size: x-large;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
   }
 }
 

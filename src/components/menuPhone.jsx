@@ -7,12 +7,12 @@ import style from '@styles/css/menuMobile.module.css'
 
 const MenuPhone = () => {
     
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState(true)
 
     return (
         <menu className={style.menuMobile}>
         <img id="menuIcon" src={hamburguerMenu} onClick={() => {setMenu(!menu)}} alt="hamburger-icon" />
-        <ul className={menu ? style.activate : style.opacity} id="menu-content">
+        <ul className={menu ? style.activate : style.opacity}>
             <p><u>Menú</u></p>
             <li>
                 <Link to="/">Main</Link>

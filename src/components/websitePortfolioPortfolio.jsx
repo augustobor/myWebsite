@@ -77,9 +77,9 @@ const websitePortfolioPortfolio = () => {
         </article>
     ))
     return (
-        <>
+        <section className={styles.portfolioList}>
             {listPortfolio}
-        </>
+        </section>
     )
 
 }

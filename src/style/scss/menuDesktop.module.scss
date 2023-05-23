@@ -42,3 +42,11 @@
 	}
 
 }
+
+@media only screen and (min-width: $desktop-size) {
+
+	.menuDesktop li a {
+		font-size: 4rem;
+	}
+
+}

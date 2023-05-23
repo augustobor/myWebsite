@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 /*portfolio*/
@@ -26,7 +27,7 @@ body {
   font-weight: bolder;
 }
 
-.websitePortfolioPortfolio {
+.portfolioList {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -34,8 +35,9 @@ body {
   padding: 2%;
 }
 
-.websitePortfolioPortfolio article {
+.portfolioList article {
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -158,6 +160,12 @@ div > img {
   transition: all 200ms linear;
 }
 
+.portfolioList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media only screen and (min-width: 740px) {
   .websitePortfolioHigh {
     flex-direction: row;
@@ -188,9 +196,15 @@ div > img {
   .websitePortfolio p {
     font-size: 2rem;
   }
+  .portfolioList {
+    display: grid;
+  }
+  .portfolioList article {
+    flex-direction: row;
+  }
 }
 @media only screen and (min-width: 1000px) {
-  .websitePortfolioPortfolio {
+  .portfolioList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
@@ -210,9 +224,9 @@ div > img {
     border-width: 0.6rem;
     font-size: 4rem;
   }
-  .websitePortfolioPortfolio article > img {
-    width: 30vw;
-    height: 30vw;
+  .portfolioList article > img {
+    width: 20vw;
+    height: 20vw;
   }
   div > img {
     transform: scale(2.5);

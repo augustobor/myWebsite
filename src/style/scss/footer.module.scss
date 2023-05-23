@@ -26,6 +26,7 @@
 	padding: 3%;
 	opacity: 95%;
 	transition: all 200ms linear;
+	text-decoration: none;
 }
 
 .websiteContactButton:hover {
@@ -71,7 +72,7 @@
 	}
 	
 	.websiteContactLogos {
-		margin-top: 10rem;
+		margin-top: 15rem;
 	}
 	
 	.websiteContactLogos article a {
@@ -87,8 +88,8 @@
 	}
 	
 	.websiteContactButton {
-		font-size: 5rem;
-		border-width: 0.5rem;
+		font-size: 3rem;
+		padding: 2%;
 	}
 	
 	.websiteContactLogos article a img:hover {
