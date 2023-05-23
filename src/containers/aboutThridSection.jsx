@@ -7,7 +7,7 @@ import style from '@styles/css/aboutThirdSection.module.css'
 const aboutThirdSection = () => {
 
         return (
-            <section className={style.thridSection}>
+            <section className={style.thirdSection}>
                 <article>
                     <p className={style.title}>Other skills</p>
                     <hr/>

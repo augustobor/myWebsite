@@ -12,6 +12,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 @media only screen and (min-width: 740px) {
@@ -45,6 +46,11 @@ body {
     color: #BBE1FA;
     font-size: x-large;
     transition: all 200ms ease-in;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .menuDesktop li a {
+    font-size: 4rem;
   }
 }
 

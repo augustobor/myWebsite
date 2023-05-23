@@ -1,18 +1,18 @@
 @import 'style.config.module';
 
 
-.fourth-section--description {
+.fourthSectionDescription {
 	text-align: center;
 	margin: 25% 10%;
 }
 
-.fourth-section--description p {
+.fourthSectionDescription p {
 	color: $off-white;
 	margin: 3%;
 	font-size: 1.45rem;
 }
 
-.fourth-section--description hr {
+.fourthSectionDescription hr {
 	border-color: $just-black;
 	margin: 1rem 0rem;
     border-style: solid;
@@ -21,14 +21,14 @@
 }
 
 
-.fourth-section > p {
+.fourthSection > p {
 	color: $off-white;
 	text-align: center;
 	font-size: x-large;
 	margin: 0 6%;
 }
 
-.fourth-section > .final {
+.fourthSection > .final {
 	margin: 3rem 0;
 }
 
