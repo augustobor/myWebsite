@@ -30,8 +30,7 @@
 
 .websitePortfolioHigh {
 	height: 40%;
-	max-width: 520px;
-	display: inline-block;
+	max-width: 400px;
 	background: transparent;
 	border-radius: 10px;
 	margin: 1rem 10%;
@@ -154,7 +153,6 @@ div > img {
 
 @media only screen and (min-width: $tablet-size) {
 	.websitePortfolioHigh {
-		flex-direction: row;
 		margin: 3rem;
 	}
 
@@ -192,10 +190,6 @@ div > img {
 
 	.portfolioList {
 		display: grid;
-	}
-
-	.portfolioList article {
-		flex-direction: row;
 	}
 }
 

@@ -45,8 +45,7 @@ body {
 
 .websitePortfolioHigh {
   height: 40%;
-  max-width: 520px;
-  display: inline-block;
+  max-width: 400px;
   background: transparent;
   border-radius: 10px;
   margin: 1rem 10%;
@@ -168,7 +167,6 @@ div > img {
 
 @media only screen and (min-width: 740px) {
   .websitePortfolioHigh {
-    flex-direction: row;
     margin: 3rem;
   }
   .websitePortfolioHigh h2 {
@@ -198,9 +196,6 @@ div > img {
   }
   .portfolioList {
     display: grid;
-  }
-  .portfolioList article {
-    flex-direction: row;
   }
 }
 @media only screen and (min-width: 1000px) {

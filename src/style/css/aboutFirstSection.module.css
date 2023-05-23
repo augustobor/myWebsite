@@ -65,12 +65,16 @@ body {
   }
 }
 @media only screen and (min-width: 1000px) {
+  .firstSection article {
+    width: 50vw;
+    height: 20vw;
+  }
   .firstSection > img {
     width: 20vw;
     height: 20vw;
   }
   .firstSection article p {
-    font-size: large;
+    font-size: 2.2rem;
   }
 }
 

@@ -28,7 +28,7 @@ body {
   background: transparent;
   margin: 2%;
   padding: 6%;
-  color: var(--off-white);
+  color: #FAFAFA;
   display: flex;
   align-items: center;
 }
@@ -39,10 +39,40 @@ body {
 }
 
 .thirdSectionOtherSkills div p {
-  color: var(--off-white);
+  color: #FAFAFA;
   font-size: 2rem;
   margin: 5%;
   text-align: center;
+}
+
+@media only screen and (min-width: 740px) {
+  .thirdSectionOtherSkills {
+    margin: 0 15%;
+  }
+  .thirdSectionOtherSkills div {
+    margin: 2%;
+    margin-bottom: 10rem;
+    padding: 0%;
+    width: fit-content;
+  }
+  .thirdSectionOtherSkills div img {
+    transform: scale(3);
+  }
+  .thirdSectionOtherSkills div p {
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .thirdSectionOtherSkills div {
+    margin-bottom: 15rem;
+    font-size: xx-large;
+  }
+  .thirdSectionOtherSkills div img {
+    transform: scale(4);
+  }
+  .thirdSectionOtherSkills div p {
+    margin-left: 2rem;
+  }
 }
 
 /*# sourceMappingURL=otherSkills.module.css.map */
