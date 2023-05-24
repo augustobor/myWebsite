@@ -17,7 +17,7 @@ body {
 
 .fourthSectionDescription {
   text-align: center;
-  margin: 25% 10%;
+  margin: 10%;
 }
 
 .fourthSectionDescription p {
@@ -46,9 +46,6 @@ body {
 }
 
 @media only screen and (min-width: 740px) {
-  .fourthSectionDescription {
-    margin: 25% 20%;
-  }
   .fourthSectionDescription p {
     font-size: 2rem;
   }
@@ -63,9 +60,6 @@ body {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .fourthSectionDescription {
-    margin: 25% 20%;
-  }
   .fourthSectionDescription p {
     font-size: 4rem;
   }
