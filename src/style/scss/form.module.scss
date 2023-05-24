@@ -81,48 +81,41 @@ form > .buttonForm:hover {
 		font-size: x-large;
 	}
 	
+	form textarea {
+		margin-bottom: 8rem;
+		margin: 3% 15%;
+		padding: 2%;
+		width: 70%;
+		font-size: x-large;
+	}
 	
 	form #contact--message {
 		height: 300px;
 		margin: 3% 15%;
 	}
 	
-	form button {
-		margin: 5% 35%;
+	form > .buttonForm {
+		font-size: 3rem;
 		padding: 3%;
-		font-size: 2rem;
-		border-style: none;
 	}
 }
 
 
 @media only screen and (min-width: $desktop-size) {
 
-	.form p {
-		font-size: 3rem;
-		margin: 1rem 7%;
-	}
-	
 	
 	form input, form #contact--message {
-		border-width: 0.15rem;
-		background-color: transparent;
+		margin: 2% 5%; 
+		
 		font-size: xx-large;
 	}
 	
-	
-	form #contact--message {
-		height: 350px;
-	}
-	
-	
-	footer {
-		margin-top: 6rem;
-		padding: 2% 5%;
-	}
-	
-	footer article {
-		margin: 1% 0%;
+	form textarea {
+		margin-bottom: 8rem;
+		margin: 2% 5%;
+		padding: 2%;
+		width: 90%;
+		font-size: xx-large;
 	}
 	
 }

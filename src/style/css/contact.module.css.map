@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"contact.module.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/style.config.module.scss","../scss/contact.module.scss"],"names":[],"mappings":"AAwBA;EACC;EACA;EACA;;;AAGD;EACC;EACA;EACA;;;AAGD;EACC;EACA;;;ACpCD;EACI;IACI;IACA;IACA","file":"contact.module.css"}

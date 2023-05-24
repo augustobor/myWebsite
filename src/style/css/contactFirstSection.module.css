@@ -41,7 +41,8 @@ body {
     max-width: 500px;
   }
   .firstSection p {
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 90%;
   }
 }
 

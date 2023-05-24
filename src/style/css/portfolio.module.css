@@ -45,4 +45,27 @@ hr {
   border-color: #03DAC6;
 }
 
+@media only screen and (min-width: 740px) {
+  .portfolioTitle {
+    font-size: xx-large;
+  }
+  .portfolioDescription {
+    font-size: large;
+  }
+  hr {
+    margin: 1rem 25%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .portfolioTitle {
+    font-size: 4rem;
+  }
+  .portfolioDescription {
+    font-size: xx-large;
+  }
+  hr {
+    margin: 1rem 30%;
+  }
+}
+
 /*# sourceMappingURL=portfolio.module.css.map */
