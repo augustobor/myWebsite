@@ -5,6 +5,7 @@ import WebsitePortfolioPortfolio from '@components/websitePortfolioPortfolio'
 import style from '@styles/css/websitePortfolio.module.css'
 import { useNavigate } from 'react-router-dom'
 
+import CV from '@assets/Augusto_Borromeo_CV.pdf';
 
 const websitePortfolio = () => {
 
@@ -23,7 +24,7 @@ const websitePortfolio = () => {
     <section className={style.websitePortfolio}>
         {portfolioArticleList}
 
-        <a className={style.cvButton} download="Augusto_Borromeo_CV" href="Augusto_Borromeo_CV.pdf">Download Resume</a>
+        <a className={style.cvButton} download="Augusto_Borromeo_CV" href={CV}>Download Resume</a>
         <WebsitePortfolioPortfolio />
         <p>WOULD YOU LIKE SEE MY PROJECTS?</p>
 
