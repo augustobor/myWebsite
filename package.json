@@ -4,8 +4,8 @@
   "description": "This is my website implementation",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --config webpack.config.dev.js ",
-    "build": "webpack serve --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js ",
+    "build": "webpack --config webpack.config.js",
     "debug": "webpack --config webpack.config.dev.js --stats-error-details --stats-children",
     "sass:watch": "sass --watch src/style/scss:src/style/css"
   },
