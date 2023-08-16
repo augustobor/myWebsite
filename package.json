@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack --config webpack.config.dev.js ",
     "build": "webpack --config webpack.config.js",
+    "local": "webpack serve --config webpack.config.js",
     "debug": "webpack --config webpack.config.dev.js --stats-error-details --stats-children",
     "sass:watch": "sass --watch src/style/scss:src/style/css"
   },

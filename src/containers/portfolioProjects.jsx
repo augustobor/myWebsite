@@ -8,6 +8,7 @@ import ZCoin from '@assets/z-coin.webp';
 import HomeBanking from '@assets/home-banking.webp';
 import MentesLibres from '@assets/mentes-libres.webp';
 import TODO from '@assets/todo.webp';
+import Patitas from '@assets/patitas-a-casa.webp';
 
 import styles from '@styles/css/portfolioProjects.module.css'
 
@@ -36,11 +37,12 @@ const portfolioProjects = () => {
             description: 'ZCoin is a web project SPA which simulate a defi exchange. It includes a table & responsive design. Made with vue-cli & figma for the design part.'
         },
         {
-            portfolioLink: 'https://home-banking.onrender.com/',
+            portfolioLink: '#',
             imageProject: HomeBanking,
             alt: 'home-banking-project',
             name: 'Home Banking',
-            description: 'Home Banking is a fake home banking website designed to show my skills in php language and sql db management. We have Login sesion, Client interface & Transfer section which is functional using a proof account.'
+            description: 'NOT AVAILABLE'
+            //description: 'Home Banking is a fake home banking website designed to show my skills in php language and sql db management. We have Login sesion, Client interface & Transfer section which is functional using a proof account.'
         },
         {
             portfolioLink: 'https://www.pabellonmenteslibres.com/',
@@ -58,7 +60,7 @@ const portfolioProjects = () => {
         },
         {
             portfolioLink: 'https://patitas-a-casa-frontend.vercel.app/',
-            imageProject: TODO,
+            imageProject: Patitas,
             alt: 'patitas-a-casa-project',
             name: 'Patitas a casa',
             description: 'Patitas a casa is a website which is used to search lost pets and find them'

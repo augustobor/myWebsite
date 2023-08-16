@@ -1,7 +1,7 @@
 import React from 'react'
 
 //profile image
-import foxyExchangeImage from '@assets/foxy-exchange.webp'
+import patitasImage from '@assets/patitas-a-casa.webp'
 import rockBeerImage from '@assets/rock-beer.webp'
 import mentesLibresImage from '@assets/mentes-libres.webp'
 import todoImage from '@assets/todo.webp'
@@ -19,15 +19,6 @@ import styles from '@styles/css/websitePortfolioPortfolio.module.css'
 const websitePortfolioPortfolio = () => {
 
     const articleInfo = [
-        {
-            alt: 'foxy exchange profile',
-            profileImage: foxyExchangeImage,
-            toolImages: [ html, css, js ],
-            title: 'Foxy Exchange',
-            subTitle: 'Exchange',
-            gitHubLink: 'https://github.com/augustobor/Foxy-Exchange',
-            link: 'https://foxy-exchange.vercel.app/'
-        },
         {
             alt: 'rock beer profile',
             profileImage: rockBeerImage,
@@ -54,7 +45,16 @@ const websitePortfolioPortfolio = () => {
             subTitle: 'todo',
             gitHubLink: 'https://github.com/augustobor/todo-app',
             link: 'https://todo-app-beryl-mu.vercel.app/'
-        }
+        },
+        {
+            alt: 'patitas profile',
+            profileImage: patitasImage,
+            toolImages: [ react, pgsql ],
+            title: 'Patitas a Casa',
+            subTitle: 'pet wesbite',
+            gitHubLink: 'https://github.com/augustobor/Patitas-a-casa-frontend',
+            link: 'https://patitas-a-casa-frontend.vercel.app/'
+        },
     ]
     const listPortfolio = articleInfo.map((info) => (
         <article>
