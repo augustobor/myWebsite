@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "This is my website implementation",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "webpack --config webpack.config.dev.js ",
     "build": "webpack --config webpack.config.js",
