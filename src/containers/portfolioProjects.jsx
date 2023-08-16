@@ -56,6 +56,13 @@ const portfolioProjects = () => {
             name: 'TODO app',
             description: 'In this project you can add your TODO notes & set them as completed. Made with create-react-app to show my react skills & figma por the design.'
         },
+        {
+            portfolioLink: 'https://patitas-a-casa-frontend.vercel.app/',
+            imageProject: TODO,
+            alt: 'patitas-a-casa-project',
+            name: 'Patitas a casa',
+            description: 'Patitas a casa is a website which is used to search lost pets and find them'
+        },
     ]
     return (
         <section className={styles.portfolioProjects}>
