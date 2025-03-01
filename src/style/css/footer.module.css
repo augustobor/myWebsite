@@ -24,7 +24,6 @@ body {
 .websiteContact > p {
   color: #FAFAFA;
   font-size: 2.5rem;
-  padding: 10% 0 10% 0%;
   margin-bottom: 3rem;
 }
 
@@ -36,20 +35,17 @@ body {
   border-color: #03DAC6;
   border-width: 0.3rem;
   border-radius: 4px;
-  padding: 3%;
   opacity: 95%;
   transition: all 400ms linear;
-  text-decoration: none;
 }
 
 .websiteContactButton:hover {
   background-color: #03DAC6;
-  color: #1C1C1C;
+  color: #2B3595;
   transition: all 400ms linear;
 }
 
 .websiteContactLogos {
-  margin-top: 7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -94,7 +90,6 @@ body {
   }
   .websiteContactButton {
     font-size: 3rem;
-    padding: 2%;
   }
   .websiteContactLogos article a img:hover {
     transform: scale(1.5);

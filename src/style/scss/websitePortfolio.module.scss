@@ -5,7 +5,7 @@
 	text-align: center;
 }
 
-.websitePortfolio p {
+.websitePortfolio h1 {
 	color: $off-white;
 	font-size: 1.2rem;
 	font-weight: bolder;
@@ -44,46 +44,6 @@
 	border-width: 0.2rem;
 }
 
-
-.cvButton {
-	display: block;
-	width: 50%;
-	margin: 0 15%;
-	padding: 4%;
-	border-style: solid;
-	border-width: 0.3rem;
-    border-color: $purple-rain;
-	color: $off-white;
-	border-radius: 6px;
-	font-size: large;
-    text-decoration: none;
-	transition: all 100ms ease-in;
-}
-
-.cvButton::after {
-	content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 100%;
-    background: $purple-rain;
-    z-index: -1;
-    transition: width 150ms ease-in-out;
-}
-
-.cvButton:hover {
-	background-color: $purple-rain;
-	transition: all 100ms ease-in;
-}
-
-.cvButton:active {
-	background-color: $off-white;
-	color: $just-black;
-}
-
 @media only screen and (min-width: $tablet-size) {
 	.websitePortfolio p {
 		font-size: 2rem;
@@ -92,7 +52,7 @@
 	.cvButton {
 		padding: 2%;
 		width: 40%;
-		margin: 0 10%;
+		margin: 0 auto; // Center align the button
 		font-size: xx-large;
 	}
 
@@ -103,12 +63,6 @@
 }
 
 @media only screen and (min-width: $desktop-size) {
-	.cvButton {
-		width: 30%;
-		margin: 0 35%;
-		margin-bottom: 10rem;
-		font-size: 5rem;
-	}
 
 	.websitePortfolioButton {
 		border-width: 0.6rem;
@@ -119,6 +73,13 @@
 		font-size: x-large;
 		margin-top: 4rem;
 		margin-bottom: 5rem;
+	}
+
+	.cvButton {
+		padding: 2%;
+		width: 40%;
+		margin: 0 auto; // Center align the button
+		font-size: xx-large;
 	}
 	
 }

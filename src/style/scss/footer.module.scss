@@ -1,7 +1,5 @@
-
 @import 'style.config.module';
 /*Contact*/
-
 
 .websiteContact {
 	height: auto;
@@ -11,7 +9,6 @@
 .websiteContact > p {
 	color: $off-white;
 	font-size: 2.5rem;
-	padding: 10% 0 10% 0%;
 	margin-bottom: 3rem;
 }
 
@@ -23,21 +20,17 @@
 	border-color: $neo-green;
 	border-width: 0.3rem;
 	border-radius: 4px;
-	padding: 3%;
 	opacity: 95%;
 	transition: all 400ms linear;
-	text-decoration: none;
 }
 
 .websiteContactButton:hover {
 	background-color: $neo-green;
-	color: $soft-black;
+	color: $deep-blue;
 	transition: all 400ms linear;
 }
 
-
 .websiteContactLogos {
-	margin-top: 7rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -89,7 +82,6 @@
 	
 	.websiteContactButton {
 		font-size: 3rem;
-		padding: 2%;
 	}
 	
 	.websiteContactLogos article a img:hover {

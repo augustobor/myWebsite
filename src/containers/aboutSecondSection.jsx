@@ -1,14 +1,5 @@
 import React from 'react'
 
-
-import Python from '@assets/bxl-python.svg'
-import GIT from '@assets/bxl-git.svg'
-import HTML from '@assets/bxl-html5.svg'
-import CSS from '@assets/bxl-css3.svg'
-import JS from '@assets/bxl-javascript.svg'
-import ReactImage from '@assets/bxl-react.svg'
-import Vue from '@assets/bxl-vuejs.svg'
-
 import style from '@styles/css/aboutSecondSection.module.css'
 
 const aboutSecondSection = () => {
@@ -16,39 +7,20 @@ const aboutSecondSection = () => {
     const listSkills = [
         {
             alt: "Python-logo",
-            image: Python,
-            title: "Python"
-        },
-        {
-            alt: "GitHub-logo",
-            image: GIT,
-            title: "GIT"
-        },
-        {
-            alt: "HTML-logo",
-            image: HTML,
-            title: "HTML"
-        },
-        {
-            alt: "CSS-logo",
-            image: CSS,
-            title: "CSS"
-        },
-        {
-            alt: "JS-logo",
-            image: JS,
-            title: "JS"
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg",
         },
         {
             alt: "React-logo",
-            image: ReactImage,
-            title: "React.js"
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react2.svg",
         },
         {
-            alt: "Vue-logo",
-            image: Vue,
-            title: "Vue.js"
+            alt: "AWS-logo",
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/AWS/aws2.svg",
         },
+        {
+            alt: "Docker-logo",
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/Docker/docker3.svg",
+        }
     ]
 
     const skills = listSkills.map((skill) => (

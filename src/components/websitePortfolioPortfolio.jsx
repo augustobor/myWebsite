@@ -20,24 +20,6 @@ const websitePortfolioPortfolio = () => {
 
     const articleInfo = [
         {
-            alt: 'rock beer profile',
-            profileImage: rockBeerImage,
-            toolImages: [ html, css, js ],
-            title: 'Rock Beer',
-            subTitle: 'web bar',
-            gitHubLink: 'https://github.com/augustobor/RockBeer',
-            link: 'https://rock-beer.vercel.app/'
-        },
-        {
-            alt: "mentes libres profile",
-            profileImage: mentesLibresImage,
-            toolImages: [ html, css, js, php, pgsql ],
-            title: 'Mentes Libres',
-            subTitle: 'Book Repo',
-            gitHubLink: 'https://github.com/augustobor/menteslibres',
-            link: 'https://www.pabellonmenteslibres.com/'
-        },
-        {
             alt: 'todo profile',
             profileImage: todoImage,
             toolImages: [ react ],

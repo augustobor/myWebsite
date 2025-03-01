@@ -20,7 +20,7 @@ body {
   text-align: center;
 }
 
-.websitePortfolio p {
+.websitePortfolio h1 {
   color: #FAFAFA;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -59,45 +59,6 @@ body {
   border-width: 0.2rem;
 }
 
-.cvButton {
-  display: block;
-  width: 50%;
-  margin: 0 15%;
-  padding: 4%;
-  border-style: solid;
-  border-width: 0.3rem;
-  border-color: #45056E;
-  color: #FAFAFA;
-  border-radius: 6px;
-  font-size: large;
-  text-decoration: none;
-  transition: all 100ms ease-in;
-}
-
-.cvButton::after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #45056E;
-  z-index: -1;
-  transition: width 150ms ease-in-out;
-}
-
-.cvButton:hover {
-  background-color: #45056E;
-  transition: all 100ms ease-in;
-}
-
-.cvButton:active {
-  background-color: #FAFAFA;
-  color: #121010;
-}
-
 @media only screen and (min-width: 740px) {
   .websitePortfolio p {
     font-size: 2rem;
@@ -105,7 +66,7 @@ body {
   .cvButton {
     padding: 2%;
     width: 40%;
-    margin: 0 10%;
+    margin: 0 auto;
     font-size: xx-large;
   }
   .websitePortfolioButton {
@@ -114,12 +75,6 @@ body {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .cvButton {
-    width: 30%;
-    margin: 0 35%;
-    margin-bottom: 10rem;
-    font-size: 5rem;
-  }
   .websitePortfolioButton {
     border-width: 0.6rem;
     font-size: 4rem;
@@ -128,6 +83,12 @@ body {
     font-size: x-large;
     margin-top: 4rem;
     margin-bottom: 5rem;
+  }
+  .cvButton {
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+    font-size: xx-large;
   }
 }
 

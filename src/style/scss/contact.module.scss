@@ -1,9 +1,0 @@
-@import 'style.config.module';
-
-@media only screen and (min-width: $desktop-size) {
-    .contact {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
