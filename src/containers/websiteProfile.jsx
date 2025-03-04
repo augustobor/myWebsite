@@ -13,7 +13,7 @@ const websiteProfile = () => {
             <img className={styles.websiteProfileImage} src={profile} alt="profile"/>
             <div>
                 <h2>Hey! I'm Augusto Borromeo 👋</h2><br />
-                <h3>DevOps Engineer</h3><br />
+                <h3>DevOps Engineer at <a className={styles.highlight} href='https://craftech.io/' target='blank'>Craftech</a></h3><br />
                 <p>
                     I'm Augusto Borromeo, a passionate developer and technology enthusiast. I began learning programming fundamentals in 2015. In 2019, I enrolled in a computer science program and continue my studies. During the pandemic, I enhanced my skills in areas like Git and web development, becoming a team-ready developer.
                 </p>

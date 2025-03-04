@@ -2,31 +2,38 @@
 
 .secondSection {
 	width: auto;
+	text-align: center; // Center align the section content
+}
+
+.secondSection h2 {
+	color: $off-white;
+	font-size: 3rem; // Set font size for the heading
+	font-weight: bold;
+	margin-top: 1rem;
 }
 
 .secondSection ul {
 	list-style: none;
-	margin-left: 3rem;
-	display: grid;
+	display: flex;
+	flex-direction: column; // Display list vertically
 	height: auto;
-	grid-template-columns: 50vw 50vw;
-	grid-template-rows: auto;
 	justify-content: center;
 	overflow: hidden;
 	scroll-behavior: auto;
-	margin-top: 5rem;
+	margin-top: 2rem;
 	-webkit-animation: loadProfile 1.4s ease-in-out alternate;
 }
 
 .secondSection li {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
-	justify-content: last baseline;
+	justify-content: center;
 	color: $off-white;
 	font-size: medium;
 	font-weight: bold;
-	margin: 0 1rem;
+	margin: 1rem 0; // Add margin between list items
+	padding: 1rem; // Add padding to each list item
 }
 
 .secondSection img {
@@ -34,14 +41,29 @@
 	margin: 0 1rem;
 }
 
+.specializedSection {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); // Use grid layout with 2 columns
+	gap: 1rem; // Add gap between grid items
+	justify-content: center;
+}
+
+.specializedSection li {
+	margin: 0 1rem; // Add margin between list items
+}
+
+.specializedSection img {
+	transform: scale(1); // Reduce image size for specialized section
+	margin: 0 1rem;
+	border-radius: 50%; // Round the images
+}
+
 @media only screen and (min-width: $tablet-size) {
 
 	.secondSection ul {
 		width: 90%;
 		margin: 5%;
-		grid-template-columns: 40vw 40vw;
 	}
-
 
 	.secondSection li {
 		font-size: large;
@@ -55,14 +77,19 @@
 		transform: scale(2.2);
 		margin-right: 30px;
 	}
+
+	.specializedSection img {
+		transform: scale(1.8); // Adjust image size for tablet in specialized section
+	}
 }
 
 @media only screen and (min-width: $desktop-size) {
 
 	.secondSection ul {
-		grid-template-columns: 25vw 25vw;
+		width: 50%;
+		margin: 0 auto; // Center align the list
 	}
-	
+
 	.secondSection li {
 		font-size: xx-large;
 		justify-content: left;
@@ -70,6 +97,10 @@
 
 	.secondSection img {
 		transform: scale(2.5);
+	}
+
+	.specializedSection img {
+		transform: scale(2); // Adjust image size for desktop in specialized section
 	}
 		
 }

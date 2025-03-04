@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -28,6 +29,17 @@ body {
   padding: 3%;
   padding-top: 4rem;
   text-align: center;
+  color: #f0f0f0;
+}
+
+.websiteProfile h2, .websiteProfile h3, .websiteProfile p {
+  color: #f0f0f0;
+}
+
+.websiteProfile .highlight {
+  color: #2BB6C2;
+  font-style: none;
+  text-decoration: none;
 }
 
 .cvButton {
@@ -37,8 +49,8 @@ body {
   padding: 4%;
   border-style: solid;
   border-width: 0.3rem;
-  border-color: #45056E;
-  color: #FAFAFA;
+  border-color: #00546A;
+  color: #f0f0f0;
   border-radius: 6px;
   font-size: large;
   text-decoration: none;
@@ -54,18 +66,18 @@ body {
   transform: translateX(-50%);
   width: 0;
   height: 100%;
-  background: #45056E;
+  background: #67159b;
   z-index: -1;
   transition: width 150ms ease-in-out;
 }
 
 .cvButton:hover {
-  background-color: #45056E;
+  background-color: #67159b;
   transition: all 100ms ease-in;
 }
 
 .cvButton:active {
-  background-color: #FAFAFA;
+  background-color: #f0f0f0;
   color: #121010;
 }
 
@@ -79,7 +91,7 @@ body {
     opacity: 100%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .cvButton {
     width: 30%;
     margin: 0 auto 10rem auto;

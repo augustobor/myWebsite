@@ -7,9 +7,23 @@
 
 .websitePortfolio h1 {
 	color: $off-white;
-	font-size: 1.2rem;
+	font-size: 2.5rem; // Increased font size
 	font-weight: bolder;
 	margin-bottom: 4rem;
+}
+
+.websitePortfolio h2 {
+	color: $off-white;
+	font-size: 1.5rem; // Added h2 with increased font size
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+
+.websitePortfolio h3 {
+	color: $off-white;
+	font-size: 1.2rem; // Added h3 with increased font size
+	font-weight: bold;
+	margin-bottom: 2rem;
 }
 
 .websitePortfolioButton {

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -22,7 +23,7 @@ body {
 }
 
 .websitePortfolio p {
-  color: #FAFAFA;
+  color: #f0f0f0;
   font-size: 1.2rem;
   font-weight: bolder;
 }
@@ -33,6 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 2%;
+  gap: 2rem;
 }
 
 .portfolioList article {
@@ -41,15 +43,51 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  width: 300px;
+  background-color: #02132C;
+  border: 2px solid #00546A;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolioList h2 {
+  font-size: large;
+  font-weight: bold;
+  color: #951556;
+  margin-bottom: 1rem;
+}
+
+.portfolioList img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
 }
 
 .websitePortfolioHigh {
   height: 40%;
   max-width: 400px;
-  background: transparent;
   border-radius: 10px;
   margin: 1rem 10%;
-  padding: 1% 2% 10% 1%;
+  padding: 1% 4% 4% 1%;
+  text-align: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  background-color: #0099FF;
+  color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: small;
 }
 
 .websitePortfolioHigh h2 {
@@ -57,6 +95,12 @@ body {
   font-weight: normal;
   text-align: left;
   color: #951556;
+}
+
+.websitePortfolioHigh p {
+  font-size: medium;
+  color: #f0f0f0;
+  margin: 1rem 0;
 }
 
 article > img {
@@ -72,7 +116,7 @@ article > img {
   font-size: medium;
   font-weight: normal;
   text-align: left;
-  color: #FAFAFA;
+  color: #f0f0f0;
 }
 
 .websitePortfolioHigh div {
@@ -88,12 +132,12 @@ div > img {
 }
 
 .websitePortfolioHighPrimaryButton {
-  background-color: #03DAC6;
+  background-color: #E26554;
   padding: 4%;
   text-decoration: none;
   font-family: "Inconsolata", monospace;
   font-size: medium;
-  color: #FAFAFA;
+  color: #f0f0f0;
   border-style: none;
   border-radius: 4px;
   border-radius: 3px;
@@ -114,12 +158,11 @@ div > img {
 }
 
 .websitePortfolioHighSecondaryButton {
-  background-color: transparent;
   padding: 4%;
   font-size: medium;
   font-family: "Inconsolata", monospace;
   text-decoration: none;
-  color: #FAFAFA;
+  color: #f0f0f0;
   border-style: none;
   border-radius: 5px;
   transform: scale(1);
@@ -143,7 +186,7 @@ div > img {
   text-decoration: none;
   height: 80%;
   width: 80%;
-  color: #FAFAFA;
+  color: #f0f0f0;
   font-size: large;
   padding: 2% 13% 2% 13%;
   border-radius: 4px;
@@ -165,7 +208,7 @@ div > img {
   align-items: center;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
   .websitePortfolioHigh {
     margin: 3rem;
   }
@@ -198,7 +241,7 @@ div > img {
     display: grid;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .portfolioList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -209,7 +252,6 @@ div > img {
   }
   .websitePortfolioHigh h2, .websitePortfolioHigh h3 {
     font-size: xx-large;
-    margin-left: 3rem;
   }
   .websitePortfolio > p {
     font-size: 3rem;
@@ -226,6 +268,27 @@ div > img {
   div > img {
     transform: scale(2.5);
   }
+}
+.websitePortfolioHigh img {
+  width: 50px;
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.websitePortfolioHighPrimaryButton, .websitePortfolioHighSecondaryButton {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.websitePortfolioHighPrimaryButton:hover, .websitePortfolioHighSecondaryButton:hover {
+  background-color: #2BB6C2;
+  color: #f0f0f0;
 }
 
 /*# sourceMappingURL=websitePortfolioPortfolio.module.css.map */

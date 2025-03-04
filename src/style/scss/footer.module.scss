@@ -51,8 +51,23 @@
 	font-size: medium;
 }
 
+.websiteContactLogos article a img {
+	transform: scale(0.5); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
+.websiteContactLogos .githubIcon a img {
+	transform: scale(0.8); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
+.websiteContactLogos .githubIcon a img:hover {
+	transform: scale(0.9); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
 .websiteContactLogos article a img:hover {
-	transform: scale(1.2);
+	transform: scale(0.6);
 	transition: transform 200ms linear;
 }
 
@@ -66,10 +81,20 @@
 	
 	.websiteContactLogos {
 		margin-top: 15rem;
+		flex-direction: row;
+		justify-content: space-around;
 	}
 	
 	.websiteContactLogos article a {
 		transform: scale(4);
+	}
+	
+	.websiteContactLogos article a img {
+		transform: scale(1); // Adjust size for tablet
+	}
+
+	.websiteContactLogos article a img:hover {
+		transform: scale(1.2);
 	}
 	
 }
@@ -92,4 +117,17 @@
 		transform: scale(6);
 	}
 
+	.websiteContactLogos {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.websiteContactLogos article a img {
+		transform: scale(1.5); // Adjust size for desktop
+	}
+
+	.websiteContactLogos article a img:hover {
+		transform: scale(1.7);
+	}
+	
 }

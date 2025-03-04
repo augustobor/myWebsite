@@ -2,15 +2,9 @@ import React from 'react'
 
 //profile image
 import patitasImage from '@assets/patitas-a-casa.webp'
-import rockBeerImage from '@assets/rock-beer.webp'
-import mentesLibresImage from '@assets/mentes-libres.webp'
 import todoImage from '@assets/todo.webp'
 
 //tools image
-import html from '@assets/bxl-html5.svg'
-import css from '@assets/bxl-css3.svg'
-import js from '@assets/bxl-javascript.svg'
-import php from '@assets/bxl-php.svg'
 import pgsql from '@assets/bxl-postgresql.svg'
 import react from '@assets/bxl-react.svg'
 
@@ -24,7 +18,8 @@ const websitePortfolioPortfolio = () => {
             profileImage: todoImage,
             toolImages: [ react ],
             title: 'TODO-app',
-            subTitle: 'todo',
+            description: 'A simple and efficient to-do list application to manage your tasks.',
+            tags: ['React', 'Web App', 'Frontend'],
             gitHubLink: 'https://github.com/augustobor/todo-app',
             link: 'https://todo-app-beryl-mu.vercel.app/'
         },
@@ -33,19 +28,23 @@ const websitePortfolioPortfolio = () => {
             profileImage: patitasImage,
             toolImages: [ react, pgsql ],
             title: 'Patitas a Casa',
-            subTitle: 'pet wesbite',
+            description: 'A platform to help stray animals find a home.',
+            tags: ['React', 'PostgreSQL','Frontend'],
             gitHubLink: 'https://github.com/augustobor/Patitas-a-casa-frontend',
             link: 'https://patitas-a-casa-frontend.vercel.app/'
         },
     ]
     const listPortfolio = articleInfo.map((info) => (
-        <article>
+        <article key={info.title}>
+            <h2>{info.title}</h2> {/* Move title above the image */}
             <img src={info.profileImage} alt={info.alt} />
+            <section className={styles.websitePortfolioHigh}> {/* New description section */}
+                <p>{info.description}</p>
+            </section>
             <section className={styles.websitePortfolioHigh}>
                 <div>
-                    {info.toolImages.map((img) => <img src={img}/>)}
+                    {info.toolImages.map((img, index) => <img key={index} src={img} alt="tool" />)}
                 </div>
-                <h2>{info.title}</h2>
                 <h3>{info.subTitle}</h3>
                 <div>
                     <a className={styles.websitePortfolioHighPrimaryButton} href={info.gitHubLink} target="_blank">
@@ -54,6 +53,11 @@ const websitePortfolioPortfolio = () => {
                     <a className={styles.websitePortfolioHighSecondaryButton} href={info.link} target="_blank">
                             View
                     </a>
+                </div>
+            </section>
+            <section className={styles.websitePortfolioHigh}> {/* New tags section */}
+                <div className={styles.tags}>
+                    {info.tags.map((tag, index) => <span key={index} className={styles.tag}>{tag}</span>)}
                 </div>
             </section>
         </article>

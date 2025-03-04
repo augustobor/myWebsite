@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -17,31 +18,38 @@ body {
 
 .secondSection {
   width: auto;
+  text-align: center;
+}
+
+.secondSection h2 {
+  color: #f0f0f0;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
 .secondSection ul {
   list-style: none;
-  margin-left: 3rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: auto;
-  grid-template-columns: 50vw 50vw;
-  grid-template-rows: auto;
   justify-content: center;
   overflow: hidden;
   scroll-behavior: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
   -webkit-animation: loadProfile 1.4s ease-in-out alternate;
 }
 
 .secondSection li {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: last baseline;
-  color: #FAFAFA;
+  justify-content: center;
+  color: #f0f0f0;
   font-size: medium;
   font-weight: bold;
-  margin: 0 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
 .secondSection img {
@@ -49,11 +57,27 @@ body {
   margin: 0 1rem;
 }
 
-@media only screen and (min-width: 740px) {
+.specializedSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.specializedSection li {
+  margin: 0 1rem;
+}
+
+.specializedSection img {
+  transform: scale(1);
+  margin: 0 1rem;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
   .secondSection ul {
     width: 90%;
     margin: 5%;
-    grid-template-columns: 40vw 40vw;
   }
   .secondSection li {
     font-size: large;
@@ -66,10 +90,14 @@ body {
     transform: scale(2.2);
     margin-right: 30px;
   }
+  .specializedSection img {
+    transform: scale(1.8);
+  }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .secondSection ul {
-    grid-template-columns: 25vw 25vw;
+    width: 50%;
+    margin: 0 auto;
   }
   .secondSection li {
     font-size: xx-large;
@@ -77,6 +105,9 @@ body {
   }
   .secondSection img {
     transform: scale(2.5);
+  }
+  .specializedSection img {
+    transform: scale(2);
   }
 }
 
