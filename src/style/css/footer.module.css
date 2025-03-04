@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -15,41 +16,36 @@ body {
   overflow-x: hidden;
 }
 
-/*Contact*/
 .websiteContact {
   height: auto;
   text-align: center;
 }
 
 .websiteContact > p {
-  color: #FAFAFA;
+  color: #f0f0f0;
   font-size: 2.5rem;
-  padding: 10% 0 10% 0%;
   margin-bottom: 3rem;
 }
 
 .websiteContactButton {
   text-decoration: none;
-  color: #FAFAFA;
+  color: #f0f0f0;
   font-size: large;
   border-style: solid;
-  border-color: #03DAC6;
+  border-color: #39ff14;
   border-width: 0.3rem;
   border-radius: 4px;
-  padding: 3%;
   opacity: 95%;
   transition: all 400ms linear;
-  text-decoration: none;
 }
 
 .websiteContactButton:hover {
-  background-color: #03DAC6;
-  color: #1C1C1C;
+  background-color: #39ff14;
+  color: #00008b;
   transition: all 400ms linear;
 }
 
 .websiteContactLogos {
-  margin-top: 7rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -70,12 +66,27 @@ body {
   font-size: medium;
 }
 
-.websiteContactLogos article a img:hover {
-  transform: scale(1.2);
+.websiteContactLogos article a img {
+  transform: scale(0.5);
   transition: transform 200ms linear;
 }
 
-@media only screen and (min-width: 740px) {
+.websiteContactLogos .githubIcon a img {
+  transform: scale(0.8);
+  transition: transform 200ms linear;
+}
+
+.websiteContactLogos .githubIcon a img:hover {
+  transform: scale(0.9);
+  transition: transform 200ms linear;
+}
+
+.websiteContactLogos article a img:hover {
+  transform: scale(0.6);
+  transition: transform 200ms linear;
+}
+
+@media only screen and (min-width: 768px) {
   .websiteContact > p {
     font-size: 4rem;
     padding-top: 2rem;
@@ -83,24 +94,43 @@ body {
   }
   .websiteContactLogos {
     margin-top: 15rem;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .websiteContactLogos article a {
     transform: scale(4);
   }
+  .websiteContactLogos article a img {
+    transform: scale(0.5);
+  }
+  .websiteContactLogos article a img:hover {
+    transform: scale(0.6);
+  }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .websiteContact > p {
     font-size: 4rem;
   }
   .websiteContactButton {
     font-size: 3rem;
-    padding: 2%;
+  }
+  .websiteContactLogos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .websiteContactLogos article a img {
+    transform: scale(0.8);
   }
   .websiteContactLogos article a img:hover {
-    transform: scale(1.5);
+    transform: scale(0.9);
   }
-  .websiteContactLogos article a {
-    transform: scale(6);
+  .websiteContactLogos .githubIcon a img {
+    transform: scale(1.6);
+    transition: transform 200ms linear;
+  }
+  .websiteContactLogos .githubIcon a img:hover {
+    transform: scale(1.7);
+    transition: transform 200ms linear;
   }
 }
 

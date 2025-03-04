@@ -1,0 +1,160 @@
+@import 'style.config.module.scss';
+
+.certificateSection {
+	padding: 3%;
+	text-align: center;
+}
+
+.certificateSection h1 {
+	color: $off-white;
+	font-size: 3.5rem; // Increase font size
+	font-weight: bolder;
+	margin-bottom: 4rem;
+}
+
+.certificateList {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; // Center the articles
+	padding: 2%;
+	gap: 2rem;
+}
+
+.certificateList article {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 70%;
+	background-color: $detailed-dark-blue-craftech;
+	border: 2px solid $blue-sea-whale;
+	border-radius: 8px; // Make the corners slightly rounded
+	overflow: hidden;
+	padding: 1rem; // Add padding to the frame
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Add border shadow
+}
+
+.certificateList h2 {
+    width: 70%;
+	font-size: large;
+	font-weight: bold;
+	color: $off-white;
+	margin-bottom: 1rem;
+	text-align: center; // Center the title
+}
+
+.certificateList img {
+	width: 100%;
+	height: auto;
+	border-radius: 0; // Remove circular style to make it square
+}
+
+.certificateDescription {
+	height: 40%;
+	max-width: 400px;
+	border-radius: 10px;
+	margin: 1rem 10%;
+	padding: 1%;
+	text-align: center;
+}
+
+.certificateButton {
+	background-color: $light-blue-craftech;
+	padding: 1rem 2rem; // Adjust padding for better appearance
+	text-decoration: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: medium;
+	color: $off-white;
+	border-style: none;
+	border-radius: 4px;
+	transform: scale(1);
+	transition: all 200ms linear;
+	display: inline-block; // Ensure the button is inline-block
+}
+
+.certificateButton:hover {
+	transform: scale(1.2);
+	opacity: 0.9;
+	transition: all 200ms linear;
+	cursor: pointer;
+}
+
+.certificateButton:active {
+	background-color: $cherry-red;
+	transition: all 100ms linear;
+}
+
+@media only screen and (min-width: $tablet-size) {
+	.certificateDescription {
+		margin: 3rem;
+	}
+
+	.certificateList {
+		flex-direction: row; // Display articles horizontally
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2rem;
+	}
+
+	.certificateList h2 {
+		font-size: x-large;
+		font-weight: bold;
+		margin-left: 1.1rem;
+	}
+	
+	.certificateButton {
+		font-size: x-large;
+	}
+
+}
+
+@media only screen and (min-width: $desktop-size) {
+
+	.certificateList {
+		flex-direction: row; // Display articles horizontally
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 2rem;
+	}
+	
+	.certificateList h2 {
+		font-size: xx-large;
+	}
+	
+	.certificateSection > p {
+		font-size: 3rem;
+		margin-bottom: 10rem;
+	}
+	
+	.certificateButton {
+		font-size: 4rem;
+	}
+	
+	.certificateList article {
+		width: 700px; // Adjust the width of the articles
+		display: flex;
+		flex-direction: column; // Stack elements vertically
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.certificateDescription {
+		flex: 1; // Ensure equal width for description and buttons
+		margin: 0 1rem;
+		height: 100%;
+	}
+	
+	.certificateList img {
+		width: 15vw; // Adjust the width of the images
+		height: 15vw; // Adjust the height of the images
+		margin-bottom: 2rem; // Add margin to the bottom of the image
+	}
+	
+	.certificateDescription {
+		padding: 1%;
+	}
+	
+}

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -18,7 +19,7 @@ body {
 .form p {
   font-size: 3rem;
   text-align: center;
-  color: #FAFAFA;
+  color: #f0f0f0;
   margin: 6rem 7%;
   margin-bottom: 3rem;
 }
@@ -33,12 +34,12 @@ form input {
   margin: 3% 10%;
   padding: 2%;
   border-style: solid;
-  border-color: #FAFAFA;
+  border-color: #f0f0f0;
   opacity: 0.8;
   border-width: 0.2rem;
   background-color: transparent;
   font-size: 1.5rem;
-  color: #FAFAFA;
+  color: #f0f0f0;
 }
 
 form input::placeholder, form textarea::placeholder {
@@ -57,13 +58,13 @@ form textarea {
   margin: 3% 10%;
   padding: 2%;
   border-style: solid;
-  border-color: #FAFAFA;
+  border-color: #f0f0f0;
   opacity: 0.8;
   border-width: 0.2rem;
   background-color: transparent;
   font-size: 1.5rem;
   font-family: "Nunito", sans-serif;
-  color: #FAFAFA;
+  color: #f0f0f0;
 }
 
 form > .buttonForm {
@@ -75,11 +76,11 @@ form > .buttonForm {
 
 form > .buttonForm:hover {
   background-color: #121010;
-  color: #FAFAFA;
+  color: #f0f0f0;
   transition: all 150ms ease;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
   .form p {
     font-size: 5rem;
     margin: 5rem 7%;
@@ -105,7 +106,7 @@ form > .buttonForm:hover {
     padding: 3%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   form input, form #contact--message {
     margin: 2% 5%;
     font-size: xx-large;

@@ -1,31 +1,27 @@
-
-$saturate-pink: #FF00FC;
-$deep-blue: #2B3595;
-$sweet-purple: #7045AF;
-$cake-red: #E94560;
-$low-red: #7B113A;
-$club-penguin-blue: #16213E; 
-$polar-blue: #0F3460;
-$cold-water: #8FD6E1;
-$ice-blue: #1597BB;
-$dark-blue: #1B262C;
-$blue-sky: #3282B8;
-$purple-rain: #45056E;
+$background-color: #121212; // Define background color
+$dark-blue-craftech: #021C3A;
+$detailed-dark-blue-craftech: #02132C;
+$off-white: #f0f0f0; // Define text color
+$light-blue-craftech: #2BB6C2;
+$blue-sea-whale: #00546A;
+$cake-red: #E26554;
 $cherry-red: #951556;
-$blue-sea: #0F4C75;
-$extra-light-blue: #BBE1FA;
-$just-black: #121010;
-$soft-black: #1C1C1C;
-$neo-green: #03DAC6;
-$off-white: #FAFAFA;
+$simple-blue: #0099FF;
 
-$tablet-size: 740px;
-$desktop-size: 1000px;
+$neo-green: #39ff14;
+$deep-blue: #00008b;
+$purple-rain: #67159b;
+
+$just-black: #121010;
+
+$tablet-size: 768px;
+$desktop-size: 1024px;
 
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
+	background-color: $dark-blue-craftech;
 }
 
 html {

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -24,15 +25,15 @@ body {
 }
 
 .websiteProfileArticle > p {
-  color: #FAFAFA;
+  color: #f0f0f0;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
   .websiteProfile > div .websiteProfileArticle p, .websitePortfolio p {
     font-size: 2rem;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .websiteProfileArticle p, .websitePortfolio p {
     font-size: x-large;
   }

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -28,7 +29,7 @@ body {
   background: transparent;
   margin: 2%;
   padding: 6%;
-  color: #FAFAFA;
+  color: #f0f0f0;
   display: flex;
   align-items: center;
 }
@@ -39,13 +40,13 @@ body {
 }
 
 .thirdSectionOtherSkills div p {
-  color: #FAFAFA;
+  color: #f0f0f0;
   font-size: 2rem;
   margin: 5%;
   text-align: center;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
   .thirdSectionOtherSkills {
     margin: 0 15%;
   }
@@ -62,7 +63,7 @@ body {
     font-size: 4rem;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .thirdSectionOtherSkills div {
     margin-bottom: 15rem;
     font-size: xx-large;

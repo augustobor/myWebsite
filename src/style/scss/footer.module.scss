@@ -1,7 +1,4 @@
-
 @import 'style.config.module';
-/*Contact*/
-
 
 .websiteContact {
 	height: auto;
@@ -11,7 +8,6 @@
 .websiteContact > p {
 	color: $off-white;
 	font-size: 2.5rem;
-	padding: 10% 0 10% 0%;
 	margin-bottom: 3rem;
 }
 
@@ -23,21 +19,17 @@
 	border-color: $neo-green;
 	border-width: 0.3rem;
 	border-radius: 4px;
-	padding: 3%;
 	opacity: 95%;
 	transition: all 400ms linear;
-	text-decoration: none;
 }
 
 .websiteContactButton:hover {
 	background-color: $neo-green;
-	color: $soft-black;
+	color: $deep-blue;
 	transition: all 400ms linear;
 }
 
-
 .websiteContactLogos {
-	margin-top: 7rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -58,8 +50,23 @@
 	font-size: medium;
 }
 
+.websiteContactLogos article a img {
+	transform: scale(0.5); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
+.websiteContactLogos .githubIcon a img {
+	transform: scale(0.8); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
+.websiteContactLogos .githubIcon a img:hover {
+	transform: scale(0.9); // Reduce the size of the icons
+	transition: transform 200ms linear;
+}
+
 .websiteContactLogos article a img:hover {
-	transform: scale(1.2);
+	transform: scale(0.6);
 	transition: transform 200ms linear;
 }
 
@@ -73,10 +80,20 @@
 	
 	.websiteContactLogos {
 		margin-top: 15rem;
+		flex-direction: row;
+		justify-content: space-around;
 	}
 	
 	.websiteContactLogos article a {
 		transform: scale(4);
+	}
+	
+	.websiteContactLogos article a img {
+		transform: scale(0.5); // Reduce size for tablet
+	}
+
+	.websiteContactLogos article a img:hover {
+		transform: scale(0.6); // Adjust hover size for tablet
 	}
 	
 }
@@ -89,15 +106,29 @@
 	
 	.websiteContactButton {
 		font-size: 3rem;
-		padding: 2%;
 	}
 	
+	.websiteContactLogos {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.websiteContactLogos article a img {
+		transform: scale(0.8); // Reduce size for tablet
+	}
+
 	.websiteContactLogos article a img:hover {
-		transform: scale(1.5);
+		transform: scale(0.9); // Adjust hover size for tablet
 	}
 	
-	.websiteContactLogos article a {
-		transform: scale(6);
+	.websiteContactLogos .githubIcon a img {
+		transform: scale(1.6); // Reduce the size of the icons
+		transition: transform 200ms linear;
+	}
+	
+	.websiteContactLogos .githubIcon a img:hover {
+		transform: scale(1.7); // Reduce the size of the icons
+		transition: transform 200ms linear;
 	}
 
 }

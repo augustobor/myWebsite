@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -32,7 +33,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
   .portfolioProjects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -54,7 +55,7 @@ body {
     margin-bottom: 2rem;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .portfolioProjects {
     margin: 0 15%;
   }

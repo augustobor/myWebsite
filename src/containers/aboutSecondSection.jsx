@@ -1,14 +1,5 @@
 import React from 'react'
 
-
-import Python from '@assets/bxl-python.svg'
-import GIT from '@assets/bxl-git.svg'
-import HTML from '@assets/bxl-html5.svg'
-import CSS from '@assets/bxl-css3.svg'
-import JS from '@assets/bxl-javascript.svg'
-import ReactImage from '@assets/bxl-react.svg'
-import Vue from '@assets/bxl-vuejs.svg'
-
 import style from '@styles/css/aboutSecondSection.module.css'
 
 const aboutSecondSection = () => {
@@ -16,51 +7,73 @@ const aboutSecondSection = () => {
     const listSkills = [
         {
             alt: "Python-logo",
-            image: Python,
-            title: "Python"
-        },
-        {
-            alt: "GitHub-logo",
-            image: GIT,
-            title: "GIT"
-        },
-        {
-            alt: "HTML-logo",
-            image: HTML,
-            title: "HTML"
-        },
-        {
-            alt: "CSS-logo",
-            image: CSS,
-            title: "CSS"
-        },
-        {
-            alt: "JS-logo",
-            image: JS,
-            title: "JS"
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg",
         },
         {
             alt: "React-logo",
-            image: ReactImage,
-            title: "React.js"
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/React/react2.svg",
         },
         {
-            alt: "Vue-logo",
-            image: Vue,
-            title: "Vue.js"
+            alt: "Linux-logo",
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/Linux/linux2.svg",
         },
+        {
+            alt: "Docker-logo",
+            image: "https://ziadoua.github.io/m3-Markdown-Badges/badges/Docker/docker3.svg",
+        }
     ]
 
-    const skills = listSkills.map((skill) => (
-        <li>
+    const specializedSkills = [
+        {
+            alt: "Kubernetes-logo",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg",
+            title: "Kubernetes"
+        },
+        {
+            alt: "ArgoCD-logo",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original.svg",
+            title: "ArgoCD"
+        },
+        {
+            alt: "Helm-logo",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/helm/helm-original.svg",
+            title: "Helm"
+        },
+        {
+            alt: "Terraform-logo",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg",
+            title: "Terraform"
+        },
+        {
+            alt: "AWS-logo",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+            title: "AWS"
+        }
+    ]
+
+    const skills = listSkills.map((skill, index) => (
+        <li key={index}>
             <img src={skill.image} alt={skill.alt} />
             <p>{skill.title}</p>
         </li>
     ))
+
+    const specialized = specializedSkills.map((skill, index) => (
+        <li key={index}>
+            <img src={skill.image} alt={skill.alt} />
+            <p>{skill.title}</p>
+        </li>
+    ))
+
     return (
         <section className={style.secondSection}>
+            <h2>Skills</h2>
             <ul>
                 {skills}
+            </ul>
+            <h2>Specialized in</h2>
+            <ul className={style.specializedSection} style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }}>
+                {specialized}
             </ul>
         </section>
     )

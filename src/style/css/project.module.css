@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #021C3A;
 }
 
 html {
@@ -23,13 +24,13 @@ article > div:hover {
 
 div > h3 {
   font-size: large;
-  color: #03DAC6;
+  color: #39ff14;
   margin-bottom: 2rem;
 }
 
 div > p {
   font-size: small;
-  color: #03DAC6;
+  color: #39ff14;
 }
 
 .project > div {

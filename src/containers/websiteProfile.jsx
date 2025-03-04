@@ -1,23 +1,23 @@
 import React from 'react'
-import WebsiteProfileArticle from '../components/websiteProfileArticle'
 
-import profile from '@assets/profile.webp'
+import profile from '@assets/profile-about.webp'
+
+import CV from '@assets/Augusto_Borromeo_CV.pdf'
 
 import styles from '@styles/css/websiteProfile.module.css'
 
 const websiteProfile = () => {
-    const profileText = [
-        "I'm Augusto, Full-Stack Dev. I work in frontend projects",
-        'I want to grow up as a professional in the software developement industry. From that, I specialized on web developement',
 
-    ]
-
-    const profileArticles = profileText.map((text) => <WebsiteProfileArticle text={text}/>) 
     return (
         <section className={styles.websiteProfile}>
             <img className={styles.websiteProfileImage} src={profile} alt="profile"/>
             <div>
-                <p>{profileArticles}</p>
+                <h2>Hey! I'm Augusto Borromeo 👋</h2><br />
+                <h3>DevOps Engineer at <a className={styles.highlight} href='https://craftech.io/' target='blank'>Craftech</a></h3><br />
+                <p>
+                    I'm Augusto Borromeo, a passionate developer and technology enthusiast. I began learning programming fundamentals in 2015. In 2019, I enrolled in a computer science program and continue my studies. During the pandemic, I enhanced my skills in areas like Git and web development, becoming a team-ready developer.
+                </p>
+                <a className={styles.cvButton} download="Augusto_Borromeo_CV" href={CV}>CV</a>
             </div>
         </section>
     )
