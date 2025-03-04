@@ -30,13 +30,13 @@
 	display: block;
 	width: 50%;
 	margin: 10% auto; // Center align the button
-	padding: 4%;
+	padding: 2%; // Reduce padding
 	border-style: solid;
 	border-width: 0.3rem;
     border-color: $blue-sea-whale;
 	color: $off-white;
 	border-radius: 6px;
-	font-size: large;
+	font-size: medium; // Reduce font size
     text-decoration: none;
 	transition: all 100ms ease-in;
 }
@@ -56,7 +56,7 @@
 }
 
 .cvButton:hover {
-	background-color: $purple-rain;
+	background-color: $blue-sea-whale;
 	transition: all 100ms ease-in;
 }
 
@@ -79,25 +79,42 @@
 	}
 }
 
+@media only screen and (min-width: $tablet-size) {
+
+	.websiteProfile h2, .websiteProfile h3, .websiteProfile p {
+		font-size: 2rem; // Increase font size for tablets
+	}
+
+	.cvButton {
+		font-size: 1.5rem; // Adjust button font size for tablets
+	}
+}
 
 @media only screen and (min-width: $desktop-size) {
 	
 	.cvButton {
 		width: 30%;
-		margin: 0 auto 10rem auto; // Center align the button
-		font-size: 5rem;
+		margin: 2rem auto 0 auto; // Center align the button and add margin to the top
+		font-size: 3rem; // Reduce font size for desktop
 	}
 	
 	.websiteProfile {
-		display: flex;
+		display: flex; // Ensure horizontal alignment
+		flex-direction: column; // Stack elements vertically
 		justify-content: center;
 		align-items: center;
 	}
 	
 	.websiteProfileImage {
 		display: block;
-		width: 30vw;
-		height: 30vw;
+		width: 20vw; // Reduce profile image size
+		height: 20vw; // Reduce profile image size
+		margin-bottom: 2rem; // Add margin to the bottom of the image
+	}
+
+	.websiteProfile h2, .websiteProfile h3, .websiteProfile p {
+		font-size: 3rem; // Increase font size for desktops
+		margin-bottom: 2rem; // Add margin to the bottom of the text
 	}
 	
 }

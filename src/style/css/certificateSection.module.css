@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #021C3A;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.certificateSection {
+  padding: 3%;
+  text-align: center;
+}
+
+.certificateSection h1 {
+  color: #f0f0f0;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+
+.certificateList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  gap: 2rem;
+}
+
+.certificateList article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  background-color: #02132C;
+  border: 2px solid #00546A;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificateList h2 {
+  width: 70%;
+  font-size: large;
+  font-weight: bold;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.certificateList img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.certificateDescription {
+  height: 40%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 1rem 10%;
+  padding: 1%;
+  text-align: center;
+}
+
+.certificateButton {
+  background-color: #2BB6C2;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-family: "Inconsolata", monospace;
+  font-size: medium;
+  color: #f0f0f0;
+  border-style: none;
+  border-radius: 4px;
+  transform: scale(1);
+  transition: all 200ms linear;
+  display: inline-block;
+}
+
+.certificateButton:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+
+.certificateButton:active {
+  background-color: #951556;
+  transition: all 100ms linear;
+}
+
+@media only screen and (min-width: 768px) {
+  .certificateDescription {
+    margin: 3rem;
+  }
+  .certificateList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .certificateList h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 1.1rem;
+  }
+  .certificateButton {
+    font-size: x-large;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .certificateList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .certificateList h2 {
+    font-size: xx-large;
+  }
+  .certificateSection > p {
+    font-size: 3rem;
+    margin-bottom: 10rem;
+  }
+  .certificateButton {
+    font-size: 4rem;
+  }
+  .certificateList article {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .certificateDescription {
+    flex: 1;
+    margin: 0 1rem;
+    height: 100%;
+  }
+  .certificateList img {
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 2rem;
+  }
+  .certificateDescription {
+    padding: 1%;
+  }
+}
+
+/*# sourceMappingURL=certificateSection.module.css.map */

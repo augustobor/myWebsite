@@ -208,6 +208,28 @@ div > img {
   align-items: center;
 }
 
+.websitePortfolioHigh img {
+  width: 50px;
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.websitePortfolioHighPrimaryButton, .websitePortfolioHighSecondaryButton {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.websitePortfolioHighPrimaryButton:hover, .websitePortfolioHighSecondaryButton:hover {
+  background-color: #2BB6C2;
+  color: #f0f0f0;
+}
+
 @media only screen and (min-width: 768px) {
   .websitePortfolioHigh {
     margin: 3rem;
@@ -237,58 +259,63 @@ div > img {
   .websitePortfolio p {
     font-size: 2rem;
   }
+  .portfolioList article > img {
+    width: 90%;
+    height: 15vw;
+  }
   .portfolioList {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
   }
 }
 @media only screen and (min-width: 1024px) {
   .portfolioList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    margin: 0 auto;
-    gap: 10rem;
-    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
   }
-  .websitePortfolioHigh h2, .websitePortfolioHigh h3 {
-    font-size: xx-large;
+  .portfolioList article h2 {
+    font-size: 5rem;
+    background-color: transparent;
   }
   .websitePortfolio > p {
     font-size: 3rem;
     margin-bottom: 10rem;
   }
+  .tag {
+    font-size: medium;
+  }
   .websitePortfolioButton {
     border-width: 0.6rem;
     font-size: 4rem;
   }
-  .portfolioList article > img {
-    width: 20vw;
-    height: 20vw;
+  .portfolioList article {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .websitePortfolioHigh {
+    flex: 1;
+    margin: 0 1rem;
+    height: 100%;
   }
   div > img {
     transform: scale(2.5);
   }
-}
-.websitePortfolioHigh img {
-  width: 50px;
-  height: 50px;
-  margin: 0.5rem;
-}
-
-.websitePortfolioHighPrimaryButton, .websitePortfolioHighSecondaryButton {
-  display: inline-block;
-  margin: 1rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid #f0f0f0;
-  border-radius: 4px;
-  color: #f0f0f0;
-  text-decoration: none;
-  transition: background-color 0.5s ease;
-}
-
-.websitePortfolioHighPrimaryButton:hover, .websitePortfolioHighSecondaryButton:hover {
-  background-color: #2BB6C2;
-  color: #f0f0f0;
+  .websitePortfolioHigh img {
+    width: 15%;
+    height: 15%;
+    margin: 0.5rem;
+  }
+  .websitePortfolioHigh {
+    padding: 1% 1% 1% 1%;
+  }
 }
 
 /*# sourceMappingURL=websitePortfolioPortfolio.module.css.map */

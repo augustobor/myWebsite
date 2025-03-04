@@ -1,6 +1,7 @@
 import React from "react";
 import WebsiteProfile from "../containers/websiteProfile";
 import WebsitePortfolio from "../containers/websitePortfolio"
+import CertificateSection from "../containers/certificateSection";
 
 import AboutSecondSection from "../containers/aboutSecondSection";
 
@@ -13,6 +14,7 @@ const Main = () => {
       <AboutSecondSection />
       {/* Seccion de "Portfolio"*/}
       <WebsitePortfolio />
+      <CertificateSection />
     </>
   );
 };

@@ -15,7 +15,7 @@
 .secondSection ul {
 	list-style: none;
 	display: flex;
-	flex-direction: column; // Display list vertically
+	flex-direction: column; // Display list vertically by default
 	height: auto;
 	justify-content: center;
 	overflow: hidden;
@@ -32,7 +32,7 @@
 	color: $off-white;
 	font-size: medium;
 	font-weight: bold;
-	margin: 1rem 0; // Add margin between list items
+	margin: 1rem; // Add margin between list items
 	padding: 1rem; // Add padding to each list item
 }
 
@@ -42,10 +42,11 @@
 }
 
 .specializedSection {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr); // Use grid layout with 2 columns
-	gap: 1rem; // Add gap between grid items
+	display: flex;
+	flex-direction: row; // Display list horizontally
+	flex-wrap: wrap;
 	justify-content: center;
+	gap: 1rem; // Add gap between grid items
 }
 
 .specializedSection li {
@@ -59,6 +60,10 @@
 }
 
 @media only screen and (min-width: $tablet-size) {
+
+	.secondSection p {
+		font-size: 3rem;
+	}
 
 	.secondSection ul {
 		width: 90%;
@@ -79,28 +84,47 @@
 	}
 
 	.specializedSection img {
-		transform: scale(1.8); // Adjust image size for tablet in specialized section
+		transform: scale(0.6); // Adjust image size for tablet in specialized section
 	}
 }
 
 @media only screen and (min-width: $desktop-size) {
 
-	.secondSection ul {
-		width: 50%;
+
+	.secondSection h2 {
+		font-size: 4rem; // Increase font size for desktop
+	}
+	.secondSection ul, .specializedSection ul {
+		display: flex;
+		flex-direction: row;
+		width: 80%;
 		margin: 0 auto; // Center align the list
 	}
 
 	.secondSection li {
-		font-size: xx-large;
-		justify-content: left;
+		font-size: xx-large; // Increase font size for desktop
+		justify-content: center;
 	}
 
 	.secondSection img {
 		transform: scale(2.5);
 	}
 
+	.specializedSection {
+		display: flex;
+		flex-direction: row; // Ensure horizontal alignment for specialized section
+		justify-content: center;
+		gap: 2rem; // Add gap between items
+	}
+
 	.specializedSection img {
-		transform: scale(2); // Adjust image size for desktop in specialized section
+		width: 15vw; // Adjust image size for desktop in specialized section
+		height: 15vw; // Adjust image size for desktop in specialized section
+		transform: scale(0.5); // Reduce image size for desktop in specialized section
+	}
+
+	.secondSection p {
+		font-size: 4rem;
 	}
 		
 }

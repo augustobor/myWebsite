@@ -90,11 +90,11 @@
 	}
 	
 	.websiteContactLogos article a img {
-		transform: scale(1); // Adjust size for tablet
+		transform: scale(0.5); // Reduce size for tablet
 	}
 
 	.websiteContactLogos article a img:hover {
-		transform: scale(1.2);
+		transform: scale(0.6); // Adjust hover size for tablet
 	}
 	
 }
@@ -109,25 +109,27 @@
 		font-size: 3rem;
 	}
 	
-	.websiteContactLogos article a img:hover {
-		transform: scale(1.5);
-	}
-	
-	.websiteContactLogos article a {
-		transform: scale(6);
-	}
-
 	.websiteContactLogos {
 		flex-direction: row;
 		justify-content: space-around;
 	}
 
 	.websiteContactLogos article a img {
-		transform: scale(1.5); // Adjust size for desktop
+		transform: scale(0.8); // Reduce size for tablet
 	}
 
 	.websiteContactLogos article a img:hover {
-		transform: scale(1.7);
+		transform: scale(0.9); // Adjust hover size for tablet
 	}
 	
+	.websiteContactLogos .githubIcon a img {
+		transform: scale(1.6); // Reduce the size of the icons
+		transition: transform 200ms linear;
+	}
+	
+	.websiteContactLogos .githubIcon a img:hover {
+		transform: scale(1.7); // Reduce the size of the icons
+		transition: transform 200ms linear;
+	}
+
 }

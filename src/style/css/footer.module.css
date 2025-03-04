@@ -102,10 +102,10 @@ body {
     transform: scale(4);
   }
   .websiteContactLogos article a img {
-    transform: scale(1);
+    transform: scale(0.5);
   }
   .websiteContactLogos article a img:hover {
-    transform: scale(1.2);
+    transform: scale(0.6);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -115,21 +115,23 @@ body {
   .websiteContactButton {
     font-size: 3rem;
   }
-  .websiteContactLogos article a img:hover {
-    transform: scale(1.5);
-  }
-  .websiteContactLogos article a {
-    transform: scale(6);
-  }
   .websiteContactLogos {
     flex-direction: row;
     justify-content: space-around;
   }
   .websiteContactLogos article a img {
-    transform: scale(1.5);
+    transform: scale(0.8);
   }
   .websiteContactLogos article a img:hover {
+    transform: scale(0.9);
+  }
+  .websiteContactLogos .githubIcon a img {
+    transform: scale(1.6);
+    transition: transform 200ms linear;
+  }
+  .websiteContactLogos .githubIcon a img:hover {
     transform: scale(1.7);
+    transition: transform 200ms linear;
   }
 }
 
