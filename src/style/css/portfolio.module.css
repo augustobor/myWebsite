@@ -1,72 +1,17 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #021C3A;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 4 |     background-color: $soft-black;
+ *   |                       ^^^^^^^^^^^
+ *   '
+ *   src\style\scss\portfolio.module.scss 4:20  root stylesheet */
 
-html {
-  font-size: 62.5%;
-  font-family: "Nunito", sans-serif;
-  scroll-behavior: smooth;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502      background-color: $soft-black;\d\a   \2502                        ^^^^^^^^^^^\a   \2575 \a   src\\style\\scss\\portfolio.module.scss 4:20  root stylesheet";
 }
-
-body {
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-header {
-  background-color: #1C1C1C;
-}
-
-body {
-  background-color: #1C1C1C;
-  color: #f0f0f0;
-}
-
-.portfolioTitle {
-  font-size: x-large;
-  text-align: center;
-  margin: 3%;
-  margin-top: 5rem;
-  color: #39ff14;
-}
-
-.portfolioDescription {
-  margin: 9rem 6%;
-  text-align: center;
-  font-size: medium;
-}
-
-hr {
-  border-style: solid;
-  border-width: 0.2rem;
-  margin-top: 1rem;
-  border-color: #39ff14;
-}
-
-@media only screen and (min-width: 768px) {
-  .portfolioTitle {
-    font-size: xx-large;
-  }
-  .portfolioDescription {
-    font-size: large;
-  }
-  hr {
-    margin: 1rem 25%;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .portfolioTitle {
-    font-size: 4rem;
-  }
-  .portfolioDescription {
-    font-size: xx-large;
-  }
-  hr {
-    margin: 1rem 20%;
-  }
-}
-
-/*# sourceMappingURL=portfolio.module.css.map */

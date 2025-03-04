@@ -12,18 +12,19 @@
 	margin-bottom: 4rem;
 }
 
-.websitePortfolio h2 {
+.websitePortfolio h2, .websitePortfolio h3 {
 	color: $off-white;
-	font-size: 1.5rem; // Added h2 with increased font size
 	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.websitePortfolio h2 {
+	font-size: 1.5rem; // Added h2 with increased font size
 	margin-bottom: 3rem;
 }
 
 .websitePortfolio h3 {
-	color: $off-white;
 	font-size: 1.2rem; // Added h3 with increased font size
-	font-weight: bold;
-	margin-bottom: 2rem;
 }
 
 .websitePortfolioButton {
@@ -32,7 +33,7 @@
 	width: 80%;
 	color: $off-white;
 	font-size: large;
-	padding: 2% 5% 2% 5%;
+	padding: 2% 5%;
 	border-radius: 4px;
 	opacity: 95%;
 	border-style: solid;
@@ -52,7 +53,7 @@
 
 .websitePortfolio article hr {
 	border-color: $purple-rain;
-	margin: 1rem 0rem;
+	margin: 1rem 0;
 	border-style: solid;
 	border-radius: 4px;
 	border-width: 0.2rem;
